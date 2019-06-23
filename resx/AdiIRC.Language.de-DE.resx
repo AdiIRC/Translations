@@ -1,0 +1,5173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EGQuakenet" xml:space="preserve">
+    <value>(z.B. Quakenet)</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="ChooseAddNetwork" xml:space="preserve">
+    <value>Netzwerk auswählen/hinzufügen:</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="EGIrcQuakenetOrg" xml:space="preserve">
+    <value>(z.B. irc.quakenet.org)</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="TypeAServername" xml:space="preserve">
+    <value>Geben Sie einen Servernamen ein:</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="JoinThisChannels" xml:space="preserve">
+    <value>Diese Räume betreten:</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="AutomaticallyConnectToThisServer" xml:space="preserve">
+    <value>Automatisch zu diesem Server verbinden</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="ServerPort" xml:space="preserve">
+    <value>Serverport:</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ServerHost" xml:space="preserve">
+    <value>Serverhost:</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AddServer" xml:space="preserve">
+    <value>Server hinzufügen</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="PleaseChooseOrTypeANetwork" xml:space="preserve">
+    <value>Bitte wählen Sie ein Netzwerk aus oder fügen Sie eines hinzu</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PleaseTypeAServername" xml:space="preserve">
+    <value>Bitte geben Sie einen Servernamen ein</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Raum</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Host</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SetBy" xml:space="preserve">
+    <value>Gesetzt von</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="SetAt" xml:space="preserve">
+    <value>Gesetzt um</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="BanList" xml:space="preserve">
+    <value>Bannliste</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="SorryAdiIRCCrashed" xml:space="preserve">
+    <value>Pardon, AdiIRC ist abgestürzt</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="WhatDidYouDoWhenAdiIRCCrashed" xml:space="preserve">
+    <value>Was haben Sie getan, als AdiIRC abstürzte?</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="YourBugreportHasBeenSent" xml:space="preserve">
+    <value>Ihr Fehlerbericht wurde übermittelt, vielen Dank.</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="ThereWasAnErrorSendingTheBugReport" xml:space="preserve">
+    <value>Es gab einen Fehler beim Versand des Fehlerberichts.
+Bitte melden Sie den Fehler stattdessen auf https://dev.adiirc.com</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Beenden</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Channels0" xml:space="preserve">
+    <value>Räume - {0}</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="PressPopulateToGetAListOfChannels" xml:space="preserve">
+    <value>Klicken Sie auf Bevölkern, um eine Liste von Räumen auf diesem Server zu erhalten,
+oder geben Sie den gewünschten Raumnamen im unten stehenden Textfeld ein.</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>Thema</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Benutzer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Beitreten</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DontShowThisBoxAgain" xml:space="preserve">
+    <value>Diesen Hinweis nicht wieder anzeigen</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="ChooseColor" xml:space="preserve">
+    <value>Farbe auswählen</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Warte..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Verbinde..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ConnectionFailedUnknownHost" xml:space="preserve">
+    <value>Verbindung fehlgeschlagen, unbekannter Host</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ConnectionFailedCouldNotConnect" xml:space="preserve">
+    <value>Verbindung fehlgeschlagen, konnte nicht verbinden</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Verbunden..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warnung</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Alle Dateien</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TransferDone0Bytes" xml:space="preserve">
+    <value>Übertragung erfolgreich ({0} Byte)</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="UnknownError0" xml:space="preserve">
+    <value>Unbekannter Fehler: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Accepted" xml:space="preserve">
+    <value>Akzeptiert..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="DidNotFoundAnyAvailablePorts" xml:space="preserve">
+    <value>Wurden keine verfügbaren Ports gefunden? Bitte überprüfen Sie Ihren Portbereich in Optionen -&gt; DCC</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="DCCTransfers" xml:space="preserve">
+    <value>DCC-Übertragungen</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Dateiname</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Nachricht</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Abort" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Übertragungen</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="AreYouSureYouWantToOpenThisFile" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie diese Datei öffnen möchten?</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="FileDoesNotExists" xml:space="preserve">
+    <value>Datei existiert nicht</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Annehmen</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignorieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SaveFileAs" xml:space="preserve">
+    <value>Datei speichern unter</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Durchsuchen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HostmaskFromThisUserWasNotInYourAcceptedList" xml:space="preserve">
+    <value>Die Hostmaske dieses Benutzers war nicht in Ihrer Akzeptanzliste</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="IncomingDCCFrom0" xml:space="preserve">
+    <value>Eingehendes DCC von: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Filename0" xml:space="preserve">
+    <value>Dateiname: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Filesize01Bytes" xml:space="preserve">
+    <value>Dateigröße: {0} ({1} Byte)</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Wiederherstellen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Maximieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Zurück</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Rejoin" xml:space="preserve">
+    <value>Erneut betreten</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Dock" xml:space="preserve">
+    <value>Andocken</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Undock" xml:space="preserve">
+    <value>Abdocken</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ShowMediaPlayerTags" xml:space="preserve">
+    <value>Medienspielertags zeigen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Anwenden</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ShowSystemVariables" xml:space="preserve">
+    <value>Systemvariablen zeigen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Edit0" xml:space="preserve">
+    <value>{0} bearbeiten</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="EditToolbar" xml:space="preserve">
+    <value>Symbolleiste ändern</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="AreYouSureYouWantToCloseThisWindow" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie dieses Fenster schließen möchten?</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hilfe</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Highlights" xml:space="preserve">
+    <value>Erwähnungen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Zeit</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Netzwerk</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Leeren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Entfernen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Plugin0CausedAnError1" xml:space="preserve">
+    <value>Plugin {0} hat einen Fehler verursacht
+{1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CTCPReply0From1" xml:space="preserve">
+    <value>CTCP-Antwort {0} von {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Parts23" xml:space="preserve">
+    <value>{0} ({1}) verlässt {2}{3}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="DCCGetFrom012" xml:space="preserve">
+    <value>DCC GET von {0}: {1} {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UnknownCTCP0From1" xml:space="preserve">
+    <value>Unbekanntes CTCP {0} von {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouGotMODE0" xml:space="preserve">
+    <value>Sie haben MODE {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="SetsMode1" xml:space="preserve">
+    <value>{0} setzt Modus: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="InvitesYouToJoin1" xml:space="preserve">
+    <value>{0} lädt Sie ein, {1} beizutreten</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Joins2" xml:space="preserve">
+    <value>{0} ({1}) betritt {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="NowTalkingIn0" xml:space="preserve">
+    <value>Sie sind nun in: {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Rejoined0" xml:space="preserve">
+    <value>{0} erneut betreten</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HasQuitIRC2" xml:space="preserve">
+    <value>{0} ({1}) hat den IRC verlassen {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="IsNowKnownAs1" xml:space="preserve">
+    <value>{0} ist nun als {1} bekannt</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YourNickIsNow0" xml:space="preserve">
+    <value>Ihr Nickname lautet nun {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="ChangesTopicTo1" xml:space="preserve">
+    <value>{0} ändert Thema zu: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouWereKickedFrom0By12" xml:space="preserve">
+    <value>Sie wurden von {1} aus {0} geworfen ({2})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouWereKickedBy01" xml:space="preserve">
+    <value>Sie wurden von {0} hinausgeworfen ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Rejoining0" xml:space="preserve">
+    <value>Betrete {0} erneut</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="WasKickedFrom1By23" xml:space="preserve">
+    <value>{0} wurde von {2} aus {1} geworfen ({3})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="WallopsFrom01" xml:space="preserve">
+    <value>Wallops von {0}: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="TopicIs0" xml:space="preserve">
+    <value>Das Thema ist: {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HasModes1" xml:space="preserve">
+    <value>{0} hat die Modi: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CreatedOn1" xml:space="preserve">
+    <value>{0} erstellt am {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="TopicSetBy0At1" xml:space="preserve">
+    <value>Thema von {0} um {1} gesetzt</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Invited1To2" xml:space="preserve">
+    <value>{0} lud {1} in {2} ein</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UsersOn01" xml:space="preserve">
+    <value>Benutzer in {0}: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Ban1By2At3" xml:space="preserve">
+    <value>{0}-Bann: {1} durch {2} um {3}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="RetryingWith0" xml:space="preserve">
+    <value>Versuche mit {0} erneut</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="PleaseChangeYourNickTypeNickNewnick" xml:space="preserve">
+    <value>Bitte ändern Sie Ihren Nicknamen, geben Sie /nick neuernick ein</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="GotExternalHost01" xml:space="preserve">
+    <value>Habe externen Host: {0} ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CouldNotCreateConfigFolder" xml:space="preserve">
+    <value>Konnte Konfigurationsordner nicht erstellen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YouAreConnectedTo0Servers" xml:space="preserve">
+    <value>Sie sind mit {0} Server(n) verbunden</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Beenden</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Trennen</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ServerList" xml:space="preserve">
+    <value>Serverliste</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Optionen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CascadeWindows" xml:space="preserve">
+    <value>Fenster überlappen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TileWindowsHorizontal" xml:space="preserve">
+    <value>Fenster horizontal kacheln</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TileWindowsVertical" xml:space="preserve">
+    <value>Fenster vertikal kacheln</value>
+    <comment>Global</comment>
+  </data>
+  <data name="StartMediaPlayer" xml:space="preserve">
+    <value>Medienspieler starten</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="PlayPreviousSong" xml:space="preserve">
+    <value>Vorheriges Stück abspielen</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Abspielen</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stopp</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="PlayNextSong" xml:space="preserve">
+    <value>Nächstes Stück abspielen</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="ShowCurrentSong" xml:space="preserve">
+    <value>Aktuelles Stück anzeigen</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="ChooseSearchEngine" xml:space="preserve">
+    <value>Suchmaschine auswählen</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="FailedToRegisterGlobalHotkey" xml:space="preserve">
+    <value>Konnte globales Tastenkürzel nicht registrieren, überprüfen Sie Ihre Einstellungen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HighlightAlert" xml:space="preserve">
+    <value>Highlight-Alarm</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HighlightedYou" xml:space="preserve">
+    <value>{0} hat Sie gehighlightet</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Mute0" xml:space="preserve">
+    <value>Stumm: {0}</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Aus</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>An</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Häufige Fragen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Changes" xml:space="preserve">
+    <value>Änderungen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AreYouSureYouWantToDisconnectFromThisServer" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie die Verbindung zu diesem Server trennen möchten</value>
+    <comment>Server</comment>
+  </data>
+  <data name="DayChangedTo0" xml:space="preserve">
+    <value>Ein neuer Tag hat begonnen: {0}</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeUsernick" xml:space="preserve">
+    <value>Nickname ändern</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CustomSlaps" xml:space="preserve">
+    <value>Eigene Schläge</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="CustomNowPlaying" xml:space="preserve">
+    <value>Eigenes 'Hört gerade'</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="CustomQuitMessages" xml:space="preserve">
+    <value>Eigene Beenden-Nachrichten</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="ServerSettingsWasSaved" xml:space="preserve">
+    <value>Die Servereinstellungen wurden gespeichert</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ERRORCouldNotSaveServerSettings" xml:space="preserve">
+    <value>FEHLER: Konnte Servereinstellungen nicht speichern</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Show0" xml:space="preserve">
+    <value>{0} zeigen</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Anpassen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HideToolbar" xml:space="preserve">
+    <value>Symbolleiste verstecken</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="EnableHistory" xml:space="preserve">
+    <value>Verlauf aktivieren</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="ConnectionErrorDisconnecting" xml:space="preserve">
+    <value>Verbindungsfehler, trenne..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="UnableToResolveServer0" xml:space="preserve">
+    <value>Konnte Server nicht auflösen: {0}</value>
+    <comment>Server</comment>
+  </data>
+  <data name="UnableToConnectToServer0" xml:space="preserve">
+    <value>Konnte nicht zu Server verbinden: {0}</value>
+    <comment>Server</comment>
+  </data>
+  <data name="PingTimeoutDisconnecting" xml:space="preserve">
+    <value>Zeitüberschreitung, trenne..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Retry0in1Seconds" xml:space="preserve">
+    <value>Versuch #{0} in {1} Sekunden</value>
+    <comment>Server</comment>
+  </data>
+  <data name="YourMediaPlayerIsNotRunning" xml:space="preserve">
+    <value>Ihr Medienspieler läuft nicht</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="YouHaveNotChosenAMediaPlayer" xml:space="preserve">
+    <value>Sie haben keinen Medienspieler ausgewählt</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Nachrichten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Anzeige</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>Farben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MediaPlayer" xml:space="preserve">
+    <value>Medienspieler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>Fenster</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Logging" xml:space="preserve">
+    <value>Protokoll</value>
+    <comment>Options</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Identd" xml:space="preserve">
+    <value>identd</value>
+    <comment>Options</comment>
+  </data>
+  <data name="QuickConnect" xml:space="preserve">
+    <value>Schnelle Verbindung</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Sysinfo" xml:space="preserve">
+    <value>Systeminformationen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Statusbar" xml:space="preserve">
+    <value>Statusleiste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Dcc" xml:space="preserve">
+    <value>DCC</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Abwesend</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Darstellung</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Ausgabe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseNetworkAdaptor" xml:space="preserve">
+    <value>Netzwerkadapter auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChangeSettingsFor" xml:space="preserve">
+    <value>Einstellungen ändern für</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowLag" xml:space="preserve">
+    <value>Lag zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>Forum</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OrGotAGreatIdeaForNewFeaturesTryAskingInOur" xml:space="preserve">
+    <value>oder eine tolle Idee für neue Funktionen haben, versuchen Sie es mit einer Anfrage in unserem</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IfYouHaveProblemsUnderstanding" xml:space="preserve">
+    <value>Falls Sie Probleme beim Verständnis von irgendetwas haben, einen Fehler bemerken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ClickOnOneOfTheItemsToTheLeft" xml:space="preserve">
+    <value>Klicken Sie auf eines der Elemente links, um mit der Änderung von Optionen zu beginnen.</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HereYouCanMakeChanges" xml:space="preserve">
+    <value>Hier können Sie Änderungen am Aussehen und Verhalten von AdiIRC vornehmen.</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NickColors" xml:space="preserve">
+    <value>Nickfarben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomNickColors" xml:space="preserve">
+    <value>Zufällige Nickfarben verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Zeitstempel</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowDateTimeVariables" xml:space="preserve">
+    <value>Datum/Uhrzeit anzeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseTimestamp" xml:space="preserve">
+    <value>Zeitstempel verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Schriftart</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagePrefix" xml:space="preserve">
+    <value>Nachrichtenpräfix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="VariablesStatusNickPnick" xml:space="preserve">
+    <value>Variablen: $status $nick $pnick $imagechar</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Emote" xml:space="preserve">
+    <value>Aktion</value>
+    <comment>Options</comment>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Benutzer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripMIRCTags" xml:space="preserve">
+    <value>mIRC-Tags verwerfen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripMIRCTagsColorsBoldItalicUnderline" xml:space="preserve">
+    <value>Entfernt mIRC-Tags (Farben/fett/kursiv/unterstrichen)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoCopySelectedTextToClipboard" xml:space="preserve">
+    <value>Auswahl autom. in Zwischenablage kopieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoFocusEditbox" xml:space="preserve">
+    <value>Eingabefeld automatisch fokussieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Hintergrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseTransparentWindows" xml:space="preserve">
+    <value>Transparente Fenster verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Characters" xml:space="preserve">
+    <value>Zeichen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LimitTextTo" xml:space="preserve">
+    <value>Text begrenzen auf</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IgnoreHighlightsFromChannelsUsers" xml:space="preserve">
+    <value>Erwähnungen von Räumen/Benutzern ignorieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivateMessage" xml:space="preserve">
+    <value>Private Nachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelActivity" xml:space="preserve">
+    <value>Raumaktivität</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FlashWindowOn" xml:space="preserve">
+    <value>Fenster blinkt bei</value>
+    <comment>Options</comment>
+  </data>
+  <data name="WhoisOn" xml:space="preserve">
+    <value>Whois bei</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseHighlight" xml:space="preserve">
+    <value>Highlight verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightEntireLine" xml:space="preserve">
+    <value>Ganze Zeile hervorheben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AnimateTrayicon" xml:space="preserve">
+    <value>Infobereichssymbol animieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableNoticeAlert" xml:space="preserve">
+    <value>Hinweisalarm aktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SoundFile" xml:space="preserve">
+    <value>Klangdatei</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Times0UntilActivated" xml:space="preserve">
+    <value>-mal (0 = bis aktiviert)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Flash" xml:space="preserve">
+    <value>Blinken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightThis" xml:space="preserve">
+    <value>Dies hervorheben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlaying" xml:space="preserve">
+    <value>Höre gerade</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowRandomEditor" xml:space="preserve">
+    <value>Zeige zufälligen Editor</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomNowPlayingMessages" xml:space="preserve">
+    <value>Zufällige "hört gerade"-Nachrichten verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseMediaPlayer" xml:space="preserve">
+    <value>Medienspieler auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Aktion</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlayingMessage2" xml:space="preserve">
+    <value>"Hört gerade"-Nachricht 2</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlayingMessage" xml:space="preserve">
+    <value>"Hört gerade"-Nachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MaxPlaylistSearchOutput" xml:space="preserve">
+    <value>Max. Wiedergabelistensuchausgabe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PathToPlaylist" xml:space="preserve">
+    <value>Pfad zur Wiedergabeliste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PathToWinamp" xml:space="preserve">
+    <value>Pfad zu Winamp</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowVariables" xml:space="preserve">
+    <value>Variablen zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelTitles" xml:space="preserve">
+    <value>Raumtitel</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SaveAndRestoreWindowSizePositions" xml:space="preserve">
+    <value>Fenstergröße/-positionen merken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MinimizeWindowsWhenPressingXCloseButton" xml:space="preserve">
+    <value>Fenster beim Klicken auf die Schließen-Schaltfläche minimieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SaveAndRestoreMainwindowSizePosition" xml:space="preserve">
+    <value>Größe/Position des Hauptfensters merken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StartAdiIRCWithMaximizedWindows" xml:space="preserve">
+    <value>AdiIRC mit maximierten Fenstern starten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Wallops" xml:space="preserve">
+    <value>Wallops</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Fehler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Namen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Benachrichtigungen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Private Nachr.</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Whois" xml:space="preserve">
+    <value>Whois</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Invites" xml:space="preserve">
+    <value>Einladungen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableToolbar" xml:space="preserve">
+    <value>Symbolleiste aktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenNewWinOnPrivate" xml:space="preserve">
+    <value>Neues Fenster bei Query öffnen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenNewWindowOnMsg" xml:space="preserve">
+    <value>Neues Fenster bei /msg öffnen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SeparateLogsByDate" xml:space="preserve">
+    <value>Protokolle nach Datum trennen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogServers" xml:space="preserve">
+    <value>Server protokollieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagesInPrivateWindows" xml:space="preserve">
+    <value>Nachrichten in privaten Fenstern</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowLast" xml:space="preserve">
+    <value>Zeige letzte</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Timeformat" xml:space="preserve">
+    <value>Zeitformat</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MakeSeparateFolderForEachServer" xml:space="preserve">
+    <value>Eigenes Verzeichnis für jeden Server anlegen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogPrivatechat" xml:space="preserve">
+    <value>Privatchat protokollieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogChannels" xml:space="preserve">
+    <value>Räume protokollieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogFolder" xml:space="preserve">
+    <value>Protokollordner</value>
+    <comment>Options</comment>
+  </data>
+  <data name="GlobalShortcutToHideShowMainWindow" xml:space="preserve">
+    <value>Globales Tastenkürzel, um Hauptfenster zu zeigen/verstecken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AssociateAdiIRCWithIrcLinks" xml:space="preserve">
+    <value>AdiIRC mit irc(s)://-Links verknüpfen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TabcompleteSuffix" xml:space="preserve">
+    <value>Tabvervollständigungssuffix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ConfirmDisconnectingWhenClickingConnectIcon" xml:space="preserve">
+    <value>Trennung beim Klick auf Verbinden bestätigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RejoinChannelsOnKick" xml:space="preserve">
+    <value>Räume nach Kick erneut betreten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ConfirmDisconnectingServer" xml:space="preserve">
+    <value>Trennen von Servern bestätigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Browser" xml:space="preserve">
+    <value>Browser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AdiIRCIsAlwaysOnTopOfOtherWindows" xml:space="preserve">
+    <value>AdiIRC liegt immer über anderen Fenstern</value>
+    <comment>Options</comment>
+  </data>
+  <data name="KeepChannelsOpenOnKick" xml:space="preserve">
+    <value>Räume bei Kick geöffnet lassen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Eigene</value>
+    <comment>Options</comment>
+  </data>
+  <data name="JoinChannelsWhenInvited" xml:space="preserve">
+    <value>Räume bei Einladung betreten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultBrowser" xml:space="preserve">
+    <value>Standardbrowser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IncludeBetaVersions" xml:space="preserve">
+    <value>Auch Betaversionen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenLinksIn" xml:space="preserve">
+    <value>Links öffnen in</value>
+    <comment>Options</comment>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Auf Aktualisierungen prüfen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HideWindowInTaskbar" xml:space="preserve">
+    <value>Fenster in Taskleiste verstecken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SendToTrayWhenPressingXCloseButton" xml:space="preserve">
+    <value>Fenster beim Klick auf die Schließen-Schaltfläche in Infobereich minimieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SendToTrayOnMinimize" xml:space="preserve">
+    <value>Fenster in Infobereich minimieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AlwaysShowInTray" xml:space="preserve">
+    <value>Immer im Infobereich anzeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IdentPort" xml:space="preserve">
+    <value>Ident-Port</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IdentNick" xml:space="preserve">
+    <value>Ident-Nick</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseIdentd" xml:space="preserve">
+    <value>identd verwenden
+</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Verschiedenes</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultBanType" xml:space="preserve">
+    <value>Standard-Banntyp</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultPartMessage" xml:space="preserve">
+    <value>Standard-Verlassen-Nachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Reconnect" xml:space="preserve">
+    <value>Neu verbinden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Times" xml:space="preserve">
+    <value>-mal</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Erneut versuchen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RetryFailedConnections" xml:space="preserve">
+    <value>Fehlgeschlagene Verbindungen erneut versuchen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SecondsBeforeRetrying" xml:space="preserve">
+    <value>Sekunden vor Wiederholung</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Warte</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ReconnectOnServerDisconnect" xml:space="preserve">
+    <value>Bei Trennung erneut mit Server verbinden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomQuitMessage" xml:space="preserve">
+    <value>Zufällige Beenden-Nachricht verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultQuitMessage" xml:space="preserve">
+    <value>Standard-Beenden-Nachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ServerInfo" xml:space="preserve">
+    <value>Serverinformationen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenAdvancedServerlist" xml:space="preserve">
+    <value>Erweiterte Serverliste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableQuickConnect" xml:space="preserve">
+    <value>Schnelle Verbindung aktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutojoinChannels" xml:space="preserve">
+    <value>Räume automatisch betreten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UserInfo" xml:space="preserve">
+    <value>Benutzerinformationen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Alternative</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Nick" xml:space="preserve">
+    <value>Nickname</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowBandwidthUsage" xml:space="preserve">
+    <value>Bandbreitenverwendung zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowMediaPlayerSong" xml:space="preserve">
+    <value>Stück im Medienspieler zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowNick" xml:space="preserve">
+    <value>Nickname zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowInfo" xml:space="preserve">
+    <value>Info zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableStatusbar" xml:space="preserve">
+    <value>Statusleiste aktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DccSend" xml:space="preserve">
+    <value>DCC-Senden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PortrangeEnd" xml:space="preserve">
+    <value>Portbereich Ende</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PortrangeStart" xml:space="preserve">
+    <value>Portbereich Anfang</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DccGet" xml:space="preserve">
+    <value>DCC-Empfangen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoAcceptOnlyFromHost" xml:space="preserve">
+    <value>Nur von Host automatisch akzeptieren: (nick!ident@host) - Platzhalter erlaubt</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoAcceptTransfers" xml:space="preserve">
+    <value>Übertragungen automatisch annehmen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultDownloadDir" xml:space="preserve">
+    <value>Standarddownloadordner</value>
+    <comment>Options</comment>
+  </data>
+  <data name="YourPrefixFollowsStatusColor" xml:space="preserve">
+    <value>Ihr Präfix folgt der Statusfarbe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripStatusPrefix" xml:space="preserve">
+    <value>Statuspräfix entfernen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AllowMultipleClickSelectInNicklist" xml:space="preserve">
+    <value>Mehrfache Mausauswahl in Benutzerliste erlauben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Schriftarten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Voice" xml:space="preserve">
+    <value>Voice</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HalfOps" xml:space="preserve">
+    <value>Half-Ops</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FontWeight" xml:space="preserve">
+    <value>Schriftschnitt</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChanOps" xml:space="preserve">
+    <value>Channel-Ops</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Your" xml:space="preserve">
+    <value>Ihres</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Prefix" xml:space="preserve">
+    <value>Präfix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutomaticallySetBackWhenTyping" xml:space="preserve">
+    <value>Beim Tippen automatisch als zurück kennzeichnen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChangeNickTo" xml:space="preserve">
+    <value>Nickname ändern in</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreBackInChannels" xml:space="preserve">
+    <value>In Räumen Bescheid sagen, dass Sie zurück sind</value>
+    <comment>Options</comment>
+  </data>
+  <data name="BackMessage" xml:space="preserve">
+    <value>Rückkehrnachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreAwayIn" xml:space="preserve">
+    <value>Bescheid sagen, dass Sie abwesend sind, in</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RunCommands" xml:space="preserve">
+    <value>Befehle ausführen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DisableAwayInChannelsUsers" xml:space="preserve">
+    <value>Abwesenheit in Räumen/Benutzern deaktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AwayMessage" xml:space="preserve">
+    <value>Abwesenheitsnachricht</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightedMessages" xml:space="preserve">
+    <value>Erwähnungen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivMessages" xml:space="preserve">
+    <value>priv. Nachrichten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Channels" xml:space="preserve">
+    <value>Räumen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SettingsFor" xml:space="preserve">
+    <value>Einstellungen für</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MinutesIdle" xml:space="preserve">
+    <value>Minuten Inaktivität</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutomaticallySetAwayAfter" xml:space="preserve">
+    <value>Automatisch abwesend nach</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OnBack" xml:space="preserve">
+    <value>Bei /back</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OnAway" xml:space="preserve">
+    <value>Bei /away</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableAway" xml:space="preserve">
+    <value>Abwesenheit aktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>Werkzeug</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowWindowIcons" xml:space="preserve">
+    <value>Fenstersymbole zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagesInChannelWindows" xml:space="preserve">
+    <value>Nachrichten in Raumfenstern</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DisableCTCPReply" xml:space="preserve">
+    <value>CTCP-Antworten deaktivieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelList" xml:space="preserve">
+    <value>Raumliste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowChannelListOnEmptyConnect" xml:space="preserve">
+    <value>Raumliste bei leerer Verbindung zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowChannelListOnList" xml:space="preserve">
+    <value>Raumliste bei /list zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SortSwitchbarTreebarBy" xml:space="preserve">
+    <value>Raumleiste/Baumstruktur sortieren nach</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Alphabetically" xml:space="preserve">
+    <value>Alphabetisch</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AsTheyAppear" xml:space="preserve">
+    <value>Reihenfolge des Öffnens</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FocusNewlyOpenedWindows" xml:space="preserve">
+    <value>Neu geöffnete Fenster fokussieren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowHighlightSoundStatus" xml:space="preserve">
+    <value>Highlightklangstatus zeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Fett</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Kursiv</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Unterstrichen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Stretch" xml:space="preserve">
+    <value>Strecken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Keines</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Zentriert</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Tile" xml:space="preserve">
+    <value>Kacheln</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Vergrößern</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ImageLayout" xml:space="preserve">
+    <value>Bilddarstellung</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Parts" xml:space="preserve">
+    <value>Verlassen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Joins" xml:space="preserve">
+    <value>Betreten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Modus</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Client</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Kicken</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Links</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inaktiv</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Editbox" xml:space="preserve">
+    <value>Eingabefeld</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Topicbox" xml:space="preserve">
+    <value>Themenfeld</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelOp" xml:space="preserve">
+    <value>Raum-Op</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelHalfop" xml:space="preserve">
+    <value>Raum-Halfop</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixChannelOp" xml:space="preserve">
+    <value>Präfix Raum-Op</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixChannelHalfop" xml:space="preserve">
+    <value>Präfix Raum-Halfop</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixVoice" xml:space="preserve">
+    <value>Präfix Voice</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanel1" xml:space="preserve">
+    <value>ObererBereich1</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanel2" xml:space="preserve">
+    <value>ObererBereich2</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanelText" xml:space="preserve">
+    <value>ObererBereich Text</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MainBackground" xml:space="preserve">
+    <value>Haupthintergrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SelectedText" xml:space="preserve">
+    <value>Ausgewählter Text</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SelectedBackground" xml:space="preserve">
+    <value>Ausgewählter Hintergrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AreYouSureYouWantToResetAllOptions" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie alle Optionen zurücksetzen möchten?</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseLogFolder" xml:space="preserve">
+    <value>Protokollordner auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseDownloadFolder" xml:space="preserve">
+    <value>Downloadordner auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DateTimeVariables" xml:space="preserve">
+    <value>Datums-/Uhrzeitvariablen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Datei auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelTitleVariables" xml:space="preserve">
+    <value>Raumtitelvariablen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowHide" xml:space="preserve">
+    <value>Zeigen/Verstecken</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="MediaPlayerSearch" xml:space="preserve">
+    <value>Medienspieler-Suche</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Anmelden</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suchen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öffnen</value>
+    <comment>Global</comment>
+  </data>
+  <data name="EditSlaps" xml:space="preserve">
+    <value>Schläge bearbeiten</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="EditNowPlaying" xml:space="preserve">
+    <value>"Hört gerade" bearbeiten</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="EditQuits" xml:space="preserve">
+    <value>"Beenden" bearbeiten</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ReportBug" xml:space="preserve">
+    <value>Fehler melden</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="WhatsChanged" xml:space="preserve">
+    <value>Was ist neu</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="CheckForUpdate" xml:space="preserve">
+    <value>Auf Aktualisierung prüfen</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Spenden</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ClickToChangeNick" xml:space="preserve">
+    <value>Klicken, um Nicknamen zu ändern</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Lag" xml:space="preserve">
+    <value>Verzögerung</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Datei</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Farbschemen</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Plugins" xml:space="preserve">
+    <value>Plugins</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rawlog" xml:space="preserve">
+    <value>Rohprotokoll</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ansicht</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Vollbild</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Immer im Vordergrund</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Toolbar" xml:space="preserve">
+    <value>Symbolleiste</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ServerHistory" xml:space="preserve">
+    <value>Serververlauf</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Verbindung</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ConnectOrReconnect" xml:space="preserve">
+    <value>(Neu)Verbinden</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ReConnectAll" xml:space="preserve">
+    <value>Alle (neu) verbinden</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="DisconnectAll" xml:space="preserve">
+    <value>Alle trennen</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Fenster</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="NewWindow" xml:space="preserve">
+    <value>Neues Fenster</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="TileVertical" xml:space="preserve">
+    <value>Vertikal kacheln</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="TileHorizontal" xml:space="preserve">
+    <value>Horizontal kacheln</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Cascade" xml:space="preserve">
+    <value>Überlappen</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Commands" xml:space="preserve">
+    <value>Befehle</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rejoining" xml:space="preserve">
+    <value>Erneut betreten..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="NotConnectedToAServer" xml:space="preserve">
+    <value>Nicht zu einem Server verbunden</value>
+    <comment>Server</comment>
+  </data>
+  <data name="SentCTCP0To1" xml:space="preserve">
+    <value>CTCP {0} an {1} gesendet</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="SentRaw0" xml:space="preserve">
+    <value>RAW gesendet: '{0}'</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="UnknownWindow0" xml:space="preserve">
+    <value>Unbekanntes Fenster {0}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotInThisChannel0" xml:space="preserve">
+    <value>Sie sind nicht in diesem Raum ({0})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoOperatorsFoundIn0" xml:space="preserve">
+    <value>keine anderen Operatoren in ({0}) gefunden</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="AddedToIgnoreList" xml:space="preserve">
+    <value>{0} der Ignorierliste hinzugefügt</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="RemovedFromIgnorelist" xml:space="preserve">
+    <value>{0} von der Ignorierliste entfernt</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Gefunden</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoMatchesFound" xml:space="preserve">
+    <value>Keine Übereinstimmungen gefunden</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoM3uPlaylistFound" xml:space="preserve">
+    <value>Keine m3u-Wiedergabeliste gefunden</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NotAValidPosition0" xml:space="preserve">
+    <value>Keine gültige Position ({0})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotOnThisChannelTypeRejoin" xml:space="preserve">
+    <value>Sie sind nicht in diesem Raum, geben Sie /rejoin ein</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotOnAChannelTryJoinChannel" xml:space="preserve">
+    <value>Sie sind nicht in diesem Raum, geben Sie /join #raum ein</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Keine Ergebnisse</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="LookupFailed" xml:space="preserve">
+    <value>Nachschlagen fehlgeschlagen</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="ResolvedTo12" xml:space="preserve">
+    <value>{0} aufgelöst zu {1} ({2})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="UnableToResolveAddress" xml:space="preserve">
+    <value>Konnte Adresse nicht auflösen: {0}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Plugin" xml:space="preserve">
+    <value>Plugin</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="GetMorePlugins" xml:space="preserve">
+    <value>Hole weitere Plugins</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="InstallNew" xml:space="preserve">
+    <value>Installiere neues</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Reconnecting" xml:space="preserve">
+    <value>Neu verbinden..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ConnectingTo01Port2" xml:space="preserve">
+    <value>Verbinde zu {0} ({1}) Port {2}..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="LookingUp0" xml:space="preserve">
+    <value>Nachschlagen von {0}..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Getrennt..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ServerOptions" xml:space="preserve">
+    <value>Serveroptionen</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ServerLabel" xml:space="preserve">
+    <value>Serverbeschriftung:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ConnectAll" xml:space="preserve">
+    <value>Alle verbinden</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="SeparateWith" xml:space="preserve">
+    <value>Trennen mittels</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Verbinden</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ServerBNCPassword" xml:space="preserve">
+    <value>Server-/BNC-Passwort:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="HereYouCanAddAndEditServersAndNetworks" xml:space="preserve">
+    <value>Hier können sie Server und Netzwerke hinzufügen und ändern</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="NetworkOptions" xml:space="preserve">
+    <value>Netzwerkoptionen:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AddNewServer" xml:space="preserve">
+    <value>Neuen Server hinzufügen</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ShowServerlistOnStartup" xml:space="preserve">
+    <value>Serverliste beim Start zeigen</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="TextEncoding" xml:space="preserve">
+    <value>Textkodierung:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="EnableSSL" xml:space="preserve">
+    <value>SSL aktivieren</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisServer" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie diesen Server entfernen möchten?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisNetworkAndAllServersOnThisNetwork" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie dieses Netzwerk und alle Server dieses Netzwerks entfernen möchten?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Alle erweitern</value>
+    <comment>Treebar</comment>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Alle reduzieren</value>
+    <comment>Treebar</comment>
+  </data>
+  <data name="MediaPlayerTags" xml:space="preserve">
+    <value>Medienspielertags</value>
+    <comment>Tools</comment>
+  </data>
+  <data name="SystemInfoTags" xml:space="preserve">
+    <value>Systeminfotags</value>
+    <comment>Tools</comment>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Prüfe auf Aktualisierungen..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Herunterladen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SeeChanges" xml:space="preserve">
+    <value>Änderungen zeigen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>aktualisieren</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Neu starten</value>
+    <comment>Update</comment>
+  </data>
+  <data name="PluginDownload" xml:space="preserve">
+    <value>Plugin herunterladen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="InOrderToUseThe0NowPlaying" xml:space="preserve">
+    <value>Um die Wiedergabe mittels {0} zu unterstützen, muss AdiIRC ein Plugin herunterladen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereIsANew0VersionOfAdiIRCAvailableV1" xml:space="preserve">
+    <value>Es gibt eine neue {0}version von AdiIRC, v{1}</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereAreNoNewUpdatesAtThisTime" xml:space="preserve">
+    <value>Es gibt momentan keine neuen Versionen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="InitializingDownload" xml:space="preserve">
+    <value>Leite Download ein..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Downloading01Of2" xml:space="preserve">
+    <value>Lade herunter: {0} {1} von {2}</value>
+    <comment>Update</comment>
+  </data>
+  <data name="FinishedDownloadingPlugin" xml:space="preserve">
+    <value>Herunterladen des Plugins abgeschlossen, bitte starten Sie AdiIRC neu, um es zu aktivieren</value>
+    <comment>Update</comment>
+  </data>
+  <data name="FinishedDownloadingUpdate" xml:space="preserve">
+    <value>Herunterladen der Aktualisierung abgeschlossen, klicken Sie auf Installieren, um sie zu installieren und AdiIRC neu zu starten</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Installieren</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereWasAnErrorDownloadingThePlugin" xml:space="preserve">
+    <value>Ein Fehler ist beim Herunterladen des Plugins aufgetreten, bitte versuchen Sie es später erneut</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereWasAnErrorDownloadingTheUpdate" xml:space="preserve">
+    <value>Ein Fehler ist beim Herunterladen der Aktualisierung aufgetreten, bitte versuchen Sie es später erneut</value>
+    <comment>Update</comment>
+  </data>
+  <data name="CancelingDownload" xml:space="preserve">
+    <value>Breche Download ab..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SomethingWentWrongInstallingThePlugin" xml:space="preserve">
+    <value>Etwas lief bei der Installation des Plugins schief, bitte versuchen Sie es erneut oder melden Sie den Fehler</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>Suche nach</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Ergebnisse:</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Suchen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="FindNext" xml:space="preserve">
+    <value>Suche nächstes</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="FindPrevious" xml:space="preserve">
+    <value>Suche vorheriges</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ExactMatch" xml:space="preserve">
+    <value>Genaue Übereinstimmung</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Who" xml:space="preserve">
+    <value>Wer</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Ban" xml:space="preserve">
+    <value>Verbannen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Ping" xml:space="preserve">
+    <value>Ping</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Invite" xml:space="preserve">
+    <value>Einladen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Senden</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sortieren nach</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>Modi</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Moderated" xml:space="preserve">
+    <value>Moderiert</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="InviteOnly" xml:space="preserve">
+    <value>Nur auf Einladung</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>Geheim</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="OnlyOpsSetTopic" xml:space="preserve">
+    <value>Nur Ops können Thema setzen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Moderate" xml:space="preserve">
+    <value>Moderieren</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Bandbreite</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SystemInfo" xml:space="preserve">
+    <value>Systeminformationen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Join0" xml:space="preserve">
+    <value>{0} beitreten</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowUsers" xml:space="preserve">
+    <value>Benutzer zeigen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowTopic" xml:space="preserve">
+    <value>Thema zeigen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowMode" xml:space="preserve">
+    <value>Modus zeigen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Im Browser öffnen</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="CopyLink" xml:space="preserve">
+    <value>Link kopieren</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Grund</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Sprache auswählen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AdiIRCNeedsToBeRestartedToChangeLanguage" xml:space="preserve">
+    <value>AdiIRC muss für eine Änderung der Sprache neu gestartet werden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ClearQuerys" xml:space="preserve">
+    <value>Querys leeren</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SkipThisVersion" xml:space="preserve">
+    <value>Diese Version überspringen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="AllowOnlyOneCopy" xml:space="preserve">
+    <value>Nur eine Instanz von AdiIRC erlauben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Standard</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Aktuell</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="GetMoreThemes" xml:space="preserve">
+    <value>Hole weitere Farbschemen</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="SaveAsFile" xml:space="preserve">
+    <value>Als Datei speichern</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="UseTheme" xml:space="preserve">
+    <value>Farbschema verwenden</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="DownSUpS" xml:space="preserve">
+    <value>Runter: {0} Rauf: {1}</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DownSSBytesUpSSBytes" xml:space="preserve">
+    <value>Runter: {0} ({1} Byte), rauf: {2} ({3} Byte)</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AdvancedServerlist" xml:space="preserve">
+    <value>Erweiterte Serverliste</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TransferFailed" xml:space="preserve">
+    <value>Übertragung fehlgeschlagen</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ThereWasAnErrorInstallingThePlugin0" xml:space="preserve">
+    <value>Es gab einen Fehler bei der Installation des Plugins: {0}</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="PluginWasInstalledAndLoaded" xml:space="preserve">
+    <value>Plugin wurde installiert und geladen</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Loaded" xml:space="preserve">
+    <value>Geladen</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Unloaded" xml:space="preserve">
+    <value>Entladen</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="YouAreNowRunningInFullscreenMode" xml:space="preserve">
+    <value>Sie befinden sich nun im Vollbildmodus, drücken Sie auf F11, um in den Normalmodus zurückzukehren</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YouAreNoLongerRunning" xml:space="preserve">
+    <value>Sie befinden sich nicht mehr im Vollbildmodus</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DoYouWantToSave" xml:space="preserve">
+    <value>Möchten Sie die neuen Optionen vor dem Schließen speichern?</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Encoding" xml:space="preserve">
+    <value>Kodierung</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="EncodingChangedFrom0To1" xml:space="preserve">
+    <value>Kodierung von {0} zu {1} geändert</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="SystemDefault" xml:space="preserve">
+    <value>Systemstandard</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="UnknownEncoding" xml:space="preserve">
+    <value>Unbekannte Kodierung</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Unbenannt</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="DoYouWantToSaveServer" xml:space="preserve">
+    <value>Möchten Sie die neue Serverliste vor dem Schließen speichern?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="LockTopic" xml:space="preserve">
+    <value>Thema sperren</value>
+    <comment>Topic</comment>
+  </data>
+  <data name="UnlockTopic" xml:space="preserve">
+    <value>Thema entsperren</value>
+    <comment>Topic</comment>
+  </data>
+  <data name="TabCompleteFirstWordSuffix" xml:space="preserve">
+    <value>Tabvervollständigungssuffix (erstes Wort):</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivTitles" xml:space="preserve">
+    <value>Priv. Titel:</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ServerTitles" xml:space="preserve">
+    <value>Servertitel:</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultEncoding" xml:space="preserve">
+    <value>Standardkodierung</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>Protokolle</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Umbenennen</value>
+    <comment>Logging</comment>
+  </data>
+  <data name="ErrorRenameFile" xml:space="preserve">
+    <value>Es ist ein Fehler beim Umbenennen der Datei aufgetreten: {0}</value>
+    <comment>Logging</comment>
+  </data>
+  <data name="LoggingOn" xml:space="preserve">
+    <value>Melde an</value>
+    <comment>Global</comment>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>nach</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="MakeCertainPartOfMessagesBold" xml:space="preserve">
+    <value>Einen bestimmten Teil der Nachricht fett hervorheben</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Border" xml:space="preserve">
+    <value>Rahmen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Links</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Rechts</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowEmptyLineBottom" xml:space="preserve">
+    <value>Unten eine leere Zeile anzeigen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Größe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreUpdating" xml:space="preserve">
+    <value>Beim Beenden über Aktualisierung informieren</value>
+    <comment>Update</comment>
+  </data>
+  <data name="UseLineColors" xml:space="preserve">
+    <value>Zeilenfarben verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseGlobalSettings" xml:space="preserve">
+    <value>Globale Einstellungen verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="YouWereKilledBy01" xml:space="preserve">
+    <value>Sie wurden von {0} entfernt ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UseUTF8Fallback" xml:space="preserve">
+    <value>UTF-8-Fallback verwenden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ThisIsJustSomeText" xml:space="preserve">
+    <value>Dies ist nur ein Testtext</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="SaveTheme" xml:space="preserve">
+    <value>Farbschema speichern</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="ChooseTheme" xml:space="preserve">
+    <value>Farbschema auswählen</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="Notify" xml:space="preserve">
+    <value>Benachrichtigung</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="UseUnreadLineMarker" xml:space="preserve">
+    <value>Ungelesene Zeilen markieren</value>
+  </data>
+  <data name="IndentWrappedLinesWith" xml:space="preserve">
+    <value>Umgebrochene Zeilen einrücken um</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="UnreadLine" xml:space="preserve">
+    <value>Ungelesene Zeile</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelEditor" xml:space="preserve">
+    <value>Raumeditor</value>
+  </data>
+  <data name="ClickClosefornotacceptingthefile" xml:space="preserve">
+    <value>Klicken Sie auf Schließen, um die Datei nicht anzunehmen.</value>
+  </data>
+  <data name="ClickAccepttoacceptthefile" xml:space="preserve">
+    <value>Klicken Sie auf Annehmen, um die Datei anzunehmen, oder auf Ignorieren, um Dateien von dieser Person zu ignorieren.</value>
+  </data>
+  <data name="ClickAcceptToAccept" xml:space="preserve">
+    <value>Klicken Sie auf Annehmen, um den Chat anzunehmen, oder auf Ignorieren, um Chats von dieser Person zu ignorieren.</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ClickCloseForNot" xml:space="preserve">
+    <value>Klicken Sie auf Schließen, um den Chat nicht anzunehmen.</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="IncomingDCCChatFrom0" xml:space="preserve">
+    <value>Eingehender DCC-Chat von: {0}</value>
+  </data>
+  <data name="Address0" xml:space="preserve">
+    <value>Adresse: {0}</value>
+  </data>
+  <data name="AcknowledgingChatRequest" xml:space="preserve">
+    <value>Bestätige Chatanfrage...</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Geschwindigkeit</value>
+  </data>
+  <data name="Estimate" xml:space="preserve">
+    <value>Geschätzt</value>
+  </data>
+  <data name="TheFileAlreadyExists" xml:space="preserve">
+    <value>Diese Datei existiert bereits, bitte wählen Sie eine Aktion aus.</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Überschreiben</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Fortsetzen</value>
+  </data>
+  <data name="ThereWasAErrorCreating" xml:space="preserve">
+    <value>Ein Fehler ist beim Erstellen des Downloadordners aufgetreten, bitte wählen Sie einen anderen aus: {0}</value>
+  </data>
+  <data name="OpenLinksWithSingleClick" xml:space="preserve">
+    <value>Links per einfachem Klick öffnen</value>
+  </data>
+  <data name="SplitLogsAt" xml:space="preserve">
+    <value>Protokolle aufteilen bei</value>
+  </data>
+  <data name="RotatedFilename" xml:space="preserve">
+    <value>Rotierter Dateiname</value>
+  </data>
+  <data name="IsBouncingToSong" xml:space="preserve">
+    <value>hüpft zu ' $+ $song $+ ' herum</value>
+  </data>
+  <data name="IsBouncingForUserToSong" xml:space="preserve">
+    <value>hüpft für ' $+ $user $+ ' zu ' $+ $song $+ ' herum</value>
+  </data>
+  <data name="OnlyTrackAway" xml:space="preserve">
+    <value>Verfolge Abwesenheit nur in Räumen mit weniger als</value>
+  </data>
+  <data name="TrackUsersAwayStatus" xml:space="preserve">
+    <value>Abwesenheit von Benutzern verfolgen</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="EditScripts" xml:space="preserve">
+    <value>Skripte bearbeiten</value>
+  </data>
+  <data name="Bans" xml:space="preserve">
+    <value>Banns</value>
+  </data>
+  <data name="Excepts" xml:space="preserve">
+    <value>Ausnahmen</value>
+  </data>
+  <data name="NoExternalMessages" xml:space="preserve">
+    <value>Keine externen Nachrichten</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="LimitTo" xml:space="preserve">
+    <value>Begrenzen auf</value>
+  </data>
+  <data name="ExceptList" xml:space="preserve">
+    <value>Ausnahmeliste</value>
+  </data>
+  <data name="InviteList" xml:space="preserve">
+    <value>Einladungsliste</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Zeilen</value>
+  </data>
+  <data name="Maxbuffer" xml:space="preserve">
+    <value>Max. Puffer</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="SearchSubfolders" xml:space="preserve">
+    <value>Unterordner durchsuchen</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="DateModified" xml:space="preserve">
+    <value>Änderungsdatum</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>Überwachen</value>
+  </data>
+  <data name="URLCatcher" xml:space="preserve">
+    <value>URL-Erfasser</value>
+  </data>
+  <data name="Notices" xml:space="preserve">
+    <value>Hinweise</value>
+  </data>
+  <data name="PrivateMessages" xml:space="preserve">
+    <value>Private Nachrichten</value>
+  </data>
+  <data name="ChannelMessages" xml:space="preserve">
+    <value>Raumnachrichten</value>
+  </data>
+  <data name="ServerMessages" xml:space="preserve">
+    <value>Servernachrichten</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="ChannelHeight" xml:space="preserve">
+    <value>Raumhöhe</value>
+  </data>
+  <data name="ChannelWidth" xml:space="preserve">
+    <value>Raumbreite</value>
+  </data>
+  <data name="PrivateWidth" xml:space="preserve">
+    <value>Breite priv. Nachr.</value>
+  </data>
+  <data name="PrivateHeight" xml:space="preserve">
+    <value>Höhe priv. Nachr.</value>
+  </data>
+  <data name="ServerWidth" xml:space="preserve">
+    <value>Serverbreite</value>
+  </data>
+  <data name="ServerHeight" xml:space="preserve">
+    <value>Serverhöhe</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="ChangeFont" xml:space="preserve">
+    <value>Schriftart ändern</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="SystemVariables" xml:space="preserve">
+    <value>Systemvariablen</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Skripte</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menüs</value>
+  </data>
+  <data name="Startminimized" xml:space="preserve">
+    <value>Minimiert starten</value>
+  </data>
+  <data name="YourUserModeIs0" xml:space="preserve">
+    <value>Ihr Benutzermodus ist {0}</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="Unload" xml:space="preserve">
+    <value>Entladen</value>
+  </data>
+  <data name="Menubar" xml:space="preserve">
+    <value>Menüleiste</value>
+  </data>
+  <data name="MonitorPanels" xml:space="preserve">
+    <value>Überwachungsbereiche</value>
+  </data>
+  <data name="Disableloggingforchannelsusers" xml:space="preserve">
+    <value>Protokoll für Räume/Benutzer deaktivieren</value>
+  </data>
+  <data name="Areyousureyouwanttodeletetheselectedfiles" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie die ausgewählte(n) Datei(en) löschen möchten?</value>
+  </data>
+  <data name="OnTop" xml:space="preserve">
+    <value>Im Vordergrund</value>
+  </data>
+  <data name="InvertSelection" xml:space="preserve">
+    <value>Auswahl umkehren</value>
+  </data>
+  <data name="NotifyList" xml:space="preserve">
+    <value>Benachrichtigungsliste</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="EditMenus" xml:space="preserve">
+    <value>Menüs bearbeiten</value>
+  </data>
+  <data name="Areyousureyouwanttoresetmenu" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie das Menü {0} auf die Standardwerte zurücksetzen möchten?</value>
+  </data>
+  <data name="Areyousureyouwanttoresetcustomcommands" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie die eigenen Befehle auf die Standardwerte zurücksetzen möchten?</value>
+  </data>
+  <data name="GoToLine" xml:space="preserve">
+    <value>Gehe zu Zeile</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Soundstatus" xml:space="preserve">
+    <value>Klangstatus</value>
+  </data>
+  <data name="DisablescriptevaluationEditbox" xml:space="preserve">
+    <value>Skriptausführung in Eingabefeld deaktivieren</value>
+  </data>
+  <data name="UnloadAll" xml:space="preserve">
+    <value>Alle entladen</value>
+  </data>
+  <data name="ReceivedFiles" xml:space="preserve">
+    <value>Erhaltene Dateien</value>
+  </data>
+  <data name="Alwayslogchannelsusers" xml:space="preserve">
+    <value>Räume/Benutzer immer protokollieren</value>
+  </data>
+  <data name="MarkAsRead" xml:space="preserve">
+    <value>Als gelesen markieren</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Ordner öffnen</value>
+  </data>
+  <data name="BindtoAdapterorIPaddress" xml:space="preserve">
+    <value>An Adapter oder IP-Adresse binden</value>
+  </data>
+  <data name="PrioritizeIPv6" xml:space="preserve">
+    <value>IPv6 priorisieren</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Ersetzen</value>
+  </data>
+  <data name="ReplaceAll" xml:space="preserve">
+    <value>Alle ersetzen</value>
+  </data>
+  <data name="NoScheme" xml:space="preserve">
+    <value>Kein Schema</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Niemals</value>
+  </data>
+  <data name="NickColor" xml:space="preserve">
+    <value>Nickfarbe</value>
+  </data>
+  <data name="Applycolortousersmatching" xml:space="preserve">
+    <value>Farbe auf Benutzer anwenden, die passen auf</value>
+  </data>
+  <data name="Method" xml:space="preserve">
+    <value>Methode</value>
+  </data>
+  <data name="mins" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="Idletime" xml:space="preserve">
+    <value>Inaktivitätszeit</value>
+  </data>
+  <data name="Nomode" xml:space="preserve">
+    <value>Kein Modus</value>
+  </data>
+  <data name="Anymode" xml:space="preserve">
+    <value>Jeder Modus</value>
+  </data>
+  <data name="Channelmodes" xml:space="preserve">
+    <value>Raummodi</value>
+  </data>
+  <data name="NickorAddress" xml:space="preserve">
+    <value>Nickname oder Adresse (nickname!benutzer@host), getrennt durch Kommata</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Medien</value>
+  </data>
+  <data name="Enablenickcolors" xml:space="preserve">
+    <value>Nickfarben aktivieren</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Auf</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Ab</value>
+  </data>
+  <data name="Nick_Colors" xml:space="preserve">
+    <value>Nickfarben</value>
+  </data>
+  <data name="Sample" xml:space="preserve">
+    <value>Beispiel</value>
+  </data>
+  <data name="Fontsize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="Choose_font" xml:space="preserve">
+    <value>Schriftart auswählen</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Neu laden</value>
+  </data>
+  <data name="Useserverlistgrouplabelsasnetworkname" xml:space="preserve">
+    <value>Serverlistengruppenbeschriftungen als Netzwerkname verwenden</value>
+  </data>
+  <data name="Topics" xml:space="preserve">
+    <value>Themen</value>
+  </data>
+  <data name="Ctcps" xml:space="preserve">
+    <value>CTCPs</value>
+  </data>
+  <data name="Quits" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="Nicks" xml:space="preserve">
+    <value>Nicks</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Kicks</value>
+  </data>
+  <data name="InChannel" xml:space="preserve">
+    <value>Im Raum</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Ereignisse</value>
+  </data>
+  <data name="ShowHideEvents" xml:space="preserve">
+    <value>Ereignisse zeigen/verstecken</value>
+  </data>
+  <data name="RemovePanel" xml:space="preserve">
+    <value>Bereich entfernen</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Zeigen</value>
+  </data>
+  <data name="ShowSticky" xml:space="preserve">
+    <value>Anheften</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Verstecken</value>
+  </data>
+  <data name="HelpFiles" xml:space="preserve">
+    <value>Hilfedateien</value>
+  </data>
+  <data name="Youhaveclickedonalink" xml:space="preserve">
+    <value>Sie haben auf einen Link geklickt, der unten stehende Adresse öffnet</value>
+  </data>
+  <data name="Alwaysshowthismessage" xml:space="preserve">
+    <value>Diese Nachricht immer anzeigen</value>
+  </data>
+  <data name="Areyousureyouwanttoopen" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie obigen Link öffnen möchten?</value>
+  </data>
+  <data name="LinkWarning" xml:space="preserve">
+    <value>Linkwarnung</value>
+  </data>
+  <data name="Showwarninglink" xml:space="preserve">
+    <value>Warnung beim Öffnen von Links zeigen</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variablen</value>
+  </data>
+  <data name="EditVariables" xml:space="preserve">
+    <value>Variablen bearbeiten</value>
+  </data>
+  <data name="MinimizeHideAllWindows" xml:space="preserve">
+    <value>Alle Fenster minimieren/verstecken</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Alle leeren</value>
+  </data>
+  <data name="Areyousureyouwanttodeletethislogfile" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie dieses Protokoll löschen möchten?</value>
+  </data>
+  <data name="Spacing" xml:space="preserve">
+    <value>Abstände</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Einzeln</value>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Absatz</value>
+  </data>
+  <data name="Double" xml:space="preserve">
+    <value>Doppelt</value>
+  </data>
+  <data name="Hostname" xml:space="preserve">
+    <value>Hostname</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Protokoll</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="Regex" xml:space="preserve">
+    <value>Regulärer Ausdruck</value>
+  </data>
+  <data name="Toolbarbuttons" xml:space="preserve">
+    <value>Symbolleistenschaltflächen</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Oben</value>
+  </data>
+  <data name="Autojoin" xml:space="preserve">
+    <value>Automatisch betreten</value>
+  </data>
+  <data name="LockBars" xml:space="preserve">
+    <value>Leisten fixieren</value>
+  </data>
+  <data name="Backgrounds" xml:space="preserve">
+    <value>Hintergründe</value>
+  </data>
+  <data name="In_Active" xml:space="preserve">
+    <value>Im aktiven Fenster</value>
+  </data>
+  <data name="AdiIRCThemes" xml:space="preserve">
+    <value>AdiIRC-Schemen</value>
+  </data>
+  <data name="MTSThemes" xml:space="preserve">
+    <value>MTS-Schemen</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisTheme" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie dieses Schema löschen möchten?</value>
+  </data>
+  <data name="SetAsDefault" xml:space="preserve">
+    <value>Als Standard setzen</value>
+  </data>
+  <data name="IgnoreList" xml:space="preserve">
+    <value>Ignorierliste</value>
+  </data>
+  <data name="EnableIgnore" xml:space="preserve">
+    <value>Ignorieren aktivieren</value>
+  </data>
+  <data name="Addressnickidenthost" xml:space="preserve">
+    <value>Adresse (nickname!ident@host)</value>
+  </data>
+  <data name="IgnoreOptions" xml:space="preserve">
+    <value>Ignorieroptionen</value>
+  </data>
+  <data name="NetworknameorServeraddress" xml:space="preserve">
+    <value>Netzwerkname oder Serveradresse</value>
+  </data>
+  <data name="Ctcp" xml:space="preserve">
+    <value>CTCP</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>Codes</value>
+  </data>
+  <data name="Exclude" xml:space="preserve">
+    <value>Ausschließen</value>
+  </data>
+  <data name="Removein" xml:space="preserve">
+    <value>Entfernen in</value>
+  </data>
+  <data name="secs" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="Icons" xml:space="preserve">
+    <value>Symbole</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Haupt</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="HideMenubar" xml:space="preserve">
+    <value>Menüleiste verstecken</value>
+  </data>
+  <data name="VariablesNetworkChannelCount" xml:space="preserve">
+    <value>Variablen: $network $channel $count $date</value>
+  </data>
+  <data name="Getfaviconfromserverwebsite" xml:space="preserve">
+    <value>Favicon von Server holen</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favoriten</value>
+  </data>
+  <data name="AddtoFavorites" xml:space="preserve">
+    <value>Zu Favoriten hinzufügen</value>
+  </data>
+  <data name="OrganizeFavorites" xml:space="preserve">
+    <value>Favoriten organisieren</value>
+  </data>
+  <data name="InServer" xml:space="preserve">
+    <value>Im Server</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Alles speichern</value>
+  </data>
+  <data name="UseGlobalEditboxHistory" xml:space="preserve">
+    <value>Globalen Eingabeverlauf verwenden</value>
+  </data>
+  <data name="Colorandunderlinelinks" xml:space="preserve">
+    <value>Linkfarbe und -unterstreichung</value>
+  </data>
+  <data name="Customnickcolors" xml:space="preserve">
+    <value>Eigene Nickfarben</value>
+  </data>
+  <data name="Sounds" xml:space="preserve">
+    <value>Klänge</value>
+  </data>
+  <data name="Enablesounds" xml:space="preserve">
+    <value>Klänge aktivieren</value>
+  </data>
+  <data name="OnEvent" xml:space="preserve">
+    <value>Bei Ereignis</value>
+  </data>
+  <data name="Beeps" xml:space="preserve">
+    <value>Töne</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>Verzögerung</value>
+  </data>
+  <data name="ChannelMessage" xml:space="preserve">
+    <value>Raumnachricht</value>
+  </data>
+  <data name="DccChat" xml:space="preserve">
+    <value>DCC-Chat</value>
+  </data>
+  <data name="Nosound" xml:space="preserve">
+    <value>Kein Ton</value>
+  </data>
+  <data name="Beep" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="Playsound" xml:space="preserve">
+    <value>Klang abspielen</value>
+  </data>
+  <data name="Part" xml:space="preserve">
+    <value>Verlassen</value>
+  </data>
+  <data name="DccChatMessage" xml:space="preserve">
+    <value>DCC-Chatnachricht</value>
+  </data>
+  <data name="ChannelUrlis0" xml:space="preserve">
+    <value>Raum-URL ist {0}</value>
+  </data>
+  <data name="EditAliases" xml:space="preserve">
+    <value>Aliase bearbeiten</value>
+  </data>
+  <data name="CustomAliases" xml:space="preserve">
+    <value>Eigene Aliase</value>
+  </data>
+  <data name="Trytoregainnick" xml:space="preserve">
+    <value>Versuche, Nick zurückzuerobern</value>
+  </data>
+  <data name="TrayIcon" xml:space="preserve">
+    <value>Infobereichssymbol</value>
+  </data>
+  <data name="Tabcompleteorder" xml:space="preserve">
+    <value>Reihenfolge der Tabvervollständigung</value>
+  </data>
+  <data name="Usesingleclicktorestore" xml:space="preserve">
+    <value>Wiederherstellen mit einfachem Klick</value>
+  </data>
+  <data name="Checkassociationonstartup" xml:space="preserve">
+    <value>Verknüpfungen beim Start prüfen</value>
+  </data>
+  <data name="AdiIRCisnotcurrently" xml:space="preserve">
+    <value>AdiIRC ist momentan nicht als Ihr Standard-IRC-Client festgelegt. Möchten Sie dies ändern?</value>
+  </data>
+  <data name="StartwithWindows" xml:space="preserve">
+    <value>Mit Windows starten</value>
+  </data>
+  <data name="Op" xml:space="preserve">
+    <value>Op</value>
+  </data>
+  <data name="DeOp" xml:space="preserve">
+    <value>DeOp</value>
+  </data>
+  <data name="SendFile" xml:space="preserve">
+    <value>Datei senden</value>
+  </data>
+  <data name="Query" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="bye" xml:space="preserve">
+    <value>tschö</value>
+  </data>
+  <data name="Runthesecommandsonconnect" xml:space="preserve">
+    <value>Diese Befehle beim Verbinden ausführen</value>
+  </data>
+  <data name="Jointhesechannels" xml:space="preserve">
+    <value>Diese Räume beim Verbinden betreten</value>
+  </data>
+  <data name="Connectthisserver" xml:space="preserve">
+    <value>Beim Start zu diesem Server verbinden</value>
+  </data>
+  <data name="Hereyoucanimport" xml:space="preserve">
+    <value>Hier können Sie Farbschemen für AdiIRC importieren/exportieren</value>
+  </data>
+  <data name="0of1done2" xml:space="preserve">
+    <value>{0} von {1} abgeschlossen ({2}%)</value>
+  </data>
+  <data name="Therewasanerrorinstallingthetheme" xml:space="preserve">
+    <value>Ein Fehler ist bei der Installation des Themes aufgetreten: {0}</value>
+  </data>
+  <data name="Thereisalreadyathemenamed" xml:space="preserve">
+    <value>Es ist bereits ein Farbschema namens {0} installiert, möchten Sie es überschreiben?</value>
+  </data>
+  <data name="ThisisnotanAdiIRC" xml:space="preserve">
+    <value>Dies ist kein AdiIRC- oder MTS-Farbschema</value>
+  </data>
+  <data name="ThereWasAProblemCreatingTheFont" xml:space="preserve">
+    <value>Ein Problem ist beim Erzeugen der Schriftart {0} {1} ({2}) aufgetreten, bitte versuchen Sie es mit einer anderen</value>
+  </data>
+  <data name="ScriptsHaveUnsavedChanged" xml:space="preserve">
+    <value>Skripte wurden geändert, Änderungen vor dem Schließen speichern?</value>
+  </data>
+  <data name="ThereWasAnErrorCreatingTheScriptFolder" xml:space="preserve">
+    <value>Ein Fehler ist beim Erstellen des Skriptordners {0} aufgetreten</value>
+  </data>
+  <data name="AreYouSureYouWantToDelete0" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie {0} löschen möchten?</value>
+  </data>
+  <data name="AreYouSureDeleteSelectedScripts" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie das/die ausgewählte(n) Skript(e) löschen möchten?</value>
+  </data>
+  <data name="AdiIRCMustBeRestarted" xml:space="preserve">
+    <value>AdiIRC muss neu gestartet werden, um das Plugin zu entladen. Möchten Sie den Neustart nun durchführen?</value>
+  </data>
+  <data name="AllYourCurrentThemeColors" xml:space="preserve">
+    <value>Alle aktuellen Themefarben und -Einstellungen werden zurückgesetzt. Möchten Sie dennoch fortfahren?
+
+Stile werden nur auf folgende Nachrichten angewandt.</value>
+  </data>
+  <data name="ThereWasAnErrorSaving" xml:space="preserve">
+    <value>Ein Fehler ist beim Speichern der Datei aufgetreten: {0}</value>
+  </data>
+  <data name="ThereWasAnErrorDeletingTheTheme" xml:space="preserve">
+    <value>Ein Fehler ist beim Löschen des Farbschemas aufgetreten: {0}</value>
+  </data>
+  <data name="LineNumber0ErrorNumber" xml:space="preserve">
+    <value>Zeilennummer {0}, Fehlernummer: {1}, '{2};{3}</value>
+  </data>
+  <data name="ScriptOutput" xml:space="preserve">
+    <value>Skriptausgabe</value>
+  </data>
+  <data name="TransferIncomplete0of1" xml:space="preserve">
+    <value>Übertragung unvollständig {0} von {1}</value>
+  </data>
+  <data name="DCCChatSessionClosed" xml:space="preserve">
+    <value>DCC-Chatsitzung beendet</value>
+  </data>
+  <data name="DCCChatConnectionEstablished" xml:space="preserve">
+    <value>DCC-Chatverbindung aufgebaut</value>
+  </data>
+  <data name="UnableToEstablishConnectionTo" xml:space="preserve">
+    <value>Kann keine Verbindung zu {0} herstellen: {1} ({2})</value>
+  </data>
+  <data name="ThereWasAnErrorLoadingThePlugin" xml:space="preserve">
+    <value>Ein Fehler ist beim Laden des Plugins aufgetreten: {0}{1}{2}{3}</value>
+  </data>
+  <data name="ErrorWhenOpeningUrl" xml:space="preserve">
+    <value>Fehler beim Öffnen des URL: {0}</value>
+  </data>
+  <data name="ThereWasAnErrorMoving" xml:space="preserve">
+    <value>Ein Fehler ist beim Verschieben der Datei {0} aufgetreten ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorDeletingTheFile01" xml:space="preserve">
+    <value>Ein Fehler ist beim Löschen der Datei {0} aufgetreten ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorAppending" xml:space="preserve">
+    <value>Ein Fehler ist beim Anfügen an die Datei {0} aufgetreten ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorReading" xml:space="preserve">
+    <value>Ein Fehler ist beim Lesen der Datei {0} aufgetreten ({1})</value>
+  </data>
+  <data name="OtherNetworks" xml:space="preserve">
+    <value>Andere Netzwerke</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>Täglich</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Wöchentlich</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>Monatlich</value>
+  </data>
+  <data name="Last_spoke_order" xml:space="preserve">
+    <value>Letzter gesprochener Befehl</value>
+  </data>
+  <data name="Notify0IsAlready" xml:space="preserve">
+    <value>{0} ist bereits in der Benachrichtigungsliste</value>
+  </data>
+  <data name="ThisIsATestTopic" xml:space="preserve">
+    <value>Dies ist ein Testthema, Linktest http://www.adiirc.com und noch etwas Text</value>
+  </data>
+  <data name="SomeMessageHere" xml:space="preserve">
+    <value>hier etwas Text</value>
+  </data>
+  <data name="0IsDoingSomeFancyAction" xml:space="preserve">
+    <value>{0} macht Stimmung</value>
+  </data>
+  <data name="0NoticeAllHailMe" xml:space="preserve">
+    <value>-{0}- Hinweis: Heil mir!</value>
+  </data>
+  <data name="0NormalMessage11821Highlighted" xml:space="preserve">
+    <value>{0} Normale Nachricht {1}18{2}{1} gehighlightet</value>
+  </data>
+  <data name="0MyMessage" xml:space="preserve">
+    <value>{0} Meine Nachricht</value>
+  </data>
+  <data name="NoSpamming" xml:space="preserve">
+    <value>Kein Gespamme!</value>
+  </data>
+  <data name="userslower" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="neverlower" xml:space="preserve">
+    <value>niemals</value>
+  </data>
+  <data name="highlightslower" xml:space="preserve">
+    <value>Erwähnungen</value>
+  </data>
+  <data name="Bordersize" xml:space="preserve">
+    <value>Rahmengröße</value>
+  </data>
+  <data name="ConnectedTo0ServersAnd1Channels" xml:space="preserve">
+    <value>Mit {0} Server(n) in {1} Räumen verbunden</value>
+  </data>
+  <data name="NickAddressIsMissing" xml:space="preserve">
+    <value>Nickname/Adresse fehlt</value>
+  </data>
+  <data name="IncludeJoins" xml:space="preserve">
+    <value>Beitritte einschließen</value>
+  </data>
+  <data name="AreYouSureResetAllOptions0" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie alle Optionen in {0} zurücksetzen möchten?</value>
+  </data>
+  <data name="LineMarkerSize" xml:space="preserve">
+    <value>Zeilenmarkierungsgröße</value>
+  </data>
+  <data name="ScrollMessagesWhenTyping" xml:space="preserve">
+    <value>Nachrichten beim Tippen scrollen</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="ResetThisPage" xml:space="preserve">
+    <value>Diese Seite zurücksetzen</value>
+  </data>
+  <data name="ScriptingWiki" xml:space="preserve">
+    <value>Scripting-Wiki</value>
+  </data>
+  <data name="SendDelay" xml:space="preserve">
+    <value>Sendeverzögerung</value>
+  </data>
+  <data name="ThereWasAnErrorCausingAdiIRCToCrash" xml:space="preserve">
+    <value>Um uns bei der Diagnose und Behebung des Problems zu helfen, können Sie uns einen Absturzbericht zukommen lassen.
+(Keine persönlichen Informationen werden übertragen)
+Fahren Sie fort, wenn Sie möchten, dass AdiIRC versucht, sich von dem Fehler zu erholen.
+Klicken Sie auf Schließen, um AdiIRC zu schließen.</value>
+  </data>
+  <data name="DeleteMergedFiles" xml:space="preserve">
+    <value>Zusammengeführte Dateien löschen</value>
+  </data>
+  <data name="MergeIntoTthisFile" xml:space="preserve">
+    <value>In diese Datei zusammenführen</value>
+  </data>
+  <data name="MergeFiles" xml:space="preserve">
+    <value>Dateien zusammenführen</value>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Zusammenführen</value>
+  </data>
+  <data name="Buffer" xml:space="preserve">
+    <value>Puffer</value>
+  </data>
+  <data name="SaveFormattedAs" xml:space="preserve">
+    <value>Formatiertes speichern unter</value>
+  </data>
+  <data name="ResetAllWindowSizes" xml:space="preserve">
+    <value>Alle Fenstergrößen zurücksetzen</value>
+  </data>
+  <data name="SaveOpenServersOnExit" xml:space="preserve">
+    <value>Verbundene Server beim Beenden speichern und beim nächsten Start erneut verbinden</value>
+  </data>
+  <data name="VariablesChannelUserMsg" xml:space="preserve">
+    <value>Variablen: $channel $user $msg</value>
+  </data>
+  <data name="PrivateMessageFrom0" xml:space="preserve">
+    <value>Private Nachricht von {0}</value>
+  </data>
+  <data name="NewMessageOn0From1" xml:space="preserve">
+    <value>Neue Nachricht auf {0} von {1}</value>
+  </data>
+  <data name="OnlyShowIfAdiIRCIsNotFocused" xml:space="preserve">
+    <value>Nur zeigen, wenn AdiIRC nicht fokussiert ist</value>
+  </data>
+  <data name="MarkServerAsRead" xml:space="preserve">
+    <value>Server als gelesen markieren</value>
+  </data>
+  <data name="TextFiles" xml:space="preserve">
+    <value>Textdateien</value>
+  </data>
+  <data name="SyntaxIs0" xml:space="preserve">
+    <value>Syntax ist {0}</value>
+  </data>
+  <data name="AdiIRCIsDocked0" xml:space="preserve">
+    <value>AdiIRC ist angedockt: {0}</value>
+  </data>
+  <data name="AdiIRCIsNotDocked" xml:space="preserve">
+    <value>AdiIRC ist nicht angedockt</value>
+  </data>
+  <data name="CheckBrackets" xml:space="preserve">
+    <value>Klammern prüfen</value>
+  </data>
+  <data name="BracketError" xml:space="preserve">
+    <value>Klammerfehler</value>
+  </data>
+  <data name="ThereSeemsToBe" xml:space="preserve">
+    <value>Es scheint nicht übereinstimmende Klammern irgendwo bei Zeile {0} zu geben.</value>
+  </data>
+  <data name="InitializationsWarning" xml:space="preserve">
+    <value>Initialisierungswarnung</value>
+  </data>
+  <data name="ScriptWarning" xml:space="preserve">
+    <value>Scriptwarnung</value>
+  </data>
+  <data name="InitializationsCommands" xml:space="preserve">
+    <value>Eines oder mehr Scripte wurden geladen, die Initialisierungsbefehle beinhalten.
+Sie sollten nur Initialisierungsbefehle von Scripten erlauben, die Sie kennen.
+Diese Befehle nun ausführen?</value>
+  </data>
+  <data name="AsktoSaveFiles" xml:space="preserve">
+    <value>Vor dem Speichern fragen</value>
+  </data>
+  <data name="LineNumbers" xml:space="preserve">
+    <value>Zeilennummern</value>
+  </data>
+  <data name="IdentifierWarning" xml:space="preserve">
+    <value>Identifierwarnung</value>
+  </data>
+  <data name="ShowOnDesktop" xml:space="preserve">
+    <value>Auf Desktop zeigen</value>
+  </data>
+  <data name="BackupFileonSave" xml:space="preserve">
+    <value>Datei beim Speichern sichern</value>
+  </data>
+  <data name="FindSelection" xml:space="preserve">
+    <value>Auswahl suchen</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="nloadAllButActive" xml:space="preserve">
+    <value>Alle außer aktiven entladen</value>
+  </data>
+  <data name="0IsNotOnTheIgnoreList" xml:space="preserve">
+    <value>{0} ist nicht auf der Ignorierliste</value>
+  </data>
+  <data name="IgnoreListCleared" xml:space="preserve">
+    <value>Ignorierliste geleert</value>
+  </data>
+  <data name="IgnoreListIsEmpty" xml:space="preserve">
+    <value>Ignorierliste ist leer</value>
+  </data>
+  <data name="UpdatedIgnoreFor" xml:space="preserve">
+    <value>Ignorieren für {0} aktualisiert</value>
+  </data>
+  <data name="For0Seconds" xml:space="preserve">
+    <value>für {0} Sekunden</value>
+  </data>
+  <data name="AutoUnsetIn" xml:space="preserve">
+    <value>(Automatisch entfernt in {0})</value>
+  </data>
+  <data name="IgnoreIs0" xml:space="preserve">
+    <value>Ignorieren ist {0}</value>
+  </data>
+  <data name="0IsNotOnTheNotifyList" xml:space="preserve">
+    <value>{0} ist nicht auf der Benachrichtigungsliste</value>
+  </data>
+  <data name="Removed0FfromNotifyList" xml:space="preserve">
+    <value>{0} von der Benachrichtigungsliste entfernt</value>
+  </data>
+  <data name="NotifyListCleared" xml:space="preserve">
+    <value>Benachrichtigungsliste geleert</value>
+  </data>
+  <data name="NotifyListIsEmpty" xml:space="preserve">
+    <value>Benachrichtigungsliste ist leer</value>
+  </data>
+  <data name="Added0ToNotifyList" xml:space="preserve">
+    <value>{0} der Benachrichtigungsliste hinzugefügt</value>
+  </data>
+  <data name="UnableToRemove0" xml:space="preserve">
+    <value>konnte '{0}' nicht entfernen</value>
+  </data>
+  <data name="AllTimersHalted" xml:space="preserve">
+    <value>Alle Timer angehalten</value>
+  </data>
+  <data name="NoActiveTimers" xml:space="preserve">
+    <value>Keine aktiven Timer</value>
+  </data>
+  <data name="0TimersMatching0Removed" xml:space="preserve">
+    <value>{0} Timer, auf die {0} passt, entfernt</value>
+  </data>
+  <data name="Timer0Halted" xml:space="preserve">
+    <value>Timer {0} angehalten</value>
+  </data>
+  <data name="TimerNamed0NotFound" xml:space="preserve">
+    <value>Timer {0} nicht gefunden</value>
+  </data>
+  <data name="Timer0Paused" xml:space="preserve">
+    <value>Timer {0} pausiert</value>
+  </data>
+  <data name="Timer0Resumed" xml:space="preserve">
+    <value>Timer {0} fortgesetzt</value>
+  </data>
+  <data name="Timer0Activated" xml:space="preserve">
+    <value>Timer {0} aktiviert</value>
+  </data>
+  <data name="CurrentEncoding0" xml:space="preserve">
+    <value>Derzeitige Kodierung: {0}</value>
+  </data>
+  <data name="NoSuchFile0" xml:space="preserve">
+    <value>Datei '{0}' existiert nicht</value>
+  </data>
+  <data name="ReLoadedScrípt0" xml:space="preserve">
+    <value>Skript '{0}' neu geladen</value>
+  </data>
+  <data name="LoadedScrípt0" xml:space="preserve">
+    <value>Script '{0}' geladen</value>
+  </data>
+  <data name="LoadedVariablesFrom0" xml:space="preserve">
+    <value>Variablen aus '{0}' geladen</value>
+  </data>
+  <data name="UnloadedScrípt0" xml:space="preserve">
+    <value>Skript '{0}' entladen</value>
+  </data>
+  <data name="MenubarIs0" xml:space="preserve">
+    <value>Menüleiste ist {0}</value>
+  </data>
+  <data name="StatusbarIs0" xml:space="preserve">
+    <value>Statusleiste ist {0}</value>
+  </data>
+  <data name="Removed0" xml:space="preserve">
+    <value>'{0}' entfernt</value>
+  </data>
+  <data name="NoSuchUser0" xml:space="preserve">
+    <value>kein solcher Benutzer '{0}'</value>
+  </data>
+  <data name="WaitingForAcknowledgement" xml:space="preserve">
+    <value>Warte auf Bestätigung von {0}...</value>
+  </data>
+  <data name="DefaultChangedTo0" xml:space="preserve">
+    <value>Standard geändert auf '{0}'</value>
+  </data>
+  <data name="InvalidWindow" xml:space="preserve">
+    <value>ungültiges Fenster</value>
+  </data>
+  <data name="TopicboxFor0is1" xml:space="preserve">
+    <value>Themenbox für '{0}' ist '{1}'</value>
+  </data>
+  <data name="ScriptsIs0" xml:space="preserve">
+    <value>Skripte sind: {0}</value>
+  </data>
+  <data name="MustBeAnOpOn0" xml:space="preserve">
+    <value>muss Operator in {0} sein</value>
+  </data>
+  <data name="UnableToOpen0" xml:space="preserve">
+    <value>kann '{0}' nicht öffnen</value>
+  </data>
+  <data name="UnknownDialog0" xml:space="preserve">
+    <value>unbekannter Dialog '{0}'</value>
+  </data>
+  <data name="NoSuchRoutine0" xml:space="preserve">
+    <value>unbekannte Routine '{0}'</value>
+  </data>
+  <data name="Name0InUse" xml:space="preserve">
+    <value>Name '{0}' wird verwendet</value>
+  </data>
+  <data name="UnableToCreate0" xml:space="preserve">
+    <value>konnte '{0}' nicht erzeugen</value>
+  </data>
+  <data name="Opened0" xml:space="preserve">
+    <value>'{0}' geöffnet</value>
+  </data>
+  <data name="Closed0" xml:space="preserve">
+    <value>'{0}' geschlossen</value>
+  </data>
+  <data name="UnableToRenameFile" xml:space="preserve">
+    <value>konnte Datei '{0}' nicht in '{1}' umbenennen</value>
+  </data>
+  <data name="Renamed0To1" xml:space="preserve">
+    <value>'{0}' in '{1}' umbenannt</value>
+  </data>
+  <data name="InvalidParameters" xml:space="preserve">
+    <value>ungültige Parameter</value>
+  </data>
+  <data name="InvalidDialog0" xml:space="preserve">
+    <value>ungültiger Dialog '{0}'</value>
+  </data>
+  <data name="Table0Exists" xml:space="preserve">
+    <value>Tabelle '{0}' existiert</value>
+  </data>
+  <data name="MadeHashTable01" xml:space="preserve">
+    <value>Hashtabelle '{0}' ({1}) erzeugt</value>
+  </data>
+  <data name="NoSuchTable0" xml:space="preserve">
+    <value>Tabelle '{0}' existiert nicht</value>
+  </data>
+  <data name="FreedHashTable01" xml:space="preserve">
+    <value>Hashtabelle '{0}' ({1}) befreit</value>
+  </data>
+  <data name="Freed0HashTablesMatching1" xml:space="preserve">
+    <value>'{0}' Hashtabellen, auf die '{1}' passt, befreit</value>
+  </data>
+  <data name="AddedItem0ToHashTable1" xml:space="preserve">
+    <value>Element '{0}' zu Hashtabelle '{1}' hinzugefügt</value>
+  </data>
+  <data name="IncItem0InHashTable1" xml:space="preserve">
+    <value>Element '{0}' in Hashtabelle '{1}' erhöht</value>
+  </data>
+  <data name="DecItem0InHashTable1" xml:space="preserve">
+    <value>Element '{0}' in Hashtabelle '{1}' verringert</value>
+  </data>
+  <data name="DeletedItem0FromHashTable1" xml:space="preserve">
+    <value>Element '{0}' aus Hashtabelle '{1}' gelöscht</value>
+  </data>
+  <data name="Deleted01ItemsFromHashTable2" xml:space="preserve">
+    <value>{0} '{1}' Element(e) aus Hashtabelle '{2}' gelöscht</value>
+  </data>
+  <data name="LoadedHashTable0From1" xml:space="preserve">
+    <value>Hashtabelle '{0}' aus '{1}' geladen</value>
+  </data>
+  <data name="SavedHashTable0To1" xml:space="preserve">
+    <value>Hashtabelle '{0}' in '{1}' gespeichert</value>
+  </data>
+  <data name="InputRequest" xml:space="preserve">
+    <value>Eingabeaufforderung</value>
+  </data>
+  <data name="EnterReply" xml:space="preserve">
+    <value>Geben Sie die Antwort ein:</value>
+  </data>
+  <data name="Replaced0Alias" xml:space="preserve">
+    <value>Alias '{0}' ersetzt</value>
+  </data>
+  <data name="Added0Alias" xml:space="preserve">
+    <value>Alias '{0}' hinzugefügt</value>
+  </data>
+  <data name="SocketUnavailable" xml:space="preserve">
+    <value>Socket nicht verfügbar</value>
+  </data>
+  <data name="SocketInUse" xml:space="preserve">
+    <value>Socket '{0}' wird verwendet</value>
+  </data>
+  <data name="BindingIsOff" xml:space="preserve">
+    <value>Bindung ist aus</value>
+  </data>
+  <data name="BindingIsOn0" xml:space="preserve">
+    <value>Bindung ist an ({0})</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Pausiert</value>
+  </data>
+  <data name="Listening" xml:space="preserve">
+    <value>Lausche</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Set0To1" xml:space="preserve">
+    <value>{0} auf {1} gesetzt</value>
+  </data>
+  <data name="WindowExists" xml:space="preserve">
+    <value>Fenster '{0}' existiert</value>
+  </data>
+  <data name="InsufficientParameters" xml:space="preserve">
+    <value>zu wenige Parameter</value>
+  </data>
+  <data name="TooManyParameters" xml:space="preserve">
+    <value>zu viele Parameter</value>
+  </data>
+  <data name="UnknownOperato0" xml:space="preserve">
+    <value>unbekannter Operator '{0}'</value>
+  </data>
+  <data name="YourMainNicknameIsNow0" xml:space="preserve">
+    <value>Ihr Hauptnickname lautet nun {0}</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Suche...</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Unten</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sortieren</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PanelsIs0" xml:space="preserve">
+    <value>Bereiche ist {0}</value>
+  </data>
+  <data name="AutoJoinOnInviteIs0" xml:space="preserve">
+    <value>Bei Einladung automatisch betreten ist {0}</value>
+  </data>
+  <data name="RecentFiles" xml:space="preserve">
+    <value>Letzte Dateien</value>
+  </data>
+  <data name="ConnectInNewWindow" xml:space="preserve">
+    <value>In neuem Fenster verbinden</value>
+  </data>
+  <data name="Treebar" xml:space="preserve">
+    <value>Baumstruktur</value>
+  </data>
+  <data name="HideTreebar" xml:space="preserve">
+    <value>Baumstruktur verstecken</value>
+  </data>
+  <data name="TreebarIs0" xml:space="preserve">
+    <value>Baumstruktur ist {0}</value>
+  </data>
+  <data name="Switchbar" xml:space="preserve">
+    <value>Raumleiste</value>
+  </data>
+  <data name="HideSwitchbar" xml:space="preserve">
+    <value>Raumleiste verstecken</value>
+  </data>
+  <data name="EnableSwitchbar" xml:space="preserve">
+    <value>Raumleiste aktivieren</value>
+  </data>
+  <data name="SwitchbarIs0" xml:space="preserve">
+    <value>Raumleiste ist {0}</value>
+  </data>
+  <data name="Maxusers" xml:space="preserve">
+    <value>Max. Benutzer:</value>
+  </data>
+  <data name="Minusers" xml:space="preserve">
+    <value>Min. Benutzer:</value>
+  </data>
+  <data name="JoinChannels" xml:space="preserve">
+    <value>Räume betreten</value>
+  </data>
+  <data name="FilterChannels" xml:space="preserve">
+    <value>Räume filtern</value>
+  </data>
+  <data name="Displaying0UsersOn1Channels" xml:space="preserve">
+    <value>Zeige {0} Benutzer in {1} Räumen</value>
+  </data>
+  <data name="Nicklist" xml:space="preserve">
+    <value>Benutzerliste</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="MessageAndNicklist" xml:space="preserve">
+    <value>Nachricht und Benutzerliste</value>
+  </data>
+  <data name="NicklistButtons" xml:space="preserve">
+    <value>Benutzerlistenschaltflächen</value>
+  </data>
+  <data name="ShowNicklist" xml:space="preserve">
+    <value>Benutzerliste zeigen</value>
+  </data>
+  <data name="NicklistFollowsSelectedChannel" xml:space="preserve">
+    <value>Benutzerliste folgt ausgewähltem Raum</value>
+  </data>
+  <data name="TreebarNicklist" xml:space="preserve">
+    <value>Baumstruktur Benutzerliste</value>
+  </data>
+  <data name="ShowNicklistButtons" xml:space="preserve">
+    <value>Benutzerlistenschaltflächen zeigen</value>
+  </data>
+  <data name="NicklistFor0Is1" xml:space="preserve">
+    <value>Benutzerliste für '{0} ist '{1}'</value>
+  </data>
+  <data name="InStatus" xml:space="preserve">
+    <value>Im Status</value>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>Groß- und Kleinschreibung beachten</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Farbe:</value>
+  </data>
+  <data name="FlashMessage" xml:space="preserve">
+    <value>Nachricht blinkt</value>
+  </data>
+  <data name="time_s" xml:space="preserve">
+    <value>mal</value>
+  </data>
+  <data name="TipMessage" xml:space="preserve">
+    <value>Tooltip</value>
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="MessageAndNickname" xml:space="preserve">
+    <value>Nachricht und Nickname</value>
+  </data>
+  <data name="Both" xml:space="preserve">
+    <value>Beide</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tooltips</value>
+  </data>
+  <data name="EnableTips" xml:space="preserve">
+    <value>Tooltips aktivieren</value>
+  </data>
+  <data name="ChannelTips" xml:space="preserve">
+    <value>Raumtooltips</value>
+  </data>
+  <data name="PrivateTips" xml:space="preserve">
+    <value>Query-Tooltips</value>
+  </data>
+  <data name="OtherTips" xml:space="preserve">
+    <value>Andere Tooltips</value>
+  </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Warteschlange</value>
+  </data>
+  <data name="ShowFor" xml:space="preserve">
+    <value>Zeige für</value>
+  </data>
+  <data name="HideTipsWhenFullscreen" xml:space="preserve">
+    <value>Tooltips verstecken, wenn Vollbildanwendung läuft</value>
+  </data>
+  <data name="ChannelAction" xml:space="preserve">
+    <value>Raumaktion</value>
+  </data>
+  <data name="0On1Says2" xml:space="preserve">
+    <value>{0} in {1} sagt: {2}</value>
+  </data>
+  <data name="0On12" xml:space="preserve">
+    <value>{0} in {1}: {2}</value>
+  </data>
+  <data name="ChannelCtcp" xml:space="preserve">
+    <value>Raum-CTCP</value>
+  </data>
+  <data name="PrivateCtcp" xml:space="preserve">
+    <value>Query-CTCP</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="JoinChannel" xml:space="preserve">
+    <value>Raum betreten</value>
+  </data>
+  <data name="CopyChannelName" xml:space="preserve">
+    <value>Raumnamen kopieren</value>
+  </data>
+  <data name="CopyTopicText" xml:space="preserve">
+    <value>Thema kopieren</value>
+  </data>
+  <data name="ChannelNotice" xml:space="preserve">
+    <value>Raumhinweis</value>
+  </data>
+  <data name="0On1Notice2" xml:space="preserve">
+    <value>{0} in {1} merkt an: {2}</value>
+  </data>
+  <data name="0Notice1" xml:space="preserve">
+    <value>{0} merkt an: {1}</value>
+  </data>
+  <data name="0On1Sends2" xml:space="preserve">
+    <value>{0} in {1} sendet {2}</value>
+  </data>
+  <data name="0Sends1" xml:space="preserve">
+    <value>{0} sendet {1}</value>
+  </data>
+  <data name="PrivateNotice" xml:space="preserve">
+    <value>Privater Hinweis</value>
+  </data>
+  <data name="YouHaveJoinedChanne0" xml:space="preserve">
+    <value>Sie haben den Raum {0} betreten</value>
+  </data>
+  <data name="0HasJoinedChannel1" xml:space="preserve">
+    <value>{0} hat den Raum {1} betreten</value>
+  </data>
+  <data name="YouHaveLeftChannel0" xml:space="preserve">
+    <value>Sie haben den Raum {0} verlassen</value>
+  </data>
+  <data name="0HasLeftChannel1" xml:space="preserve">
+    <value>{0} hat den Raum {1} verlassen</value>
+  </data>
+  <data name="0HasKicked1From23" xml:space="preserve">
+    <value>{0} hat {1} aus {2} geworfen ({3})</value>
+  </data>
+  <data name="0HasKickedYouFrom12" xml:space="preserve">
+    <value>{0} hat Sie aus {1} geworfen ({2})</value>
+  </data>
+  <data name="0ChangesModeOn12" xml:space="preserve">
+    <value>{0} ändert den Modus von {1}: {2}</value>
+  </data>
+  <data name="ChannelMode" xml:space="preserve">
+    <value>Raummodus</value>
+  </data>
+  <data name="0On1HasChangedTopicTo2" xml:space="preserve">
+    <value>{0} in {1} hat das Thema geändert zu: {2}</value>
+  </data>
+  <data name="0HasChangedNicknameTo1" xml:space="preserve">
+    <value>{0} hat seinen Nicknamen in {1} geändert</value>
+  </data>
+  <data name="0HasQuiIR1" xml:space="preserve">
+    <value>{0} hat den IRC verlassen ({1})</value>
+  </data>
+  <data name="0YouHaveDisconnected" xml:space="preserve">
+    <value>{0}, Sie wurden vom {1}-Netz getrennt</value>
+  </data>
+  <data name="YouHaveConnected" xml:space="preserve">
+    <value>Sie sind mit dem {0}-Netz als {1} verbunden</value>
+  </data>
+  <data name="ListingChannels" xml:space="preserve">
+    <value>Raumauflistung</value>
+  </data>
+  <data name="Listed0Channels" xml:space="preserve">
+    <value>{0} Räume aufgelistet</value>
+  </data>
+  <data name="0WantsToDccSendYouFile1" xml:space="preserve">
+    <value>{0} möchte Ihnen die Datei {1} per DCC senden</value>
+  </data>
+  <data name="0WantsToDccChatWithYou" xml:space="preserve">
+    <value>{0} möchte einen DCC-Chat mit Ihnen beginnen</value>
+  </data>
+  <data name="0WantsToDccResumeFile1" xml:space="preserve">
+    <value>{0} möchte die DCC-Übertragung von {1} fortsetzen</value>
+  </data>
+  <data name="0AcceptedDccSendOfFile1" xml:space="preserve">
+    <value>{0} hat die DCC-Übertragung von {1} angenommen</value>
+  </data>
+  <data name="0HasInvitedYouToJoinChannel1" xml:space="preserve">
+    <value>{0} hat Sie eingeladen, den Raum {1} zu betreten</value>
+  </data>
+  <data name="TipsAre0" xml:space="preserve">
+    <value>Tooltips sind {0}</value>
+  </data>
+  <data name="0Says1" xml:space="preserve">
+    <value>{0} sagt: {1}</value>
+  </data>
+  <data name="FlashIcons" xml:space="preserve">
+    <value>Symbolblinken</value>
+  </data>
+  <data name="Motd" xml:space="preserve">
+    <value>Meldung des Tages</value>
+  </data>
+  <data name="Beeping" xml:space="preserve">
+    <value>Piepen</value>
+  </data>
+  <data name="Flashing" xml:space="preserve">
+    <value>Blinken</value>
+  </data>
+  <data name="FlashMainWindowTaskbarOn" xml:space="preserve">
+    <value>Hauptfenster/Taskbar blinkt bei</value>
+  </data>
+  <data name="ShowLeftToRightScrollbar" xml:space="preserve">
+    <value>Horizontale Scrollleiste zeigen</value>
+  </data>
+  <data name="OverrideWindowsThemeColors" xml:space="preserve">
+    <value>Windowsthemefarben überschreiben</value>
+  </data>
+  <data name="Remove0FromDictionary" xml:space="preserve">
+    <value>"{0}" aus dem Wörterbuch entfernen</value>
+  </data>
+  <data name="Suggestions" xml:space="preserve">
+    <value>Vorschläge</value>
+  </data>
+  <data name="IgnoreAll" xml:space="preserve">
+    <value>Alle ignorieren</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>Rechtschreibung prüfen</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="AddDictionaries" xml:space="preserve">
+    <value>Wörterbücher hinzufügen</value>
+  </data>
+  <data name="SetExternalEditor" xml:space="preserve">
+    <value>Externen Editor festlegen</value>
+  </data>
+  <data name="ShowScriptList" xml:space="preserve">
+    <value>Skriptliste zeigen</value>
+  </data>
+  <data name="Listen" xml:space="preserve">
+    <value>Lauschen</value>
+  </data>
+  <data name="Raw" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="OpenInExternalEditor" xml:space="preserve">
+    <value>In externem Editor öffnen</value>
+  </data>
+  <data name="ExternalEditor" xml:space="preserve">
+    <value>Externer Editor</value>
+  </data>
+  <data name="HtmlFiles" xml:space="preserve">
+    <value>HTML-Dateien</value>
+  </data>
+  <data name="ResetDefault" xml:space="preserve">
+    <value>Auf Standard zurücksetzen</value>
+  </data>
+  <data name="MinimizeAll" xml:space="preserve">
+    <value>Alle minimieren</value>
+  </data>
+  <data name="CloseAll" xml:space="preserve">
+    <value>Alle schließen</value>
+  </data>
+  <data name="ShowCount" xml:space="preserve">
+    <value>Zähler zeigen</value>
+  </data>
+  <data name="UseFolders" xml:space="preserve">
+    <value>Ordner verwenden</value>
+  </data>
+  <data name="KeepChannelsOpenOnPart" xml:space="preserve">
+    <value>Räume beim Verlassen geöffnet lassen</value>
+  </data>
+  <data name="ShowDayChangedMessage" xml:space="preserve">
+    <value>Nachricht beim Tageswechsel zeigen</value>
+  </data>
+  <data name="ShowScrollbar" xml:space="preserve">
+    <value>Scrolleiste zeigen</value>
+  </data>
+  <data name="UseSmallUnreadLineMarker" xml:space="preserve">
+    <value>Kleine Ungelesen-Markierung verwenden</value>
+  </data>
+  <data name="Autohide" xml:space="preserve">
+    <value>Automatisch verstecken</value>
+  </data>
+  <data name="DdeDelay" xml:space="preserve">
+    <value>DDE-Verzögerung</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Dienstname</value>
+  </data>
+  <data name="CheckIfServiceName" xml:space="preserve">
+    <value>Prüfe, ob Dienstname verwendet wird</value>
+  </data>
+  <data name="EnableDdeServer" xml:space="preserve">
+    <value>DDE-Server aktivieren</value>
+  </data>
+  <data name="FormBorder" xml:space="preserve">
+    <value>Formularrahmen</value>
+  </data>
+  <data name="ShowTitlebar" xml:space="preserve">
+    <value>Titelleiste zeigen</value>
+  </data>
+  <data name="0WillFillTheSwitchbar" xml:space="preserve">
+    <value>0 füllt die Raumleiste</value>
+  </data>
+  <data name="WindowOrder" xml:space="preserve">
+    <value>Fensterreihenfolge</value>
+  </data>
+  <data name="WindowTypeOrName" xml:space="preserve">
+    <value>Fenstertyp oder -name</value>
+  </data>
+  <data name="EditboxLines" xml:space="preserve">
+    <value>Eingabefeld Zeilen</value>
+  </data>
+  <data name="DictionaryDownload" xml:space="preserve">
+    <value>Wörterbuch gerunterladen</value>
+  </data>
+  <data name="InOrderToUseSpellChecking" xml:space="preserve">
+    <value>Um die Rechtschreibprüfung zu unterstützen, muss AdiIRC ein Plugin herunterladen</value>
+  </data>
+  <data name="FinishedDownloadingDictionaries" xml:space="preserve">
+    <value>Herunterladen der Wörterbücher abgeschlossen</value>
+  </data>
+  <data name="ThereWasAnErrorDownloadingDictionary" xml:space="preserve">
+    <value>Ein Fehler ist beim Herunterladen des Wörterbuchs aufgetreten, bitte versuchen Sie es später erneut.</value>
+  </data>
+  <data name="AnimateTrayiconOn" xml:space="preserve">
+    <value>Infobereichssymbol animieren bei</value>
+  </data>
+  <data name="ChanOwner" xml:space="preserve">
+    <value>Raumbesitzer</value>
+  </data>
+  <data name="ChanAdmin" xml:space="preserve">
+    <value>Raumadmin</value>
+  </data>
+  <data name="LowPing" xml:space="preserve">
+    <value>Niedriger Ping</value>
+  </data>
+  <data name="MediumPing" xml:space="preserve">
+    <value>Mittlerer Ping</value>
+  </data>
+  <data name="HighPing" xml:space="preserve">
+    <value>Hoher Ping</value>
+  </data>
+  <data name="PrefixChannelAdmin" xml:space="preserve">
+    <value>Präfix Raumadmin</value>
+  </data>
+  <data name="PrefixChannelOwner" xml:space="preserve">
+    <value>Präfix Raumbesitzer</value>
+  </data>
+  <data name="ChannelAdmin" xml:space="preserve">
+    <value>Raumadmin</value>
+  </data>
+  <data name="ChannelOwner" xml:space="preserve">
+    <value>Raumbesitzer</value>
+  </data>
+  <data name="SkippingAutojoinOfChannels" xml:space="preserve">
+    <value>Überspringe automatisches Betreten...</value>
+  </data>
+  <data name="AutojoiningChannels" xml:space="preserve">
+    <value>Betrete Räume automatisch...</value>
+  </data>
+  <data name="AutojoiningChannelsIn0seconds" xml:space="preserve">
+    <value>Betrete Räume in {0} Sekunden automatisch...</value>
+  </data>
+  <data name="AddressQueueCleared" xml:space="preserve">
+    <value>Adresswarteschlange geleert</value>
+  </data>
+  <data name="NoAddressesBeingResolved" xml:space="preserve">
+    <value>keine Adressen werden aufgelöst</value>
+  </data>
+  <data name="Resolving" xml:space="preserve">
+    <value>löse auf</value>
+  </data>
+  <data name="Resolving0" xml:space="preserve">
+    <value>löse {0} auf</value>
+  </data>
+  <data name="NoOpenComs" xml:space="preserve">
+    <value>Keine offenen Coms</value>
+  </data>
+  <data name="OpenComs" xml:space="preserve">
+    <value>Offene Coms</value>
+  </data>
+  <data name="Com0Alreadyopen" xml:space="preserve">
+    <value>Com '{0}' bereits offen</value>
+  </data>
+  <data name="OpenedCom01" xml:space="preserve">
+    <value>Com '{0}' geöffnet ({1})</value>
+  </data>
+  <data name="NoSuchCom0Open" xml:space="preserve">
+    <value>Com '{0}' nicht geöffnet</value>
+  </data>
+  <data name="ClosedCom0" xml:space="preserve">
+    <value>Com '{0}' geschlossen</value>
+  </data>
+  <data name="UnableToRegisterCom0" xml:space="preserve">
+    <value>Konnte Com '{0}' nicht registrieren</value>
+  </data>
+  <data name="UnableToUnregisterCom0" xml:space="preserve">
+    <value>Konnte Com '{0}' nicht entregistrieren</value>
+  </data>
+  <data name="RegisteredCom0" xml:space="preserve">
+    <value>Com '{0}' registriert</value>
+  </data>
+  <data name="UnregisteredCom0" xml:space="preserve">
+    <value>Com '{0}' entregistriert</value>
+  </data>
+  <data name="NoOpenFiles" xml:space="preserve">
+    <value>keine offenen Dateien</value>
+  </data>
+  <data name="OpenFiles" xml:space="preserve">
+    <value>offene Dateien</value>
+  </data>
+  <data name="NoSuchGroups" xml:space="preserve">
+    <value>keine solche Gruppe</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="Group_s" xml:space="preserve">
+    <value>Gruppe(n)</value>
+  </data>
+  <data name="ActiveTimers" xml:space="preserve">
+    <value>Aktive Timer</value>
+  </data>
+  <data name="Timer0Delay1" xml:space="preserve">
+    <value>Timer {0} Verzögerung: {1} max.: {2} Befehl: {3}</value>
+  </data>
+  <data name="NoOpenSockets" xml:space="preserve">
+    <value>keine offenen Sockets</value>
+  </data>
+  <data name="Unset0" xml:space="preserve">
+    <value>{0} entfernen</value>
+  </data>
+  <data name="Add0ToDictionary" xml:space="preserve">
+    <value>"{0}" dem Wörterbuch hinzufügen</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Hervorheben</value>
+  </data>
+  <data name="MatchOn" xml:space="preserve">
+    <value>Übereinstimmung bei</value>
+  </data>
+  <data name="EnterReasonToKick0" xml:space="preserve">
+    <value>Geben Sie einen Grund ein, {0} hinauszuwerfen</value>
+  </data>
+  <data name="UnableToOpenFile0" xml:space="preserve">
+    <value>kann Datei '{0}' nicht öffnen</value>
+  </data>
+  <data name="012IsSetTo3" xml:space="preserve">
+    <value>{0}: {1}/{2} ist gesetzt auf {3}</value>
+  </data>
+  <data name="InstallPathIs0" xml:space="preserve">
+    <value>Installationspfad ist {0}</value>
+  </data>
+  <data name="ConfigPathIs0" xml:space="preserve">
+    <value>Konfigurationspfad ist {0}</value>
+  </data>
+  <data name="UseCustomPrefixColors" xml:space="preserve">
+    <value>Eigene Präfixfarben verwenden</value>
+  </data>
+  <data name="UseNickColumn" xml:space="preserve">
+    <value>Nickspalte verwenden</value>
+  </data>
+  <data name="NickColumnDivider" xml:space="preserve">
+    <value>Nickspaltentrenner</value>
+  </data>
+  <data name="NickColumnWidth" xml:space="preserve">
+    <value>Nickspaltenbreite</value>
+  </data>
+  <data name="NickColumnDividerWidth" xml:space="preserve">
+    <value>Nickspaltentrennerbreite</value>
+  </data>
+  <data name="ShowNickName" xml:space="preserve">
+    <value>Nickname zeigen</value>
+  </data>
+  <data name="ShowNetworkName" xml:space="preserve">
+    <value>Netzwerknamen zeigen</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Multi" xml:space="preserve">
+    <value>Multi</value>
+  </data>
+  <data name="ShowServer" xml:space="preserve">
+    <value>Server zeigen</value>
+  </data>
+  <data name="ShowIconInMenubar" xml:space="preserve">
+    <value>Symbol in Menüleiste zeigen</value>
+  </data>
+  <data name="EnableMenubar" xml:space="preserve">
+    <value>Menüleiste aktivieren</value>
+  </data>
+  <data name="ShowIcons" xml:space="preserve">
+    <value>Symbole zeigen</value>
+  </data>
+  <data name="EditNicklistButtons" xml:space="preserve">
+    <value>Benutzerlistenschaltflächen ändern</value>
+  </data>
+  <data name="AreYouSureResetNicklistButtons" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie die eigenen Benutzerlistenschaltflächen auf die Standardwerte zurücksetzen möchten?</value>
+  </data>
+  <data name="ServerNotices" xml:space="preserve">
+    <value>Serverhinweise</value>
+  </data>
+  <data name="UseDefault" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Buttons" xml:space="preserve">
+    <value>Schaltflächen</value>
+  </data>
+  <data name="SoundsAreNow" xml:space="preserve">
+    <value>Klänge sind vorübergehend stumm, drücken Sie Strg+R, um dies zu deaktivieren</value>
+  </data>
+  <data name="SoundsAreNoLonger" xml:space="preserve">
+    <value>Klänge sind nicht mehr stumm, drücken Sie Strg+R, um dies zu aktivieren</value>
+  </data>
+  <data name="UnableToCopy0To1" xml:space="preserve">
+    <value>konnte Datei '{0}' nicht in '{1}' kopieren</value>
+  </data>
+  <data name="Copied0To1" xml:space="preserve">
+    <value>'{0}' in '{1}' kopiert</value>
+  </data>
+  <data name="ShowTooltips" xml:space="preserve">
+    <value>Tooltips zeigen</value>
+  </data>
+  <data name="TooltipText" xml:space="preserve">
+    <value>Tooltiptext</value>
+  </data>
+  <data name="UseTransparentMainWindow" xml:space="preserve">
+    <value>Transparentes Hauptfenster nutzen</value>
+  </data>
+  <data name="UseTransparentNicklist" xml:space="preserve">
+    <value>Transparente Benutzerliste nutzen</value>
+  </data>
+  <data name="OnlyPlayIfAdiIRCIsNotFocused" xml:space="preserve">
+    <value>Nur abspielen, wenn AdiIRC nicht fokussiert ist</value>
+  </data>
+  <data name="GetList" xml:space="preserve">
+    <value>Liste holen</value>
+  </data>
+  <data name="PixelSpacing" xml:space="preserve">
+    <value>Pixelabstand</value>
+  </data>
+  <data name="Deleted0Alias" xml:space="preserve">
+    <value>Alias '{0}' gelöscht</value>
+  </data>
+  <data name="Alias0NotFound" xml:space="preserve">
+    <value>Alias '{0}' nicht gefunden</value>
+  </data>
+  <data name="LeftBorder" xml:space="preserve">
+    <value>Linker Rahmen</value>
+  </data>
+  <data name="ShowTopPanel" xml:space="preserve">
+    <value>Oberen Bereich zeigen</value>
+  </data>
+  <data name="HighlightSyntax" xml:space="preserve">
+    <value>Syntax hervorheben</value>
+  </data>
+  <data name="FontStyle" xml:space="preserve">
+    <value>Schriftstil</value>
+  </data>
+  <data name="ConfirmPaste" xml:space="preserve">
+    <value>Einfügen bestätigen</value>
+  </data>
+  <data name="AreYouSureYouWantToPaste" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie {0} Zeile(n) Text in dieses Fenster einfügen möchten?</value>
+  </data>
+  <data name="AddHighlight" xml:space="preserve">
+    <value>Hervorhebung hinzufügen</value>
+  </data>
+  <data name="EditHighlight" xml:space="preserve">
+    <value>Hervorhebung ändern</value>
+  </data>
+
+
+
+  <data name="AddedLevelsToUser" xml:space="preserve">
+    <value>Level(s) zum Benutzer {0} hinzugefügt</value>
+  </data>
+  <data name="Added0ToUserList" xml:space="preserve">
+    <value>{0} der Benutzerliste hinzugefügt</value>
+  </data>
+  <data name="UpdatedInfoForUser" xml:space="preserve">
+    <value>Informationen für Benutzer {0} aktualisiert</value>
+  </data>
+  <data name="EditUsers" xml:space="preserve">
+    <value>Benutzer bearbeiten</value>
+  </data>
+  <data name="LoadedUsersFrom" xml:space="preserve">
+    <value>Benutzer aus {0} geladen</value>
+  </data>
+  <data name="ShowUnreadCount" xml:space="preserve">
+    <value>Ungelesen-Zähler zeigen</value>
+  </data>
+  <data name="Removed0FromUserlist" xml:space="preserve">
+    <value>{0} von der Benutzerliste entfernt</value>
+  </data>
+  <data name="NoSuchUserInUserlist" xml:space="preserve">
+    <value>Ein solcher Benutzer ist nicht in der Benutzerliste</value>
+  </data>
+  <data name="RemovedLevelsFrom0Users" xml:space="preserve">
+    <value>Level(s) von {0} Benutzern entfernt</value>
+  </data>
+  <data name="NoUsersInUserlistMatchedRemoved" xml:space="preserve">
+    <value>Keine passenden/entfernten Benutzer in der Benutzerliste</value>
+  </data>
+  <data name="IdentdIs0" xml:space="preserve">
+    <value>identd ist {0}
+</value>
+  </data>
+  <data name="YourAlternateNicknameIsNow0" xml:space="preserve">
+    <value>Ihr alternativer Nickname lautet nun {0}</value>
+  </data>
+  <data name="YourRealnameIsNow0" xml:space="preserve">
+    <value>Ihr Klarname lautet nun {0}</value>
+  </data>
+  <data name="YourUsernickIsNow0" xml:space="preserve">
+    <value>Ihr Benutzername lautet nun {0}</value>
+  </data>
+  <data name="TimestampEventFormat0" xml:space="preserve">
+    <value>Ereigniszeitformat: {0}</value>
+  </data>
+  <data name="TimestampLogFormat0" xml:space="preserve">
+    <value>Protokollzeitformat: {0}</value>
+  </data>
+  <data name="TimestampFor0Is1" xml:space="preserve">
+    <value>Zeitstempel für {0} ist {1}</value>
+  </data>
+  <data name="GlobalTimestampIs0" xml:space="preserve">
+    <value>Globaler Zeitstempel ist {0}</value>
+  </data>
+  <data name="RemoteUsersList" xml:space="preserve">
+    <value>Liste entfernter Benutzer:</value>
+  </data>
+  <data name="EndIOfUsersList" xml:space="preserve">
+    <value>Ende der Benutzerliste</value>
+  </data>
+  <data name="RemoteDefaultUserlevelIs" xml:space="preserve">
+    <value>Standardstufe entfernter Benutzer wurde auf {0} gesetzt</value>
+  </data>
+  <data name="BottomBorder" xml:space="preserve">
+    <value>Unterer Rahmen</value>
+  </data>
+  <data name="ExpandNickColumnLongNicks" xml:space="preserve">
+    <value>Benutzerspalte bei langen Nicks vergrößern</value>
+  </data>
+  <data name="NickColumn" xml:space="preserve">
+    <value>Nickspalte</value>
+  </data>
+  <data name="Emoticons" xml:space="preserve">
+    <value>Emoticons</value>
+  </data>
+  <data name="UseEmoticons" xml:space="preserve">
+    <value>Emoticons verwenden</value>
+  </data>
+  <data name="OnlyReplaceWholeWords" xml:space="preserve">
+    <value>Nur ganze Wörter ersetzen</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Gesperrt</value>
+  </data>
+  <data name="EventBeepsAre0" xml:space="preserve">
+    <value>Ereignispiepser sind {0}</value>
+  </data>
+  <data name="CaseInsensitive" xml:space="preserve">
+    <value>Groß- und Kleinschreibung nicht beachten</value>
+  </data>
+  <data name="YouHaveChangedOpacity" xml:space="preserve">
+    <value>Sie haben die Transparenz des Fensters geändert, Sie können sie mit Strg+Alt+Pfeil-oben entfernen</value>
+  </data>
+  <data name="ConfigFiles" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="EnableNicklistIcons" xml:space="preserve">
+    <value>Benutzerlistensymbole aktivieren</value>
+  </data>
+  <data name="NicklistIcons" xml:space="preserve">
+    <value>Benutzerlistensymbole</value>
+  </data>
+  <data name="ErrrorSaving0_" xml:space="preserve">
+    <value>Fehler beim Speichern von '{0}'</value>
+  </data>
+  <data name="PrivateKeyPassword" xml:space="preserve">
+    <value>Passwort des privaten Schlüssels</value>
+  </data>
+  <data name="IfYouTrustThisCertificate" xml:space="preserve">
+    <value>Wenn Sie diesem Zertifikat vertrauen, klicken Sie auf OK, um die Verbindung fortzusetzen; andernfalls klicken Sie auf Abbrechen.</value>
+  </data>
+  <data name="YourConnectionToThisServer" xml:space="preserve">
+    <value>Verbinde mit {0}
+Ihre Verbindung mit dem Server ist verschlüsselt, jedoch gibt es ein Problem mit seinem Sicherheitszertifikat.</value>
+  </data>
+  <data name="AutomaticallyAcceptThisCertificate" xml:space="preserve">
+    <value>Dieses Zertifikat künftig automatisch akzeptieren</value>
+  </data>
+  <data name="Certificates" xml:space="preserve">
+    <value>Zertifikate</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>Zwischenspeicher leeren</value>
+  </data>
+  <data name="CertificateFile" xml:space="preserve">
+    <value>Zertifikatsdatei</value>
+  </data>
+  <data name="ClearApprovedCertificate" xml:space="preserve">
+    <value>Zertifikatsspeicher leeren</value>
+  </data>
+  <data name="SkipConnectionsWithInvalid" xml:space="preserve">
+    <value>Verbindungen mit ungültigen Zertifikaten überspringen</value>
+  </data>
+  <data name="DisplayInvalidCertificates" xml:space="preserve">
+    <value>Ungültige Zertifikate zur Überprüfung anzeigen</value>
+  </data>
+  <data name="AutomaticallyAcceptInvalid" xml:space="preserve">
+    <value>Ungültige Zertifikate automatisch akzeptieren</value>
+  </data>
+  <data name="HasBeenInvitedTo1" xml:space="preserve">
+    <value>{0} wurde in {1} eingeladen</value>
+  </data>
+  <data name="CanOnlyBeUsedInParseline" xml:space="preserve">
+    <value>kann nur im parseline-Event genutzt werden</value>
+  </data>
+  <data name="UserLevels" xml:space="preserve">
+    <value>Benutzerstufen</value>
+  </data>
+  <data name="ApplyIconToUsersMatching" xml:space="preserve">
+    <value>Symbol auf Benutzer anwenden, die passen auf</value>
+  </data>
+  <data name="ShowMenu" xml:space="preserve">
+    <value>Menü zeigen</value>
+  </data>
+  <data name="AreYouSureDeleteNetwork" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie dieses Netzwerk entfernen möchten?</value>
+  </data>
+  <data name="AreYouSureCloseAllWindowsFolder" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie alle Fenster in diesem Ordner schließen möchten?</value>
+  </data>
+  <data name="Fullname" xml:space="preserve">
+    <value>Vollständiger Name</value>
+  </data>
+  <data name="IgnoreIsOff" xml:space="preserve">
+    <value>Ignorieren ist ausgeschaltet</value>
+  </data>
+  <data name="DefaultPort" xml:space="preserve">
+    <value>Standardport</value>
+  </data>
+  <data name="PressAddNewNetwork" xml:space="preserve">
+    <value>Fügen Sie ein neues Netzwerk hinzu, um anzufangen</value>
+  </data>
+  <data name="ConnectToThisNetwork" xml:space="preserve">
+    <value>Beim Start mit diesem Netzwerk verbinden</value>
+  </data>
+  <data name="MinimizeTheServerWindow" xml:space="preserve">
+    <value>Serverfenster minimieren</value>
+  </data>
+  <data name="UseThisLabelNetwork" xml:space="preserve">
+    <value>Diese Beschriftung als Netzwerkname verwenden</value>
+  </data>
+  <data name="ConnectInANewWindow" xml:space="preserve">
+    <value>In neuem Fenster verbinden</value>
+  </data>
+  <data name="LoginMethod" xml:space="preserve">
+    <value>Anmeldemethode</value>
+  </data>
+  <data name="AlternativeNicks" xml:space="preserve">
+    <value>Alternative Nicknamen</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Ports" xml:space="preserve">
+    <value>Ports</value>
+  </data>
+  <data name="Channels_" xml:space="preserve">
+    <value>Räume</value>
+  </data>
+  <data name="EnableAutojoin" xml:space="preserve">
+    <value>Automatisches Betreten aktivieren</value>
+  </data>
+  <data name="DelayBetweenJoins" xml:space="preserve">
+    <value>Verzögerung zwischen Beitritten</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="UseGlobalProxySettings" xml:space="preserve">
+    <value>Globale Proxyeinstellungen verwenden</value>
+  </data>
+  <data name="UseGlobalClientCertificate" xml:space="preserve">
+    <value>Globales Clientzertifikat verwenden</value>
+  </data>
+  <data name="AcceptInvalidSSLCertificate" xml:space="preserve">
+    <value>Ungültiges SSL-Zertifikat akzeptieren</value>
+  </data>
+  <data name="SSLProtocol" xml:space="preserve">
+    <value>SSL-Protokoll</value>
+  </data>
+  <data name="ClientCertificate" xml:space="preserve">
+    <value>Clientzertifikat</value>
+  </data>
+  <data name="AddNewNetwork" xml:space="preserve">
+    <value>Neues Netzwerk hinzufügen</value>
+  </data>
+  <data name="BlankNetwork" xml:space="preserve">
+    <value>Leeres Netzwerk</value>
+  </data>
+  <data name="NetworkName" xml:space="preserve">
+    <value>Netzwerkname</value>
+  </data>
+  <data name="CloneNetwork" xml:space="preserve">
+    <value>Netzwerk klonen</value>
+  </data>
+  <data name="ShowOnlyFavorites" xml:space="preserve">
+    <value>Nur Favoriten zeigen</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Alle zeigen</value>
+  </data>
+  <data name="RemoveFromFavorites" xml:space="preserve">
+    <value>Aus Favoriten entfernen</value>
+  </data>
+  <data name="Clone" xml:space="preserve">
+    <value>Klonen</value>
+  </data>
+  <data name="JoinOnConnect" xml:space="preserve">
+    <value>Beim Verbinden betreten</value>
+  </data>
+  <data name="MinimizeOnJoin" xml:space="preserve">
+    <value>Beim Betreten minimieren</value>
+  </data>
+  <data name="EnableSTARTTLS" xml:space="preserve">
+    <value>STARTTLS aktivieren</value>
+  </data>
+  <data name="CopyFrom" xml:space="preserve">
+    <value>Kopieren von</value>
+  </data>
+  <data name="Unmarked0" xml:space="preserve">
+    <value>{0} demarkiert</value>
+  </data>
+  <data name="Marked0With1" xml:space="preserve">
+    <value>{0} mit {1} markiert</value>
+  </data>
+  <data name="AutoTile" xml:space="preserve">
+    <value>Automatische Kacheln</value>
+  </data>
+  <data name="AllowClosingWindowsMiddle" xml:space="preserve">
+    <value>Schließen von Fenstern mit mittlerem Mausklick/Umschalt+Klick erlauben</value>
+  </data>
+  <data name="HideTheSelectedWindow" xml:space="preserve">
+    <value>Das ausgewählte Fenster bei doppelter Aktivierung verstecken</value>
+  </data>
+  <data name="PingPong" xml:space="preserve">
+    <value>Ping/Pong</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Angeheftet</value>
+  </data>
+  <data name="IdentdRequestFrom0" xml:space="preserve">
+    <value>Identd-Anfrage von {0}</value>
+  </data>
+  <data name="UseNewServerlist" xml:space="preserve">
+    <value>Neue Serverliste verwenden</value>
+  </data>
+  <data name="EnableOnlyWhenConnecting" xml:space="preserve">
+    <value>Nur beim Verbinden aktivieren</value>
+  </data>
+  <data name="ShowIdentdRequests" xml:space="preserve">
+    <value>Identd-Anfragen zeigen</value>
+  </data>
+  <data name="ReconnectOnResumeFromSleep" xml:space="preserve">
+    <value>Beim Aufwachen erneut verbinden</value>
+  </data>
+  <data name="YourMenubarIsNowHidden" xml:space="preserve">
+    <value>Ihre Menüleiste ist nun versteckt, drücken Sie auf Alt, um sie vorübergehend anzuzeigen</value>
+  </data>
+  <data name="ShowSoundSstatus" xml:space="preserve">
+    <value>Klangstatus zeigen</value>
+  </data>
+  <data name="YouHave0DccTransfersInProgress" xml:space="preserve">
+    <value>Sie haben {0} aktive DCC-Übertragungen</value>
+  </data>
+  <data name="DoYouWantToQuiAdiIRCAnyway" xml:space="preserve">
+    <value>Möchten Sie AdiIRC trotzdem beenden?</value>
+  </data>
+  <data name="CTCP0From1" xml:space="preserve">
+    <value>CTCP {0} von {1}</value>
+  </data>
+  <data name="AddressBook" xml:space="preserve">
+    <value>Adressbuch</value>
+  </data>
+  <data name="EditNetwork" xml:space="preserve">
+    <value>Netzwerk bearbeiten</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Abgebrochen</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Nicht verbunden</value>
+  </data>
+  <data name="WaitingForReply" xml:space="preserve">
+    <value>Warte auf Antwort...</value>
+  </data>
+  <data name="ColorEntireLine" xml:space="preserve">
+    <value>Ganze Zeile einfärben</value>
+  </data>
+  <data name="RunCommand" xml:space="preserve">
+    <value>Befehl ausführen</value>
+  </data>
+  <data name="MaxHistory" xml:space="preserve">
+    <value>Max. Verlauf</value>
+  </data>
+  <data name="SaveAndRestoreHistory" xml:space="preserve">
+    <value>Verlauf speichern und wiederherstellen</value>
+  </data>
+  <data name="IgnoreTimestamp" xml:space="preserve">
+    <value>Zeitstempel für aufeinander folgende Nachrichten ignorieren</value>
+  </data>
+  <data name="CopyFormatted" xml:space="preserve">
+    <value>Formatiert kopieren</value>
+  </data>
+  <data name="ServerBuffer" xml:space="preserve">
+    <value>Serverpuffer</value>
+  </data>
+  <data name="ChannelBuffer" xml:space="preserve">
+    <value>Raumpuffer</value>
+  </data>
+  <data name="PrivateBuffer" xml:space="preserve">
+    <value>Privater Puffer</value>
+  </data>
+  <data name="NoticeBuffer" xml:space="preserve">
+    <value>Benachrichtigungspuffer</value>
+  </data>
+  <data name="HighlightsBuffer" xml:space="preserve">
+    <value>Erwähnungspuffer</value>
+  </data>
+  <data name="UrlBuffer" xml:space="preserve">
+    <value>URL-Puffer</value>
+  </data>
+  <data name="MonitorHighlights" xml:space="preserve">
+    <value>Erwähnungen überwachen</value>
+  </data>
+  <data name="MonitorNotice" xml:space="preserve">
+    <value>Benachrichtigungen überwachen</value>
+  </data>
+  <data name="MonitorPrivate" xml:space="preserve">
+    <value>Private Nachrichten überwachen</value>
+  </data>
+  <data name="MonitorServers" xml:space="preserve">
+    <value>Server überwachen</value>
+  </data>
+  <data name="MonitorChannels" xml:space="preserve">
+    <value>Räume überwachen</value>
+  </data>
+  <data name="MonitorUrls" xml:space="preserve">
+    <value>URLs überwachen</value>
+  </data>
+  <data name="ShowNickcolumn" xml:space="preserve">
+    <value>Nicknamenspalte zeigen</value>
+  </data>
+  <data name="ShowTimestamp" xml:space="preserve">
+    <value>Zeitstempel zeigen</value>
+  </data>
+  <data name="ShowNetwork" xml:space="preserve">
+    <value>Netzwerk zeigen</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Wählen Sie einen Ordner aus</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Wählen Sie eine Datei aus</value>
+  </data>
+  <data name="StopMonitoring" xml:space="preserve">
+    <value>Überwachung anhalten</value>
+  </data>
+  <data name="StartMonitoring" xml:space="preserve">
+    <value>Überwachung beginnen</value>
+  </data>
+  <data name="RemoveAndDelete" xml:space="preserve">
+    <value>Entfernen und löschen</value>
+  </data>
+  <data name="ServerMonitor" xml:space="preserve">
+    <value>Serverüberwachung</value>
+  </data>
+  <data name="ChannelMonitor" xml:space="preserve">
+    <value>Raumüberwachung</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="LogHiddenEvents" xml:space="preserve">
+    <value>Versteckte Ereignisse protokollieren</value>
+  </data>
+  <data name="DccGetFolders" xml:space="preserve">
+    <value>DCC-Ordnerabruf</value>
+  </data>
+  <data name="MonitorFileChanges" xml:space="preserve">
+    <value>Dateiänderungen überwachen</value>
+  </data>
+  <data name="Certificate" xml:space="preserve">
+    <value>Zertifikat</value>
+  </data>
+  <data name="ConnectedTo012" xml:space="preserve">
+    <value>Verbunden mit {0} ({1}{2})</value>
+  </data>
+  <data name="SSLCertificateWarning" xml:space="preserve">
+    <value>SSL-Zertifikatswarnung</value>
+  </data>
+  <data name="SSLCertificate" xml:space="preserve">
+    <value>SSL-Zertifikat</value>
+  </data>
+  <data name="EnableNotify" xml:space="preserve">
+    <value>Benachrichtungen aktivieren</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Hinweis</value>
+  </data>
+  <data name="DccSuccess" xml:space="preserve">
+    <value>DCC erfolgreich</value>
+  </data>
+  <data name="DccFail" xml:space="preserve">
+    <value>DCC fehlgeschlagen</value>
+  </data>
+  <data name="AnyServersChannelsSet" xml:space="preserve">
+    <value>Jegliche Server/Räume, die in der Serverliste auf automatisches Verbinden/Betreten gesetzt wurden, werden ignoriert</value>
+  </data>
+  <data name="DontMonitorTheseChannelsNicks" xml:space="preserve">
+    <value>Diese Räume/Nicknamen nicht überwachen</value>
+  </data>
+  <data name="LookingUp0UserInfo" xml:space="preserve">
+    <value>Nachschlagen der Benutzerinformationen von {0}...</value>
+  </data>
+  <data name="NoSuchUserOnIrc" xml:space="preserve">
+    <value>Ein solcher Benutzer ist nicht im IRC</value>
+  </data>
+  <data name="NormalUser" xml:space="preserve">
+    <value>Normaler Benutzer</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="LoginTime" xml:space="preserve">
+    <value>Anmeldezeitpunkt</value>
+  </data>
+  <data name="AwayInfo" xml:space="preserve">
+    <value>Abwesenheitsnotiz</value>
+  </data>
+  <data name="ThisNicknameIsAlready" xml:space="preserve">
+    <value>Dieser Nickname befindet sich bereits in Ihrem Adressbuch. Möchten Sie ihn ersetzen?</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Besuchen Sie</value>
+  </data>
+  <data name="Finger" xml:space="preserve">
+    <value>Finger</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="CtcpReply" xml:space="preserve">
+    <value>CTCP-Antwort</value>
+  </data>
+  <data name="isOnline" xml:space="preserve">
+    <value>ist online</value>
+  </data>
+  <data name="isOffline" xml:space="preserve">
+    <value>ist offline</value>
+  </data>
+  <data name="loggedOnline" xml:space="preserve">
+    <value>hat sich angemeldet</value>
+  </data>
+  <data name="LoggedOffline" xml:space="preserve">
+    <value>hat sich abgemeldet</value>
+  </data>
+  <data name="NotifyIs0" xml:space="preserve">
+    <value>Benachrichtigung ist {0}</value>
+  </data>
+  <data name="NoOneInYourNotifyList" xml:space="preserve">
+    <value>Niemand in Ihrer Benachrichtigungsliste ist im IRC</value>
+  </data>
+  <data name="UseDefaultSounds" xml:space="preserve">
+    <value>Standardklänge verwenden</value>
+  </data>
+  <data name="PerformWhois" xml:space="preserve">
+    <value>/whois durchführen</value>
+  </data>
+  <data name="OnlineSound" xml:space="preserve">
+    <value>Onlineklang</value>
+  </data>
+  <data name="OfflineSound" xml:space="preserve">
+    <value>Offlineklang</value>
+  </data>
+  <data name="NotifyOnline" xml:space="preserve">
+    <value>Onlinebenachrichtigung</value>
+  </data>
+  <data name="NotifyOffline" xml:space="preserve">
+    <value>Offlinebenachrichtigung</value>
+  </data>
+  <data name="LockNicklist" xml:space="preserve">
+    <value>Benutzerliste sperren</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>untätig</value>
+  </data>
+  <data name="AnyNick" xml:space="preserve">
+    <value>Jeder Nickname</value>
+  </data>
+  <data name="Arrange" xml:space="preserve">
+    <value>Anordnen</value>
+  </data>
+  <data name="Automatic" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="HighlightedYouOn" xml:space="preserve">
+    <value>$nick hat Sie in $chan erwähnt: $1-</value>
+  </data>
+  <data name="ArchiveFiles" xml:space="preserve">
+    <value>Archivdateien</value>
+  </data>
+  <data name="ExecutableFiles" xml:space="preserve">
+    <value>Ausführbare Dateien</value>
+  </data>
+  <data name="DocumentFiles" xml:space="preserve">
+    <value>Dokumentdateien</value>
+  </data>
+  <data name="PictureFiles" xml:space="preserve">
+    <value>Bilddateien</value>
+  </data>
+  <data name="ScriptFiles" xml:space="preserve">
+    <value>Skriptdateien</value>
+  </data>
+  <data name="SoundFiles" xml:space="preserve">
+    <value>Audiodateien</value>
+  </data>
+  <data name="VideoFiles" xml:space="preserve">
+    <value>Videodateien</value>
+  </data>
+  <data name="TypeToSearch" xml:space="preserve">
+    <value>Tippen zum Suchen...</value>
+  </data>
+  <data name="DCCGetOf0From1" xml:space="preserve">
+    <value>DCC GET {0} von {1} abgeschlossen ({2})</value>
+  </data>
+  <data name="DCCGetOf0From1Incomplete" xml:space="preserve">
+    <value>DCC GET {0} von {1} nicht abgeschlossen ({2})</value>
+  </data>
+  <data name="UnableToConnect" xml:space="preserve">
+    <value>konnte nicht verbinden</value>
+  </data>
+  <data name="DCCSendOf0To1" xml:space="preserve">
+    <value>DCC SEND von {0} an {1} abgeschlossen ({2})</value>
+  </data>
+  <data name="DCCSendOf0To1Incomplete" xml:space="preserve">
+    <value>DCC SEND von {0} an {1} nicht abgeschlossen ({2})</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>unbekannter Host</value>
+  </data>
+  <data name="ProxyIs0" xml:space="preserve">
+    <value>Proxy ist {0}</value>
+  </data>
+  <data name="NoAddressSpecified_" xml:space="preserve">
+    <value>(keine Adresse angegeben)</value>
+  </data>
+  <data name="LogNickcolumnCharacter" xml:space="preserve">
+    <value>Nicknamenspaltenzeichen protokollieren</value>
+  </data>
+  <data name="AreYouSureUnload0Scripts" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie {0} Skript(e) entladen möchten?</value>
+  </data>
+  <data name="UseSystemMenu" xml:space="preserve">
+    <value>Systemmenü verwenden</value>
+  </data>
+  <data name="ApplyTheme" xml:space="preserve">
+    <value>Farbschema anwenden</value>
+  </data>
+  <data name="ShowProgressInTaskbar" xml:space="preserve">
+    <value>Fortschritt in Taskleiste zeigen</value>
+  </data>
+  <data name="ThisFileHasBeenChanged" xml:space="preserve">
+    <value>Diese Datei wurde von einer anderen Anwendung geändert:
+
+{0}
+
+Möchten Sie sie neu laden?</value>
+  </data>
+  <data name="FileChanged" xml:space="preserve">
+    <value>Datei geändert</value>
+  </data>
+  <data name="CompressTheme" xml:space="preserve">
+    <value>Farbschema komprimieren</value>
+  </data>
+  <data name="Wrote0BytesTo1" xml:space="preserve">
+    <value>{0} Byte in '{1}' geschrieben</value>
+  </data>
+  <data name="ChooseEmoticon" xml:space="preserve">
+    <value>Emoticon auswählen</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="LoadedNicklistButtonsFrom0" xml:space="preserve">
+    <value>Benutzerlistenschaltflächen aus {0} geladen</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="NickColorsAre0" xml:space="preserve">
+    <value>Nickfarben sind {0}</value>
+  </data>
+  <data name="RemovedItem0FromColorList" xml:space="preserve">
+    <value>Element {0} aus der Farbliste entfernt</value>
+  </data>
+  <data name="Removed0FromColorList" xml:space="preserve">
+    <value>{0} aus der Farbliste entfernt</value>
+  </data>
+  <data name="Updated0InColorList" xml:space="preserve">
+    <value>{0} in der Farbliste aktualisiert</value>
+  </data>
+  <data name="Added0ToColorList" xml:space="preserve">
+    <value>{0} der Farbliste hinzugefügt</value>
+  </data>
+  <data name="NickIconsAre0" xml:space="preserve">
+    <value>Nicksymbole sind {0}</value>
+  </data>
+  <data name="RemovedItem0FromIconList" xml:space="preserve">
+    <value>Element {0} aus der Symbolliste entfernt</value>
+  </data>
+  <data name="Removed0FromIconList" xml:space="preserve">
+    <value>{0} aus der Symbolliste entfernt</value>
+  </data>
+  <data name="Updated0InIconList" xml:space="preserve">
+    <value>{0} in der Symbolliste aktualisiert</value>
+  </data>
+  <data name="Added0ToIconList" xml:space="preserve">
+    <value>{0} der Symbolliste hinzugefügt</value>
+  </data>
+  <data name="DccGetFolder" xml:space="preserve">
+    <value>DCC-Ordnerabruf</value>
+  </data>
+  <data name="FileExtensions" xml:space="preserve">
+    <value>Dateierweiterungen</value>
+  </data>
+  <data name="OpenWith" xml:space="preserve">
+    <value>Öffnen mit</value>
+  </data>
+  <data name="0InvalidId1" xml:space="preserve">
+    <value>'{0}' ungültige Kennung '{1}'</value>
+  </data>
+  <data name="RestoreRecentClosedFile" xml:space="preserve">
+    <value>Zuletzt geschlossene Datei(en) wiederherstellen</value>
+  </data>
+  <data name="GoToCharacter" xml:space="preserve">
+    <value>Gehe zu Zeichen</value>
+  </data>
+  <data name="Character" xml:space="preserve">
+    <value>Zeichen</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Zeile</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Text kopieren</value>
+  </data>
+  <data name="Copied0CharactersToClipboard" xml:space="preserve">
+    <value>{0} Zeichen in die Zwischenablage kopiert</value>
+  </data>
+  <data name="NoSuchLabel0" xml:space="preserve">
+    <value>Label '{0}' existiert nicht</value>
+  </data>
+  <data name="NoSuchMenu0" xml:space="preserve">
+    <value>Menü '{0}' existiert nicht</value>
+  </data>
+  <data name="HideChannelKey" xml:space="preserve">
+    <value>Raumschlüssel verstecken</value>
+  </data>
+  <data name="OnlyShowUnreadMessagesCount" xml:space="preserve">
+    <value>Nur Ungelesen-Zähler zeigen</value>
+  </data>
+  <data name="Timer0NotActive" xml:space="preserve">
+    <value>Timer {0} nicht aktiv</value>
+  </data>
+  <data name="RejoinChannelsOnReconnect" xml:space="preserve">
+    <value>Räume beim Wiederverbinden erneut betreten</value>
+  </data>
+  <data name="FlashText" xml:space="preserve">
+    <value>Text blinkt</value>
+  </data>
+  <data name="NickcolumnIs0" xml:space="preserve">
+    <value>Nicknamenspalte ist {0}</value>
+  </data>
+  <data name="TemporaryMuteSounds" xml:space="preserve">
+    <value>Klänge vorübergehend stummschalten</value>
+  </data>
+  <data name="IgnoreNicks" xml:space="preserve">
+    <value>Nicks ignorieren</value>
+  </data>
+  <data name="SearchAllFiles" xml:space="preserve">
+    <value>In allen Dateien suchen</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>Zeilenumbruch</value>
+  </data>
+  <data name="FindInFiles" xml:space="preserve">
+    <value>In Dateien suchen</value>
+  </data>
+  <data name="UseFastGet" xml:space="preserve">
+    <value>Schnelles Holen</value>
+  </data>
+  <data name="UseFastSend" xml:space="preserve">
+    <value>Schnelles Senden</value>
+  </data>
+  <data name="FastSendIs0" xml:space="preserve">
+    <value>Schnelles Senden ist {0}</value>
+  </data>
+  <data name="FastGetIs0" xml:space="preserve">
+    <value>Schnelles Holen ist {0}</value>
+  </data>
+  <data name="AddScripts" xml:space="preserve">
+    <value>Skripte hinzufügen</value>
+  </data>
+  <data name="UndoAddToDictionary" xml:space="preserve">
+    <value>'Zum Wörterbuch hinzufügen' rückgängig machen</value>
+  </data>
+  <data name="SaveAndRestorePrivate" xml:space="preserve">
+    <value>Private Nachrichten speichern und wiederherstellen</value>
+  </data>
+  <data name="SaveAndRestoreNotice" xml:space="preserve">
+    <value>Benachrichtigungen speichern und wiederherstellen</value>
+  </data>
+  <data name="SaveAndRestoreHighlights" xml:space="preserve">
+    <value>Erwähnungen speichern und wiederherstellen</value>
+  </data>
+  <data name="SaveAndRestoreUrls" xml:space="preserve">
+    <value>URLs speichern und wiederherstellen</value>
+  </data>
+  <data name="ShowScrollIconWhenScrolledUp" xml:space="preserve">
+    <value>Scrollsymbol zeigen, wenn oben</value>
+  </data>
+  <data name="ShowLinesBetweenMessages" xml:space="preserve">
+    <value>Linien zwischen Nachrichten zeigen</value>
+  </data>
+  <data name="UseAlternativeTextRendering" xml:space="preserve">
+    <value>Alternatives Textrendern</value>
+  </data>
+  <data name="IgnoreChannels" xml:space="preserve">
+    <value>Räume ignorieren</value>
+  </data>
+  <data name="StripMIRCTagsInTopicbox" xml:space="preserve">
+    <value>mIRC-Tags aus Themenfeld entfernen</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="LoadedAliases0" xml:space="preserve">
+    <value>Aliase '{0}' geladen</value>
+  </data>
+  <data name="ReLoadedAliases0" xml:space="preserve">
+    <value>Aliase '{0}' neu geladen</value>
+  </data>
+  <data name="UnloadedAliases0" xml:space="preserve">
+    <value>Aliase '{0}' entladen</value>
+  </data>
+  <data name="Popup" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="GettingInvolved" xml:space="preserve">
+    <value>Mitmachen</value>
+  </data>
+  <data name="IfFileExists" xml:space="preserve">
+    <value>Wenn Datei existiert</value>
+  </data>
+  <data name="Ask" xml:space="preserve">
+    <value>Fragen</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>Dateityp</value>
+  </data>
+  <data name="TurnIgnoreBackOnIn" xml:space="preserve">
+    <value>Ignorieren wieder aktivieren in</value>
+  </data>
+  <data name="AcceptOnly" xml:space="preserve">
+    <value>Akzeptiere nur</value>
+  </data>
+  <data name="IgnoreOnly" xml:space="preserve">
+    <value>Ignoriere nur</value>
+  </data>
+  <data name="ShowTopToBottomScrollbar" xml:space="preserve">
+    <value>Vertikale Scrollleiste zeigen</value>
+  </data>
+  <data name="ConfirmClosingServerWindows" xml:space="preserve">
+    <value>Schließen von Serverfenstern bestätigen</value>
+  </data>
+  <data name="ConfirmClosingChannelWindows" xml:space="preserve">
+    <value>Schließen von Raumfenstern bestätigen</value>
+  </data>
+  <data name="ConfirmClosingPrivateWindows" xml:space="preserve">
+    <value>Schließen von privaten Fenstern bestätigen</value>
+  </data>
+  <data name="ConfirmClosingAdiIRCWhileConnectedToServer" xml:space="preserve">
+    <value>Schließen von AdiIRC bei offener Serververbindung bestätigen</value>  
+  </data>
+  <data name="UndockedWindowBorder" xml:space="preserve">
+    <value>Nicht angehefteter Fensterrahmen</value>
+  </data>
+  <data name="Channel0Deleted" xml:space="preserve">
+    <value>Raum '{0}' gelöscht</value>
+  </data>
+  <data name="Channel0NotFound" xml:space="preserve">
+    <value>Raum '{0}' nicht gefunden</value>
+  </data>
+  <data name="Channel0Updated" xml:space="preserve">
+    <value>Raum '{0}' aktualisiert</value>
+  </data>
+  <data name="Channel0Added" xml:space="preserve">
+    <value>Raum '{0}' hinzugefügt</value>
+  </data>
+  <data name="AddNetwork" xml:space="preserve">
+    <value>Netzwerk hinzufügen</value>
+  </data>
+  <data name="AddChannel" xml:space="preserve">
+    <value>Raum hinzufügen</value>
+  </data>
+  <data name="EditChannel" xml:space="preserve">
+    <value>Raum ändern</value>
+  </data>
+  <data name="Mouse" xml:space="preserve">
+    <value>Maus</value>
+  </data>
+  <data name="CommandToPerformWindow" xml:space="preserve">
+    <value>Auszuführender Befehl beim Doppelklick in ein Fenster</value>
+  </data>
+  <data name="CommandToPerformNickname" xml:space="preserve">
+    <value>Auszuführender Befehl beim Doppelklick auf einen Nicknamen</value>
+  </data>
+  <data name="DccSendFrom0Rejected" xml:space="preserve">
+    <value>DCC SEND von {0} zurückgewiesen ({1}, Dateityp ignoriert)</value>
+  </data>
+  <data name="DCCIgnoreIs0" xml:space="preserve">
+    <value>DCC Ignore ist {0}</value>
+  </data>
+  <data name="OpenServerHistoryFavoritesWindows" xml:space="preserve">
+    <value>Serververlauf und Favoriten in einem neuen Fenster öffnen</value>
+  </data>
+  <data name="LogSessionStartClose" xml:space="preserve">
+    <value>Verlaufssitzung starten/schließen</value>
+  </data>
+  <data name="TreebarArrowDown" xml:space="preserve">
+    <value>Baumstruktur - Pfeil nach unten</value>
+  </data>
+  <data name="TreebarArrowRight" xml:space="preserve">
+    <value>Baumstruktur - Pfeil nach rechts</value>
+  </data>
+  <data name="ShowPassword" xml:space="preserve">
+    <value>Passwort zeigen</value>
+  </data>
+  <data name="UserMode" xml:space="preserve">
+    <value>Benutzermodus</value>
+  </data>
+  <data name="NicklistFontWeight" xml:space="preserve">
+    <value>Benutzerlistenschriftweite</value>
+  </data>
+  <data name="TreebarFontWeight" xml:space="preserve">
+    <value>Baumstrukturschriftweite</value>
+  </data>
+  <data name="ScrollToBottomArrow" xml:space="preserve">
+    <value>Pfeil zum Scrollen nach unten</value>
+  </data>
+  <data name="QuietList" xml:space="preserve">
+    <value>Ruheliste</value>
+  </data>
+  <data name="Quiets" xml:space="preserve">
+    <value>Ruhige</value>
+  </data>
+  <data name="EditAddress" xml:space="preserve">
+    <value>Adresse bearbeiten</value>
+  </data>
+  <data name="RemoveBanIn" xml:space="preserve">
+    <value>Bann entfernen in</value>
+  </data>
+  <data name="AddAddress" xml:space="preserve">
+    <value>Adresse hinzufügen</value>
+  </data>
+  <data name="IgnoreHighlightIfMore" xml:space="preserve">
+    <value>Highlights ignorieren, falls mehr als</value>
+  </data>
+  <data name="NicksAreHighlighted" xml:space="preserve">
+    <value>Nicknamen sind gehighlightet</value>
+  </data>
+  <data name="UseFlatTreebar" xml:space="preserve">
+    <value>Flache Baumstruktur verwenden</value>
+  </data>
+  <data name="CloseIcon" xml:space="preserve">
+    <value>Schließen-Symbol</value>
+  </data>
+  <data name="Always" xml:space="preserve">
+    <value>Immer</value>
+  </data>
+  <data name="OnHovering" xml:space="preserve">
+    <value>Beim Darüberfahren</value>
+  </data>
+  <data name="TreebarCloseIcon" xml:space="preserve">
+    <value>Baumstruktur-schließen-Symbol</value>
+  </data>
+  <data name="SsavedNetworkNotFound" xml:space="preserve">
+    <value>gespeichertes Netzwerk nicht gefunden</value>
+  </data>
+  <data name="QuitMessage" xml:space="preserve">
+    <value>Beenden-Nachricht</value>
+  </data>
+  <data name="UseGlobalQuitMessage" xml:space="preserve">
+    <value>Globale Beenden-Nachricht verwenden</value>
+  </data>
+  <data name="LinemarkerIs0" xml:space="preserve">
+    <value>Zeilenmarkierung ist {0}</value>
+  </data>
+  <data name="UseSmoothScrolling" xml:space="preserve">
+    <value>Weiches Scrollen verwenden</value>
+  </data>
+  <data name="NoSuchNick" xml:space="preserve">
+    <value>kein solcher Nickname</value>
+  </data>
+  <data name="DccChatIsNotActive" xml:space="preserve">
+    <value>DCC-Chat ist nicht aktiv</value>
+  </data>
+  <data name="ShowHighlightsOnCollapsedNetworks" xml:space="preserve">
+    <value>Highlights in eingeklappten Netzwerken zeigen</value>
+  </data>
+  <data name="CopyPath" xml:space="preserve">
+    <value>Pfad kopieren</value>
+  </data>
+  <data name="ResolvedTo" xml:space="preserve">
+    <value>{0} aufgelöst zu</value>
+  </data>
+  <data name="UseExtendedColorList" xml:space="preserve">
+    <value>Erweiterte Farbenliste verwenden</value>
+  </data>
+  <data name="ClientInfo" xml:space="preserve">
+    <value>Clientinformationen</value>
+  </data>
+  <data name="ColumnBackground" xml:space="preserve">
+    <value>Spaltenhintergrund</value>
+  </data>
+  <data name="ColumnText" xml:space="preserve">
+    <value>Spaltentext</value>
+  </data>
+  <data name="HighlightBackground" xml:space="preserve">
+    <value>Highlighthintergrund</value>
+  </data>
+  <data name="HighlightText" xml:space="preserve">
+    <value>Highlighttext</value>
+  </data>
+  <data name="LineBackground" xml:space="preserve">
+    <value>Zeilenhintergrund</value>
+  </data>
+  <data name="LineText" xml:space="preserve">
+    <value>Zeilentext</value>
+  </data>
+  <data name="LineBorder" xml:space="preserve">
+    <value>Zeilenrahmen</value>
+  </data>
+  <data name="HighlightMatchingLines" xml:space="preserve">
+    <value>Übereinstimmende Zeilen beim Überfahren von Nicknamen hervorheben</value>
+  </data>
+  <data name="ExcludeActiveWindow" xml:space="preserve">
+    <value>Aktives Fenster ausschließen</value>
+  </data>
+  <data name="IgnoreDuplicateLines" xml:space="preserve">
+    <value>Doppelte Zeilen ignorieren</value>
+  </data>
+  <data name="NetworkChannelCanBeUsed" xml:space="preserve">
+    <value>Netzwerk:Raum kann zum Ausschluss in bestimmten Netzwerken genutzt werden</value>
+  </data>
+  <data name="CopyFormattedTopicText" xml:space="preserve">
+    <value>Formatiertes Thema kopieren</value>
+  </data>
+  <data name="YouAreNotOnAChannel" xml:space="preserve">
+    <value>Sie sind in keinem Raum</value>
+  </data>
+  <data name="YouAreNotOnThatChannel" xml:space="preserve">
+    <value>Sie sind nicht in diesem Raum</value>
+  </data>
+</root>

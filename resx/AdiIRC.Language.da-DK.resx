@@ -1,0 +1,5173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EGQuakenet" xml:space="preserve">
+    <value>(f.eks Quakenet)</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="ChooseAddNetwork" xml:space="preserve">
+    <value>Vælg/Tilføj Netværk</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="EGIrcQuakenetOrg" xml:space="preserve">
+    <value>(f.eks irc.quakenet.org)</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="TypeAServername" xml:space="preserve">
+    <value>Indtast et servernavn:</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="JoinThisChannels" xml:space="preserve">
+    <value>Join disse kanaler:</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="AutomaticallyConnectToThisServer" xml:space="preserve">
+    <value>Forbind automatisk til denne serveren</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="ServerPort" xml:space="preserve">
+    <value>ServerPort:</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ServerHost" xml:space="preserve">
+    <value>ServerHost:</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Næste</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AddServer" xml:space="preserve">
+    <value>Tilføj ny server</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="PleaseChooseOrTypeANetwork" xml:space="preserve">
+    <value>Venligst vælg eller indtast et netværk</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fejl</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PleaseTypeAServername" xml:space="preserve">
+    <value>Venligst indtast et servernavn</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Kanal</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Vært</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SetBy" xml:space="preserve">
+    <value>Sat af</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="SetAt" xml:space="preserve">
+    <value>Er sat</value>
+    <comment>BanList</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Opdater</value>
+    <comment>Global</comment>
+  </data>
+  <data name="BanList" xml:space="preserve">
+    <value>BanListe</value>
+    <comment>AddServer</comment>
+  </data>
+  <data name="SorryAdiIRCCrashed" xml:space="preserve">
+    <value>Beklager AdiIRC gik ned</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+    <comment>Global</comment>
+  </data>
+  <data name="WhatDidYouDoWhenAdiIRCCrashed" xml:space="preserve">
+    <value>Hvad gjorde du da AdiIRC gik ned?</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="YourBugreportHasBeenSent" xml:space="preserve">
+    <value>Takker, din fejlrapport er blevet sendt.</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="ThereWasAnErrorSendingTheBugReport" xml:space="preserve">
+    <value>Der skete en fejl ved afsendelse af fejl rapport.
+Venligst manuelt indsend en fejl rapport til https://dev.adiirc.com</value>
+    <comment>BugReports</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Fortsæt</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Afslut</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Channels0" xml:space="preserve">
+    <value>Kanaler - {0}</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="PressPopulateToGetAListOfChannels" xml:space="preserve">
+    <value>Tryk hent for at få en liste over kanaler på denne server,
+eller skriv navnet på den kanal du vil joine i tekstboksen nedenunder.</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>Overskrift</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Brugere</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Join</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DontShowThisBoxAgain" xml:space="preserve">
+    <value>Ikke vis denne boks igen</value>
+    <comment>ChannelList</comment>
+  </data>
+  <data name="ChooseColor" xml:space="preserve">
+    <value>Vælg farve</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Venter..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Forbinder..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ConnectionFailedUnknownHost" xml:space="preserve">
+    <value>Forbindelsen fejlede, ukendt vært..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ConnectionFailedCouldNotConnect" xml:space="preserve">
+    <value>Forbindelsen fejlede, kunne ik forbinde..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Forbundet..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Advarsel</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Alle filer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TransferDone0Bytes" xml:space="preserve">
+    <value>Overførselen er færdig ({0} bytes)</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="UnknownError0" xml:space="preserve">
+    <value>Ukendt fejl: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Accepted" xml:space="preserve">
+    <value>Accepteret..</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="DidNotFoundAnyAvailablePorts" xml:space="preserve">
+    <value>Fandt ingen tilgængelige porte? Venligst check din port range i options -&gt; DCC</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="DCCTransfers" xml:space="preserve">
+    <value>DCC Overførsler</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Filnavn</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Besked</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Abort" xml:space="preserve">
+    <value>Afbryd</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Overførsler</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="AreYouSureYouWantToOpenThisFile" xml:space="preserve">
+    <value>Er du sikker på du vil åbne denne filen?</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="FileDoesNotExists" xml:space="preserve">
+    <value>Filen eksisterer ikke</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accepter</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignorer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SaveFileAs" xml:space="preserve">
+    <value>Gem filen som</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Gennemse</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HostmaskFromThisUserWasNotInYourAcceptedList" xml:space="preserve">
+    <value>Hostmasken fra denne brugeren var ikke i din accepterede liste</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="IncomingDCCFrom0" xml:space="preserve">
+    <value>Indkommende DCC fra: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Filename0" xml:space="preserve">
+    <value>Filnavn: {0}</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Filesize01Bytes" xml:space="preserve">
+    <value>Filstørrelse: {0}({1} bytes)</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Gendan</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Maksimer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Forrige</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Rejoin" xml:space="preserve">
+    <value>Rejoin</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Dock" xml:space="preserve">
+    <value>Dock</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Undock" xml:space="preserve">
+    <value>Undock</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ShowMediaPlayerTags" xml:space="preserve">
+    <value>Vis medie afspiller tags</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Anvend</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ShowSystemVariables" xml:space="preserve">
+    <value>Vis system variabler</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Edit0" xml:space="preserve">
+    <value>Rediger {0}</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="EditToolbar" xml:space="preserve">
+    <value>Rediger Værktøjslinjen</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="AreYouSureYouWantToCloseThisWindow" xml:space="preserve">
+    <value>Er du sikker på du vil lukke vinduet?</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjælp</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Highlights" xml:space="preserve">
+    <value>Fremhævelser</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Netværk</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Ryd</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopier</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Fjern</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Plugin0CausedAnError1" xml:space="preserve">
+    <value>Plug-in {0} forårsagede en fejl 
+{1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CTCPReply0From1" xml:space="preserve">
+    <value>CTCP respons {0} fra {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Parts23" xml:space="preserve">
+    <value>{0} ({1}) forlod {2}{3}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="DCCGetFrom012" xml:space="preserve">
+    <value>DCC Get {0} fra {1} ({2})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UnknownCTCP0From1" xml:space="preserve">
+    <value>Ukendt CTCP {0} fra {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouGotMODE0" xml:space="preserve">
+    <value>Du fik MODE {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="SetsMode1" xml:space="preserve">
+    <value>{0} sætter mode: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="InvitesYouToJoin1" xml:space="preserve">
+    <value>{0} inviterer dig til at joine {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Joins2" xml:space="preserve">
+    <value>{0} ({1}) joiner {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="NowTalkingIn0" xml:space="preserve">
+    <value>Snakker nu i: {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Rejoined0" xml:space="preserve">
+    <value>Re-joinede {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HasQuitIRC2" xml:space="preserve">
+    <value>{0} ({1}) har logget af IRC {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="IsNowKnownAs1" xml:space="preserve">
+    <value>{0} er nu kendt som {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YourNickIsNow0" xml:space="preserve">
+    <value>Dit nick er nu {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="ChangesTopicTo1" xml:space="preserve">
+    <value>{0} ændrede topic til: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouWereKickedFrom0By12" xml:space="preserve">
+    <value>Du blev smidt ud fra {0} af {1} ({2})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="YouWereKickedBy01" xml:space="preserve">
+    <value>Du blev smidt ud af {0} ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Rejoining0" xml:space="preserve">
+    <value>Rejoiner {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="WasKickedFrom1By23" xml:space="preserve">
+    <value>{0} blev smidt ud fra {1} af {2} ({3})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="WallopsFrom01" xml:space="preserve">
+    <value>Wallops fra {0}: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="TopicIs0" xml:space="preserve">
+    <value>Topic er: {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HasModes1" xml:space="preserve">
+    <value>{0} har modes: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CreatedOn1" xml:space="preserve">
+    <value>{0} oprettet den {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="TopicSetBy0At1" xml:space="preserve">
+    <value>Overskrift sat af {0} den {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Invited1To2" xml:space="preserve">
+    <value>{0} inviterede {1} til {2}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UsersOn01" xml:space="preserve">
+    <value>Brugere på {0}: {1}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Ban1By2At3" xml:space="preserve">
+    <value>{0} ban: {1} af {2} den {3}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="RetryingWith0" xml:space="preserve">
+    <value>Prøver igen {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="PleaseChangeYourNickTypeNickNewnick" xml:space="preserve">
+    <value>Venligst skift dit nick, skriv /nick &lt;nytnick&gt;</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="GotExternalHost01" xml:space="preserve">
+    <value>Fandt ekstern host: {0} ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="CouldNotCreateConfigFolder" xml:space="preserve">
+    <value>Kunne ikke oprette konfigurations mappe</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YouAreConnectedTo0Servers" xml:space="preserve">
+    <value>Du er forbundet til {0} server(ere)</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Afslut</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Afbryd</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ServerList" xml:space="preserve">
+    <value>Server Liste</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Indstillinger</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CascadeWindows" xml:space="preserve">
+    <value>Kasade vinduer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TileWindowsHorizontal" xml:space="preserve">
+    <value>Tile vinduer horisontalt</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TileWindowsVertical" xml:space="preserve">
+    <value>Tile vinduer vertikalt</value>
+    <comment>Global</comment>
+  </data>
+  <data name="StartMediaPlayer" xml:space="preserve">
+    <value>Start MediaPlayer</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="PlayPreviousSong" xml:space="preserve">
+    <value>Afspil forrige sang</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Afspil</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="PlayNextSong" xml:space="preserve">
+    <value>Afspil næste sang</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="ShowCurrentSong" xml:space="preserve">
+    <value>Vis nuværende sang</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="ChooseSearchEngine" xml:space="preserve">
+    <value>Vælg søge maskine</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="FailedToRegisterGlobalHotkey" xml:space="preserve">
+    <value>Registreringen af global genvej fejlede, check dine indstillinger</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HighlightAlert" xml:space="preserve">
+    <value>Fremhævnings Varsling</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="HighlightedYou" xml:space="preserve">
+    <value>{0} fremhævede dig</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="Mute0" xml:space="preserve">
+    <value>Mute: {0}</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Fra</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Til</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Changes" xml:space="preserve">
+    <value>Ændringer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AreYouSureYouWantToDisconnectFromThisServer" xml:space="preserve">
+    <value>Er du sikker på du vil afbryde denne serveren?</value>
+    <comment>Server</comment>
+  </data>
+  <data name="DayChangedTo0" xml:space="preserve">
+    <value>Dagen skiftede til: {0}</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeUsernick" xml:space="preserve">
+    <value>Skift Usernick</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CustomSlaps" xml:space="preserve">
+    <value>Egne Slaps</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="CustomNowPlaying" xml:space="preserve">
+    <value>Egne Afspiller Nu</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="CustomQuitMessages" xml:space="preserve">
+    <value>Egne Afslut Beskeder</value>
+    <comment>EditCommands</comment>
+  </data>
+  <data name="ServerSettingsWasSaved" xml:space="preserve">
+    <value>Server indstillinger blev gemt</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ERRORCouldNotSaveServerSettings" xml:space="preserve">
+    <value>FEJL: Kunne ikke gemme server indstillinger</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Slå fra</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Show0" xml:space="preserve">
+    <value>Vis {0}</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Konfigurer</value>
+    <comment>Global</comment>
+  </data>
+  <data name="HideToolbar" xml:space="preserve">
+    <value>Gem Toolbar</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="EnableHistory" xml:space="preserve">
+    <value>Slå History Til</value>
+    <comment>EditToolbar</comment>
+  </data>
+  <data name="ConnectionErrorDisconnecting" xml:space="preserve">
+    <value>Forbindelses fejl, afbryder..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="UnableToResolveServer0" xml:space="preserve">
+    <value>Kan ikke slå server: {0} op</value>
+    <comment>Server</comment>
+  </data>
+  <data name="UnableToConnectToServer0" xml:space="preserve">
+    <value>Kan ikke forbinde til server: {0}</value>
+    <comment>Server</comment>
+  </data>
+  <data name="PingTimeoutDisconnecting" xml:space="preserve">
+    <value>Ping timeout, afbryder..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Retry0in1Seconds" xml:space="preserve">
+    <value>Forsøg #{0} om {1} sekunder</value>
+    <comment>Server</comment>
+  </data>
+  <data name="YourMediaPlayerIsNotRunning" xml:space="preserve">
+    <value>Din Media Player er ikke startet</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="YouHaveNotChosenAMediaPlayer" xml:space="preserve">
+    <value>Du har ikke valgt en Media Player</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Beskeder</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Vis</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>Farver</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MediaPlayer" xml:space="preserve">
+    <value>Media Player</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>Vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Logging" xml:space="preserve">
+    <value>Logging</value>
+    <comment>Options</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Generelt</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Identd" xml:space="preserve">
+    <value>Identd</value>
+    <comment>Options</comment>
+  </data>
+  <data name="QuickConnect" xml:space="preserve">
+    <value>Hurtig Forbind</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Sysinfo" xml:space="preserve">
+    <value>System info</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Statusbar" xml:space="preserve">
+    <value>Statusbar</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Dcc" xml:space="preserve">
+    <value>DCC</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Væk</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseNetworkAdaptor" xml:space="preserve">
+    <value>Vælg Netværkskort</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChangeSettingsFor" xml:space="preserve">
+    <value>Skift indstillinger for</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowLag" xml:space="preserve">
+    <value>Vis Lag</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>forum</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OrGotAGreatIdeaForNewFeaturesTryAskingInOur" xml:space="preserve">
+    <value> eller har en god ide til en ny tilføjelse, prøv at skrive i vores</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IfYouHaveProblemsUnderstanding" xml:space="preserve">
+    <value>Hvis du har problemer med at forstå noget, finder en fejl</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ClickOnOneOfTheItemsToTheLeft" xml:space="preserve">
+    <value>Klik på en af menuerne i venstre side for at begynde at ændre indstillinger.</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HereYouCanMakeChanges" xml:space="preserve">
+    <value>Her kan du lave ændringer i hvordan AdiIRC ser ud og opfører sig.</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NickColors" xml:space="preserve">
+    <value>Nick Farver</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomNickColors" xml:space="preserve">
+    <value>Brug tilfældige nick farver</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowDateTimeVariables" xml:space="preserve">
+    <value>Vis dato/tid variabler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseTimestamp" xml:space="preserve">
+    <value>Brug Timestamp</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagePrefix" xml:space="preserve">
+    <value>Besked prefix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="VariablesStatusNickPnick" xml:space="preserve">
+    <value>Variabler: $status $nick $pnick $imagechar</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Emote" xml:space="preserve">
+    <value>Emote</value>
+    <comment>Options</comment>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruger</value>
+    <comment>Options</comment>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripMIRCTags" xml:space="preserve">
+    <value>Fjern mIRC tags</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripMIRCTagsColorsBoldItalicUnderline" xml:space="preserve">
+    <value>Fjern mIRC tags (farver/fed/kursiv/underline)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoCopySelectedTextToClipboard" xml:space="preserve">
+    <value>AutoKopier valgt tekst til Clipboard</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoFocusEditbox" xml:space="preserve">
+    <value>AutoFocus Editnox</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Baggrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseTransparentWindows" xml:space="preserve">
+    <value>Brug transperante vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Characters" xml:space="preserve">
+    <value>karakterer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LimitTextTo" xml:space="preserve">
+    <value>Begræns tekst til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IgnoreHighlightsFromChannelsUsers" xml:space="preserve">
+    <value>Ignorer fremhævelser fra kanaler/brugere</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivateMessage" xml:space="preserve">
+    <value>Privat besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelActivity" xml:space="preserve">
+    <value>kanal aktivitet</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FlashWindowOn" xml:space="preserve">
+    <value>Blink vinduer på</value>
+    <comment>Options</comment>
+  </data>
+  <data name="WhoisOn" xml:space="preserve">
+    <value>Whois på</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseHighlight" xml:space="preserve">
+    <value>Brug fremhævelser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightEntireLine" xml:space="preserve">
+    <value>Fremhæv hele linjen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AnimateTrayicon" xml:space="preserve">
+    <value>Animerer Trayikon</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableNoticeAlert" xml:space="preserve">
+    <value>Slå notice advarsler til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SoundFile" xml:space="preserve">
+    <value>Lyd fil</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Times0UntilActivated" xml:space="preserve">
+    <value>gange (0 = indtil aktiveret)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Flash" xml:space="preserve">
+    <value>Blink</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightThis" xml:space="preserve">
+    <value>Fremhæv det her</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlaying" xml:space="preserve">
+    <value>Afspiller Nu</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowRandomEditor" xml:space="preserve">
+    <value>Vis tilfældig editor</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomNowPlayingMessages" xml:space="preserve">
+    <value>Brug tilfældig afspiller nu beskeder</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseMediaPlayer" xml:space="preserve">
+    <value>Vælg Media Player</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Aktion</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlayingMessage2" xml:space="preserve">
+    <value>Afspiller nu besked2</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NowPlayingMessage" xml:space="preserve">
+    <value>Afspiller nu besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MaxPlaylistSearchOutput" xml:space="preserve">
+    <value>Maks resultater i afspilingsliste søgning</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PathToPlaylist" xml:space="preserve">
+    <value>Sti til Afspilningsliste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PathToWinamp" xml:space="preserve">
+    <value>Sti til Winamp</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowVariables" xml:space="preserve">
+    <value>Vis variabler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelTitles" xml:space="preserve">
+    <value>Kanal Titler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SaveAndRestoreWindowSizePositions" xml:space="preserve">
+    <value>Gem og gendan vindue størrelse/position</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MinimizeWindowsWhenPressingXCloseButton" xml:space="preserve">
+    <value>Minimer vinduer når man trykker X (luk knappen)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SaveAndRestoreMainwindowSizePosition" xml:space="preserve">
+    <value>Gem og gendan hoved vindue størrelse/position</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StartAdiIRCWithMaximizedWindows" xml:space="preserve">
+    <value>Start AdiIRC med maksimerede vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Wallops" xml:space="preserve">
+    <value>Wallops</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Fejl</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Navne</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Notice</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Private</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Whois" xml:space="preserve">
+    <value>Whois</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Invites" xml:space="preserve">
+    <value>invitationer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableToolbar" xml:space="preserve">
+    <value>Slå Toolbar til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenNewWinOnPrivate" xml:space="preserve">
+    <value>Åben nyt vindue ved privat besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenNewWindowOnMsg" xml:space="preserve">
+    <value>Åben nyt vindue ved /msg</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SeparateLogsByDate" xml:space="preserve">
+    <value>Separer logs ved dato</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogServers" xml:space="preserve">
+    <value>Log Servere</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagesInPrivateWindows" xml:space="preserve">
+    <value>beskeder i private vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowLast" xml:space="preserve">
+    <value>Vis sidste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Timeformat" xml:space="preserve">
+    <value>TidsFormat</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MakeSeparateFolderForEachServer" xml:space="preserve">
+    <value>Opret separate mapper for hver server </value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogPrivatechat" xml:space="preserve">
+    <value>Log Privatchat</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogChannels" xml:space="preserve">
+    <value>Log Kanaler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="LogFolder" xml:space="preserve">
+    <value>LogMappe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="GlobalShortcutToHideShowMainWindow" xml:space="preserve">
+    <value>Global genvej for at vise/gemme hoved vindue</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AssociateAdiIRCWithIrcLinks" xml:space="preserve">
+    <value>Associer AdiIRC med irc(s):// links</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TabcompleteSuffix" xml:space="preserve">
+    <value>Tabkomplet endelse</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ConfirmDisconnectingWhenClickingConnectIcon" xml:space="preserve">
+    <value>Godkend afbrydelse når du klikker forbindelse ikon</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RejoinChannelsOnKick" xml:space="preserve">
+    <value>Rejoin kanaler ved udsmidning</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ConfirmDisconnectingServer" xml:space="preserve">
+    <value>Godkend afbrydelse af forbindelser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Browser" xml:space="preserve">
+    <value>Browser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AdiIRCIsAlwaysOnTopOfOtherWindows" xml:space="preserve">
+    <value>AdiIRC er altid over andre vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="KeepChannelsOpenOnKick" xml:space="preserve">
+    <value>Hold kanalen åben ved udsmidning</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Valg</value>
+    <comment>Options</comment>
+  </data>
+  <data name="JoinChannelsWhenInvited" xml:space="preserve">
+    <value>Join kanaler ved invitationer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultBrowser" xml:space="preserve">
+    <value>Standard browser</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IncludeBetaVersions" xml:space="preserve">
+    <value>Inkluder beta versioner</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenLinksIn" xml:space="preserve">
+    <value>Åben links i</value>
+    <comment>Options</comment>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Se efter opdateringer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HideWindowInTaskbar" xml:space="preserve">
+    <value>Gem vindue i taskbaren</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SendToTrayWhenPressingXCloseButton" xml:space="preserve">
+    <value>Send til tray når du trykker X (luk knappen)</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SendToTrayOnMinimize" xml:space="preserve">
+    <value>Send til tray ved minimering</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AlwaysShowInTray" xml:space="preserve">
+    <value>Altid vis i tray</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IdentPort" xml:space="preserve">
+    <value>Ident Port</value>
+    <comment>Options</comment>
+  </data>
+  <data name="IdentNick" xml:space="preserve">
+    <value>Ident Nick</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseIdentd" xml:space="preserve">
+    <value>Use Identd</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Misc</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultBanType" xml:space="preserve">
+    <value>Standard ban type</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultPartMessage" xml:space="preserve">
+    <value>Standard Part Besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Reconnect" xml:space="preserve">
+    <value>Forbind igen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Times" xml:space="preserve">
+    <value>tider</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Prøv igen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RetryFailedConnections" xml:space="preserve">
+    <value>Prøv fejlede forbindelser igen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SecondsBeforeRetrying" xml:space="preserve">
+    <value>sekunder før den prøver igen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Vent</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ReconnectOnServerDisconnect" xml:space="preserve">
+    <value>Prøv igen ved server afbrydelse</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseRandomQuitMessage" xml:space="preserve">
+    <value>Brug tilfældig afslut besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultQuitMessage" xml:space="preserve">
+    <value>Standard Afslut Besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ServerInfo" xml:space="preserve">
+    <value>ServerInfo</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OpenAdvancedServerlist" xml:space="preserve">
+    <value>Åben avanceret serverliste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableQuickConnect" xml:space="preserve">
+    <value>Slå Hurtig Forbind til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutojoinChannels" xml:space="preserve">
+    <value>Autojoin Kanaler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UserInfo" xml:space="preserve">
+    <value>Brugerinfo</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Alternative</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Nick" xml:space="preserve">
+    <value>Nick</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowBandwidthUsage" xml:space="preserve">
+    <value>Vis Båndbredde brug</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowMediaPlayerSong" xml:space="preserve">
+    <value>Vis Media Player sang</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowNick" xml:space="preserve">
+    <value>Vis Nick</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowInfo" xml:space="preserve">
+    <value>Vis Info</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableStatusbar" xml:space="preserve">
+    <value>Slå Statusbar til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DccSend" xml:space="preserve">
+    <value>Dcc Send</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PortrangeEnd" xml:space="preserve">
+    <value>Portrange slut</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PortrangeStart" xml:space="preserve">
+    <value>Portrange start</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DccGet" xml:space="preserve">
+    <value>Dcc get</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoAcceptOnlyFromHost" xml:space="preserve">
+    <value>Automatisk godkend kun fra host: (usernick!ident@host) - wildcards er tilladt</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutoAcceptTransfers" xml:space="preserve">
+    <value>Automatisk godkend overførsler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultDownloadDir" xml:space="preserve">
+    <value>Standard download mappe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="YourPrefixFollowsStatusColor" xml:space="preserve">
+    <value>Din prefix følger status farven</value>
+    <comment>Options</comment>
+  </data>
+  <data name="StripStatusPrefix" xml:space="preserve">
+    <value>Fjern status prefix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AllowMultipleClickSelectInNicklist" xml:space="preserve">
+    <value>Tillad flere museklik valg i brugerlisten</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Fonte</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Voice" xml:space="preserve">
+    <value>Voice</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HalfOps" xml:space="preserve">
+    <value>HalfOps</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FontWeight" xml:space="preserve">
+    <value>Font type</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChanOps" xml:space="preserve">
+    <value>ChanOps</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Your" xml:space="preserve">
+    <value>Din</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Prefix" xml:space="preserve">
+    <value>Prefix</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutomaticallySetBackWhenTyping" xml:space="preserve">
+    <value>Automatisk sæt mig tilbage når jeg skriver</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChangeNickTo" xml:space="preserve">
+    <value>Skift nick til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreBackInChannels" xml:space="preserve">
+    <value>Vis du er tilbage i kanaler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="BackMessage" xml:space="preserve">
+    <value>Tilbage beskeder</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreAwayIn" xml:space="preserve">
+    <value>Vis du er væk i</value>
+    <comment>Options</comment>
+  </data>
+  <data name="RunCommands" xml:space="preserve">
+    <value>Kør kommandoer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DisableAwayInChannelsUsers" xml:space="preserve">
+    <value>Slå væk fra i kanaler/brugere</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AwayMessage" xml:space="preserve">
+    <value>Væk besked</value>
+    <comment>Options</comment>
+  </data>
+  <data name="HighlightedMessages" xml:space="preserve">
+    <value>fremhævede beskeder</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivMessages" xml:space="preserve">
+    <value>privat beskeder</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Channels" xml:space="preserve">
+    <value>kanaler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SettingsFor" xml:space="preserve">
+    <value>Indstillinger for</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MinutesIdle" xml:space="preserve">
+    <value>minutter inaktiv</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AutomaticallySetAwayAfter" xml:space="preserve">
+    <value>Sæt væk automatisk efter</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OnBack" xml:space="preserve">
+    <value>Ved /back</value>
+    <comment>Options</comment>
+  </data>
+  <data name="OnAway" xml:space="preserve">
+    <value>Ved /away</value>
+    <comment>Options</comment>
+  </data>
+  <data name="EnableAway" xml:space="preserve">
+    <value>Slå Væk til</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Nulstil</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>Værktøj</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowWindowIcons" xml:space="preserve">
+    <value>Vis vindue ikoner</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MessagesInChannelWindows" xml:space="preserve">
+    <value>beskeder i kanal vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DisableCTCPReply" xml:space="preserve">
+    <value>Slå CTCP respons fra</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelList" xml:space="preserve">
+    <value>Kanal Liste</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowChannelListOnEmptyConnect" xml:space="preserve">
+    <value>Vis Kanal Liste ved tom forbindelse</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowChannelListOnList" xml:space="preserve">
+    <value>Vis Kanal Liste ved /list</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SortSwitchbarTreebarBy" xml:space="preserve">
+    <value>Sorter Switchbar/Treebar ved</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Alphabetically" xml:space="preserve">
+    <value>Alfabetisk</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AsTheyAppear" xml:space="preserve">
+    <value>Som de bliver vist</value>
+    <comment>Options</comment>
+  </data>
+  <data name="FocusNewlyOpenedWindows" xml:space="preserve">
+    <value>Fokuser nye vinduer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowHighlightSoundStatus" xml:space="preserve">
+    <value>Vis fremhævet lyd status</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Fed</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Kursiv</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Understreg</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Stretch" xml:space="preserve">
+    <value>Stræk</value>
+    <comment>Options</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Centrer</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Tile" xml:space="preserve">
+    <value>Title</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Zoom</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ImageLayout" xml:space="preserve">
+    <value>Billede layout</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Parts" xml:space="preserve">
+    <value>Forlader</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Joins" xml:space="preserve">
+    <value>Joiner</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Klient</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Spark</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Links</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inaktiv</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Editbox" xml:space="preserve">
+    <value>Editbox</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Topicbox" xml:space="preserve">
+    <value>Topicbox</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Tekst</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelOp" xml:space="preserve">
+    <value>Kanal op</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelHalfop" xml:space="preserve">
+    <value>Kanal halfop</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixChannelOp" xml:space="preserve">
+    <value>Prefix kanal op</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixChannelHalfop" xml:space="preserve">
+    <value>Prefix kanal halfop</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrefixVoice" xml:space="preserve">
+    <value>Prefix voice</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanel1" xml:space="preserve">
+    <value>TopPanel1</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanel2" xml:space="preserve">
+    <value>TopPanel2</value>
+    <comment>Options</comment>
+  </data>
+  <data name="TopPanelText" xml:space="preserve">
+    <value>TopPanel Tekst</value>
+    <comment>Options</comment>
+  </data>
+  <data name="MainBackground" xml:space="preserve">
+    <value>Hoved baggrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SelectedText" xml:space="preserve">
+    <value>Valgt tekst</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SelectedBackground" xml:space="preserve">
+    <value>Valgt baggrund</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AreYouSureYouWantToResetAllOptions" xml:space="preserve">
+    <value>Er du sikker på du vil nulstille alle indstillinger?</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseLogFolder" xml:space="preserve">
+    <value>Vælg Log mappe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseDownloadFolder" xml:space="preserve">
+    <value>Vælg nedlastnings mappe</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DateTimeVariables" xml:space="preserve">
+    <value>Dato/Tid variabler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Vælg Fil</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelTitleVariables" xml:space="preserve">
+    <value>Kanal titel variabler</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowHide" xml:space="preserve">
+    <value>Vis/Gem</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="MediaPlayerSearch" xml:space="preserve">
+    <value>MediaPlayer Søg</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Log På</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Åben</value>
+    <comment>Global</comment>
+  </data>
+  <data name="EditSlaps" xml:space="preserve">
+    <value>Rediger Slaps</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="EditNowPlaying" xml:space="preserve">
+    <value>Rediger Afspiller Nu</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="EditQuits" xml:space="preserve">
+    <value>Rediger Afslut</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ReportBug" xml:space="preserve">
+    <value>Rapporter fejl</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="WhatsChanged" xml:space="preserve">
+    <value>Hvad er nyt</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="CheckForUpdate" xml:space="preserve">
+    <value>Check for opdateringer</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donér</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ClickToChangeNick" xml:space="preserve">
+    <value>Klik for at ændre Nick</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Lag" xml:space="preserve">
+    <value>Lag</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fil</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Temaer</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Plugins" xml:space="preserve">
+    <value>Plugins</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rawlog" xml:space="preserve">
+    <value>Rålog</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vis</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Fuld skærm</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Altid på Toppen</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Toolbar" xml:space="preserve">
+    <value>Toolbar</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ServerHistory" xml:space="preserve">
+    <value>Server historie</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Forbindelse</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ConnectOrReconnect" xml:space="preserve">
+    <value>(Gen)Forbind</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="ReConnectAll" xml:space="preserve">
+    <value>(Gen)Forbind Alle</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="DisconnectAll" xml:space="preserve">
+    <value>Afbryd Alle</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Vindue</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="NewWindow" xml:space="preserve">
+    <value>Nyt Vindue</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="TileVertical" xml:space="preserve">
+    <value>Opdel Vertikalt</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="TileHorizontal" xml:space="preserve">
+    <value>Opdel Horisontalt</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Cascade" xml:space="preserve">
+    <value>Kaskader</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Commands" xml:space="preserve">
+    <value>Kommandoer</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rejoining" xml:space="preserve">
+    <value>Joiner igen..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="NotConnectedToAServer" xml:space="preserve">
+    <value>Ikke forbundet til en server</value>
+    <comment>Server</comment>
+  </data>
+  <data name="SentCTCP0To1" xml:space="preserve">
+    <value>Sendte CTCP {0} til {1}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="SentRaw0" xml:space="preserve">
+    <value>Sendte rå: '{0}'</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="UnknownWindow0" xml:space="preserve">
+    <value>Ukendt vindue {0}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotInThisChannel0" xml:space="preserve">
+    <value>Du er ikke i denne kanal ({0})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoOperatorsFoundIn0" xml:space="preserve">
+    <value>ingen andre operatorer blev fundet på ({0})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="AddedToIgnoreList" xml:space="preserve">
+    <value>{0} er tilføjet ignorer listen</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="RemovedFromIgnorelist" xml:space="preserve">
+    <value>{0} er fjernet fra ignorerlisten</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Fandt</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoMatchesFound" xml:space="preserve">
+    <value>Ingen resultater fundet</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoM3uPlaylistFound" xml:space="preserve">
+    <value>Ingen m3u playliste fundet</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NotAValidPosition0" xml:space="preserve">
+    <value>Ikke en gyldig position ({0})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotOnThisChannelTypeRejoin" xml:space="preserve">
+    <value>Du er ikke på denne kanalen, skriv /rejoin</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="YouAreNotOnAChannelTryJoinChannel" xml:space="preserve">
+    <value>Du er ikke på en kanal, prøv /join #channel</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Ingen resultater</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="LookupFailed" xml:space="preserve">
+    <value>Lookup fejlede</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="ResolvedTo12" xml:space="preserve">
+    <value>{0} opslået til {1} ({2})</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="UnableToResolveAddress" xml:space="preserve">
+    <value>kunne ikke resolve adressen {0}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="Plugin" xml:space="preserve">
+    <value>Plugin</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Forfatter</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="GetMorePlugins" xml:space="preserve">
+    <value>Find flere plugins</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="InstallNew" xml:space="preserve">
+    <value>Installer ny</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Reconnecting" xml:space="preserve">
+    <value>Prøver at forbinde igen..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ConnectingTo01Port2" xml:space="preserve">
+    <value>Forbinder til {0}({1}) port {2}..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="LookingUp0" xml:space="preserve">
+    <value>Slår {0} op..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Afbrudt..</value>
+    <comment>Server</comment>
+  </data>
+  <data name="ServerOptions" xml:space="preserve">
+    <value>Server Indstillinger</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ServerLabel" xml:space="preserve">
+    <value>Server Label:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ConnectAll" xml:space="preserve">
+    <value>Forbind Alle</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="SeparateWith" xml:space="preserve">
+    <value>Separer med</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Forbind</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ServerBNCPassword" xml:space="preserve">
+    <value>Server/BNC Password:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="HereYouCanAddAndEditServersAndNetworks" xml:space="preserve">
+    <value>Her kan du tilføje og redigere servere og netværk</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="NetworkOptions" xml:space="preserve">
+    <value>Netværks Indstillinger:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AddNewServer" xml:space="preserve">
+    <value>Tilføj ny server</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ShowServerlistOnStartup" xml:space="preserve">
+    <value>Vis serverliste ved opstart</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="TextEncoding" xml:space="preserve">
+    <value>Tekst enkodning:</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="EnableSSL" xml:space="preserve">
+    <value>Slå SSL til</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisServer" xml:space="preserve">
+    <value>Er du sikker på du vil slette denne server?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisNetworkAndAllServersOnThisNetwork" xml:space="preserve">
+    <value>Er du sikker på du vil slette dette netværk og alle servere på dette netværk?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Udvid alle</value>
+    <comment>Treebar</comment>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Kollaps alle</value>
+    <comment>Treebar</comment>
+  </data>
+  <data name="MediaPlayerTags" xml:space="preserve">
+    <value>Media Player tags</value>
+    <comment>Tools</comment>
+  </data>
+  <data name="SystemInfoTags" xml:space="preserve">
+    <value>System info tags</value>
+    <comment>Tools</comment>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Leder efter opdateringer..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SeeChanges" xml:space="preserve">
+    <value>Se Ændringer</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Opdater</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Genstart</value>
+    <comment>Update</comment>
+  </data>
+  <data name="PluginDownload" xml:space="preserve">
+    <value>Plugin download</value>
+    <comment>Update</comment>
+  </data>
+  <data name="InOrderToUseThe0NowPlaying" xml:space="preserve">
+    <value>For at bruge {0} Afspiller nu, skal AdiIRC downloade et plugin.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereIsANew0VersionOfAdiIRCAvailableV1" xml:space="preserve">
+    <value>Der er en ny {0}version af AdiIRC tilgængeligt, v{1}</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereAreNoNewUpdatesAtThisTime" xml:space="preserve">
+    <value>Der er ingen opdateringer lige nu</value>
+    <comment>Update</comment>
+  </data>
+  <data name="InitializingDownload" xml:space="preserve">
+    <value>Starter download..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Downloading01Of2" xml:space="preserve">
+    <value>Downloader: {0} {1} af {2}</value>
+    <comment>Update</comment>
+  </data>
+  <data name="FinishedDownloadingPlugin" xml:space="preserve">
+    <value>Download af plugin er færdig, venligst genstart AdiIRC for at installere det.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="FinishedDownloadingUpdate" xml:space="preserve">
+    <value>Dowload af opdateringen er færdig, klik installer for at installere opdateringen.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Installer</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereWasAnErrorDownloadingThePlugin" xml:space="preserve">
+    <value>Der skete en fejl under download af pluginet, venligst prøv igen senere.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="ThereWasAnErrorDownloadingTheUpdate" xml:space="preserve">
+    <value>Der skete en fejl under download af opdateringen, venligst prøv igen senere.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="CancelingDownload" xml:space="preserve">
+    <value>Afbryder download..</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SomethingWentWrongInstallingThePlugin" xml:space="preserve">
+    <value>Noget gik galt under installationen af pluginet, venligst prøv igen og rapporter fejlen.</value>
+    <comment>Update</comment>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>Søg efter:</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultater:</value>
+    <comment>MediaPlayer</comment>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Find:</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="FindNext" xml:space="preserve">
+    <value>Find Næste</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="FindPrevious" xml:space="preserve">
+    <value>Find Forrige</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ExactMatch" xml:space="preserve">
+    <value>Præcis Sammenligning</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Who" xml:space="preserve">
+    <value>Who</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Ban" xml:space="preserve">
+    <value>Ban</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Ping" xml:space="preserve">
+    <value>Ping</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Invite" xml:space="preserve">
+    <value>Inviter</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sorter efter</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>Modes</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Moderated" xml:space="preserve">
+    <value>Moderert</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="InviteOnly" xml:space="preserve">
+    <value>Kun inviterede</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>Hemmelig</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="OnlyOpsSetTopic" xml:space="preserve">
+    <value>Kun operatorer sætter overskrift</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Moderate" xml:space="preserve">
+    <value>Moderer</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Båndbredde</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SystemInfo" xml:space="preserve">
+    <value>System info</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Join0" xml:space="preserve">
+    <value>Join {0}</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowUsers" xml:space="preserve">
+    <value>Vis brugere</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowTopic" xml:space="preserve">
+    <value>Vis overskrift</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ShowMode" xml:space="preserve">
+    <value>Vis Mode</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Åben i browser</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="CopyLink" xml:space="preserve">
+    <value>Kopier link</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Grund</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Vælg Sprog</value>
+    <comment>Options</comment>
+  </data>
+  <data name="AdiIRCNeedsToBeRestartedToChangeLanguage" xml:space="preserve">
+    <value>AdiIRC er nødt til at genstarte for at ændre sprog</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ClearQuerys" xml:space="preserve">
+    <value>Ryd Private vinduer</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="SkipThisVersion" xml:space="preserve">
+    <value>Ignorer denne versionen</value>
+    <comment>Update</comment>
+  </data>
+  <data name="AllowOnlyOneCopy" xml:space="preserve">
+    <value>Tillad AdiIRC kun at køre en kopi af gangen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Standard</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Nuværende</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="GetMoreThemes" xml:space="preserve">
+    <value>Find flere temaer</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="SaveAsFile" xml:space="preserve">
+    <value>Gem som fil</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="UseTheme" xml:space="preserve">
+    <value>Brug tema</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="DownSUpS" xml:space="preserve">
+    <value>Ned: {0} Op: {1}</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DownSSBytesUpSSBytes" xml:space="preserve">
+    <value>Ned: {0} ({1} bytes), Op: {2} ({3} bytes)</value>
+    <comment>Global</comment>
+  </data>
+  <data name="AdvancedServerlist" xml:space="preserve">
+    <value>Avanceret Serverliste</value>
+    <comment>Global</comment>
+  </data>
+  <data name="TransferFailed" xml:space="preserve">
+    <value>Overførslen fejlede</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ThereWasAnErrorInstallingThePlugin0" xml:space="preserve">
+    <value>Der skete en fejl ved installering af plugin: {0}</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="PluginWasInstalledAndLoaded" xml:space="preserve">
+    <value>Plugin er installeret og startet</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Loaded" xml:space="preserve">
+    <value>Startet</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="Unloaded" xml:space="preserve">
+    <value>Stoppet</value>
+    <comment>Plugins</comment>
+  </data>
+  <data name="YouAreNowRunningInFullscreenMode" xml:space="preserve">
+    <value>Du er nu i fuldskærms mode, tryk F11 for at skifte til normal mode</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YouAreNoLongerRunning" xml:space="preserve">
+    <value>Du er ikke længere i fuldskærms mode</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DoYouWantToSave" xml:space="preserve">
+    <value>Vil du gemme ændringerne før du lukker?</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Encoding" xml:space="preserve">
+    <value>Enkodning</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="EncodingChangedFrom0To1" xml:space="preserve">
+    <value>Enkodning ændret fra: {0} til {1}</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="SystemDefault" xml:space="preserve">
+    <value>System Standard</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="UnknownEncoding" xml:space="preserve">
+    <value>Ukendt enkodning</value>
+    <comment>Commands</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Unavngiven</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="DoYouWantToSaveServer" xml:space="preserve">
+    <value>Vil du gemme serverlisten før du lukker?</value>
+    <comment>ServerList</comment>
+  </data>
+  <data name="LockTopic" xml:space="preserve">
+    <value>Luk Topic</value>
+    <comment>Topic</comment>
+  </data>
+  <data name="UnlockTopic" xml:space="preserve">
+    <value>Åben Topic</value>
+    <comment>Topic</comment>
+  </data>
+  <data name="TabCompleteFirstWordSuffix" xml:space="preserve">
+    <value>Tab komplet første ords endelse:</value>
+    <comment>Options</comment>
+  </data>
+  <data name="PrivTitles" xml:space="preserve">
+    <value>Priv Titler:</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ServerTitles" xml:space="preserve">
+    <value>Server Titler:</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DefaultEncoding" xml:space="preserve">
+    <value>Standard Enkodning</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>Logs</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Omdøb</value>
+    <comment>Logging</comment>
+  </data>
+  <data name="ErrorRenameFile" xml:space="preserve">
+    <value>Der skete en fejl ved omdøbning af filen: {0} </value>
+    <comment>Logging</comment>
+  </data>
+  <data name="LoggingOn" xml:space="preserve">
+    <value>Logger på</value>
+    <comment>Global</comment>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Til</value>
+    <comment>ChannelMenus</comment>
+  </data>
+  <data name="MakeCertainPartOfMessagesBold" xml:space="preserve">
+    <value>Lav visse deler af beskederne fed</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Border" xml:space="preserve">
+    <value>Kant</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Venstre</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Højre</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ShowEmptyLineBottom" xml:space="preserve">
+    <value>Vis tom linje i bunden</value>
+    <comment>Options</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Størrelse</value>
+    <comment>Options</comment>
+  </data>
+  <data name="NotifyYouAreUpdating" xml:space="preserve">
+    <value>Notificere at du opdaterer i afslut beskeden</value>
+    <comment>Update</comment>
+  </data>
+  <data name="UseLineColors" xml:space="preserve">
+    <value>Brug linje farver</value>
+    <comment>Options</comment>
+  </data>
+  <data name="UseGlobalSettings" xml:space="preserve">
+    <value>Brug globale indstillinger</value>
+    <comment>Options</comment>
+  </data>
+  <data name="YouWereKilledBy01" xml:space="preserve">
+    <value>Du blev fjernet av {0} ({1})</value>
+    <comment>Incomming Messages</comment>
+  </data>
+  <data name="UseUTF8Fallback" xml:space="preserve">
+    <value>Brug UTF8 tilbagefald</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ThisIsJustSomeText" xml:space="preserve">
+    <value>Dette er bare noget tekst</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="SaveTheme" xml:space="preserve">
+    <value>Gem tema</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="ChooseTheme" xml:space="preserve">
+    <value>Vælg Tema</value>
+    <comment>ThemeManager</comment>
+  </data>
+  <data name="Notify" xml:space="preserve">
+    <value>Meddelelse</value>
+    <comment>Menus</comment>
+  </data>
+  <data name="UseUnreadLineMarker" xml:space="preserve">
+    <value>Brug ulæst linje markør</value>
+  </data>
+  <data name="IndentWrappedLinesWith" xml:space="preserve">
+    <value>Indrykke omviklede linjer med</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>pixels</value>
+  </data>
+  <data name="UnreadLine" xml:space="preserve">
+    <value>Ulæst linje</value>
+    <comment>Options</comment>
+  </data>
+  <data name="ChannelEditor" xml:space="preserve">
+    <value>Kanal editor</value>
+  </data>
+  <data name="ClickClosefornotacceptingthefile" xml:space="preserve">
+    <value>Klik Luk for ikke at acceptere filen.</value>
+  </data>
+  <data name="ClickAccepttoacceptthefile" xml:space="preserve">
+    <value>Klik Accepter for at acceptere filen, Ignorer for at ignorere filer fra denne personen. </value>
+  </data>
+  <data name="ClickAcceptToAccept" xml:space="preserve">
+    <value>Klik Accepter for at acceptere snakken, Ignorer for at ignorere snak fra denne personen.</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="ClickCloseForNot" xml:space="preserve">
+    <value>Klik Luk for ikke at acceptere snakken.</value>
+    <comment>DCC</comment>
+  </data>
+  <data name="IncomingDCCChatFrom0" xml:space="preserve">
+    <value>Indkommende DCC Snak fra: {0}</value>
+  </data>
+  <data name="Address0" xml:space="preserve">
+    <value>Adresse: {0}</value>
+  </data>
+  <data name="AcknowledgingChatRequest" xml:space="preserve">
+    <value>Bekræfter snak forespørgsel...</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Hastighed</value>
+  </data>
+  <data name="Estimate" xml:space="preserve">
+    <value>Estimat</value>
+  </data>
+  <data name="TheFileAlreadyExists" xml:space="preserve">
+    <value>Filen findes allerede på din computer, vælg venligst handling.</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Overskriv</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Genoptag</value>
+  </data>
+  <data name="ThereWasAErrorCreating" xml:space="preserve">
+    <value>Der skete en fejl ved oprettelse af nedlastnings mappen, venligst vælg en anden: {0}</value>
+  </data>
+  <data name="OpenLinksWithSingleClick" xml:space="preserve">
+    <value>Åben links ved enkelt klik</value>
+  </data>
+  <data name="SplitLogsAt" xml:space="preserve">
+    <value>Opdel logger ved</value>
+  </data>
+  <data name="RotatedFilename" xml:space="preserve">
+    <value>Rotered filnavn</value>
+  </data>
+  <data name="IsBouncingToSong" xml:space="preserve">
+    <value>hopper rundt til ' $+ $song $+ '</value>
+  </data>
+  <data name="IsBouncingForUserToSong" xml:space="preserve">
+    <value>hopper rundt for ' $+ $user $+ ' til ' $+ $song $+ '</value>
+  </data>
+  <data name="OnlyTrackAway" xml:space="preserve">
+    <value>Spor kun væk status på kanaler mindre end</value>
+  </data>
+  <data name="TrackUsersAwayStatus" xml:space="preserve">
+    <value>Spor brugernes væk status</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Frakoblet</value>
+  </data>
+  <data name="EditScripts" xml:space="preserve">
+    <value>Rediger Scripts</value>
+  </data>
+  <data name="Bans" xml:space="preserve">
+    <value>Udelukkelser</value>
+  </data>
+  <data name="Excepts" xml:space="preserve">
+    <value>Undtagelser</value>
+  </data>
+  <data name="NoExternalMessages" xml:space="preserve">
+    <value>Ingen eksterne beskeder</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Nøgle</value>
+  </data>
+  <data name="LimitTo" xml:space="preserve">
+    <value>Begræns til</value>
+  </data>
+  <data name="ExceptList" xml:space="preserve">
+    <value>Undtagelses liste</value>
+  </data>
+  <data name="InviteList" xml:space="preserve">
+    <value>Invitations liste</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Linjer</value>
+  </data>
+  <data name="Maxbuffer" xml:space="preserve">
+    <value>Max buffer</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="SearchSubfolders" xml:space="preserve">
+    <value>Søg undermapper</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="DateModified" xml:space="preserve">
+    <value>Ændringsdato</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>Overvåg</value>
+  </data>
+  <data name="URLCatcher" xml:space="preserve">
+    <value>URL Fanger</value>
+  </data>
+  <data name="Notices" xml:space="preserve">
+    <value>Meddelelser</value>
+  </data>
+  <data name="PrivateMessages" xml:space="preserve">
+    <value>Private Beskeder</value>
+  </data>
+  <data name="ChannelMessages" xml:space="preserve">
+    <value>Kanal Beskeder</value>
+  </data>
+  <data name="ServerMessages" xml:space="preserve">
+    <value>Server Beskeder</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="ChannelHeight" xml:space="preserve">
+    <value>Kanal Højde</value>
+  </data>
+  <data name="ChannelWidth" xml:space="preserve">
+    <value>Kanal Bredde</value>
+  </data>
+  <data name="PrivateWidth" xml:space="preserve">
+    <value>Privat Bredde</value>
+  </data>
+  <data name="PrivateHeight" xml:space="preserve">
+    <value>Privat Højde</value>
+  </data>
+  <data name="ServerWidth" xml:space="preserve">
+    <value>Server Bredde</value>
+  </data>
+  <data name="ServerHeight" xml:space="preserve">
+    <value>Server Højde</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Gem Som</value>
+  </data>
+  <data name="ChangeFont" xml:space="preserve">
+    <value>Ændre Font</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="SystemVariables" xml:space="preserve">
+    <value>System Variabler</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Scripts</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menuer</value>
+  </data>
+  <data name="Startminimized" xml:space="preserve">
+    <value>Start minimeret</value>
+  </data>
+  <data name="YourUserModeIs0" xml:space="preserve">
+    <value>Din bruger mode er {0}</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Indlæs</value>
+  </data>
+  <data name="Unload" xml:space="preserve">
+    <value>Aflæs</value>
+  </data>
+  <data name="Menubar" xml:space="preserve">
+    <value>Menubar</value>
+  </data>
+  <data name="MonitorPanels" xml:space="preserve">
+    <value>Monitor Paneler</value>
+  </data>
+  <data name="Disableloggingforchannelsusers" xml:space="preserve">
+    <value>Slå væk fra for kanaler/brugere</value>
+  </data>
+  <data name="Areyousureyouwanttodeletetheselectedfiles" xml:space="preserve">
+    <value>Er du sikker på du vil slette valgte fil(er)?</value>
+  </data>
+  <data name="OnTop" xml:space="preserve">
+    <value>På Toppen</value>
+  </data>
+  <data name="InvertSelection" xml:space="preserve">
+    <value>Invertere det markerede</value>
+  </data>
+  <data name="NotifyList" xml:space="preserve">
+    <value>Meddelses Liste</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Værktøjer</value>
+  </data>
+  <data name="EditMenus" xml:space="preserve">
+    <value>Rediger Menuer</value>
+  </data>
+  <data name="Areyousureyouwanttoresetmenu" xml:space="preserve">
+    <value>Er du sikker på du vil nulstille {0} menuen til oprindelige værdier?</value>
+  </data>
+  <data name="Areyousureyouwanttoresetcustomcommands" xml:space="preserve">
+    <value>Er du sikker på du vil nulstille Tilpas Kommandoer til oprindelige værdier?</value>
+  </data>
+  <data name="GoToLine" xml:space="preserve">
+    <value>Gå Til Linje</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Soundstatus" xml:space="preserve">
+    <value>Lyd Status</value>
+  </data>
+  <data name="DisablescriptevaluationEditbox" xml:space="preserve">
+    <value>Slå script evaluering fra i skriveboksen</value>
+  </data>
+  <data name="UnloadAll" xml:space="preserve">
+    <value>Aflæs Alle</value>
+  </data>
+  <data name="ReceivedFiles" xml:space="preserve">
+    <value>Modtagne Filer</value>
+  </data>
+  <data name="Alwayslogchannelsusers" xml:space="preserve">
+    <value>Altid log kanaler/brugere</value>
+  </data>
+  <data name="MarkAsRead" xml:space="preserve">
+    <value>Marker Som Læst</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Åben Mappe</value>
+  </data>
+  <data name="BindtoAdapterorIPaddress" xml:space="preserve">
+    <value>Bind til Adaptor eller IP adresse</value>
+  </data>
+  <data name="PrioritizeIPv6" xml:space="preserve">
+    <value>Prioriter IPv6</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Erstat</value>
+  </data>
+  <data name="ReplaceAll" xml:space="preserve">
+    <value>Erstat Alle</value>
+  </data>
+  <data name="NoScheme" xml:space="preserve">
+    <value>Ingen Skema</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="NickColor" xml:space="preserve">
+    <value>Nick Farve</value>
+  </data>
+  <data name="Applycolortousersmatching" xml:space="preserve">
+    <value>Anvend farve på brugere der matcher</value>
+  </data>
+  <data name="Method" xml:space="preserve">
+    <value>Metode</value>
+  </data>
+  <data name="mins" xml:space="preserve">
+    <value>mins</value>
+  </data>
+  <data name="Idletime" xml:space="preserve">
+    <value>Idle tid</value>
+  </data>
+  <data name="Nomode" xml:space="preserve">
+    <value>Ingen mode</value>
+  </data>
+  <data name="Anymode" xml:space="preserve">
+    <value>Alle moder</value>
+  </data>
+  <data name="Channelmodes" xml:space="preserve">
+    <value>Kanal moder</value>
+  </data>
+  <data name="NickorAddress" xml:space="preserve">
+    <value>Nick eller Adresse (nick!user@host) separer med komma</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Medier</value>
+  </data>
+  <data name="Enablenickcolors" xml:space="preserve">
+    <value>Brug nick farver</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Op</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Ned</value>
+  </data>
+  <data name="Nick_Colors" xml:space="preserve">
+    <value>Nick Farver</value>
+  </data>
+  <data name="Sample" xml:space="preserve">
+    <value>Prøve</value>
+  </data>
+  <data name="Fontsize" xml:space="preserve">
+    <value>Font Størrelse</value>
+  </data>
+  <data name="Choose_font" xml:space="preserve">
+    <value>Vælg font</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Genindlæs</value>
+  </data>
+  <data name="Useserverlistgrouplabelsasnetworkname" xml:space="preserve">
+    <value>Brug serverlistens gruppe mærke som netværks navn</value>
+  </data>
+  <data name="Topics" xml:space="preserve">
+    <value>Emner</value>
+  </data>
+  <data name="Ctcps" xml:space="preserve">
+    <value>Ctcps</value>
+  </data>
+  <data name="Quits" xml:space="preserve">
+    <value>Quits</value>
+  </data>
+  <data name="Nicks" xml:space="preserve">
+    <value>Nicks</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Kicks</value>
+  </data>
+  <data name="InChannel" xml:space="preserve">
+    <value>I Kanalen</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Begivenheder</value>
+  </data>
+  <data name="ShowHideEvents" xml:space="preserve">
+    <value>Vis/Gem Begivenheder</value>
+  </data>
+  <data name="RemovePanel" xml:space="preserve">
+    <value>Fjern Panel</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="ShowSticky" xml:space="preserve">
+    <value>Vis Klæbrig</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="HelpFiles" xml:space="preserve">
+    <value>Hjælpe Filer</value>
+  </data>
+  <data name="Youhaveclickedonalink" xml:space="preserve">
+    <value>Du har klikket på et link der vil åbne adressen nedenunder</value>
+  </data>
+  <data name="Alwaysshowthismessage" xml:space="preserve">
+    <value>Altid vis denne beskeden</value>
+  </data>
+  <data name="Areyousureyouwanttoopen" xml:space="preserve">
+    <value>Er du sikker på du vil åbne dette linket?</value>
+  </data>
+  <data name="LinkWarning" xml:space="preserve">
+    <value>Link Advarsel</value>
+  </data>
+  <data name="Showwarninglink" xml:space="preserve">
+    <value>Vis advarsel når et link bliver åbnet</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variabler</value>
+  </data>
+  <data name="EditVariables" xml:space="preserve">
+    <value>Rediger Variabler</value>
+  </data>
+  <data name="MinimizeHideAllWindows" xml:space="preserve">
+    <value>Minimer/Gem Alle Vinduer</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Ryd Alle</value>
+  </data>
+  <data name="Areyousureyouwanttodeletethislogfile" xml:space="preserve">
+    <value>Er du sikker på du vil slette denne serveren?</value>
+  </data>
+  <data name="Spacing" xml:space="preserve">
+    <value>Mellemrum</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Enlig</value>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="Double" xml:space="preserve">
+    <value>Dobbelt</value>
+  </data>
+  <data name="Hostname" xml:space="preserve">
+    <value>Værtsnavn</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Kodeord</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Protokol</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="Regex" xml:space="preserve">
+    <value>Regex</value>
+  </data>
+  <data name="Toolbarbuttons" xml:space="preserve">
+    <value>Værktøjsbar knapper</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Autojoin" xml:space="preserve">
+    <value>Autoforbind</value>
+  </data>
+  <data name="LockBars" xml:space="preserve">
+    <value>Lås Barer</value>
+  </data>
+  <data name="Backgrounds" xml:space="preserve">
+    <value>Baggrunde</value>
+  </data>
+  <data name="In_Active" xml:space="preserve">
+    <value>I Aktiv</value>
+  </data>
+  <data name="AdiIRCThemes" xml:space="preserve">
+    <value>AdiIRC Temaer</value>
+  </data>
+  <data name="MTSThemes" xml:space="preserve">
+    <value>MTS Temaer</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisTheme" xml:space="preserve">
+    <value>Er du sikker på du vil slette dette tema?</value>
+  </data>
+  <data name="SetAsDefault" xml:space="preserve">
+    <value>Set Som Standard</value>
+  </data>
+  <data name="IgnoreList" xml:space="preserve">
+    <value>Ignorerings Liste</value>
+  </data>
+  <data name="EnableIgnore" xml:space="preserve">
+    <value>Brug Ignorer</value>
+  </data>
+  <data name="Addressnickidenthost" xml:space="preserve">
+    <value>Adresse (nick!ident@host)</value>
+  </data>
+  <data name="IgnoreOptions" xml:space="preserve">
+    <value>Ignorer Indstillinger</value>
+  </data>
+  <data name="NetworknameorServeraddress" xml:space="preserve">
+    <value>Netværks navn eller server adresse</value>
+  </data>
+  <data name="Ctcp" xml:space="preserve">
+    <value>Ctcp</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>Koder</value>
+  </data>
+  <data name="Exclude" xml:space="preserve">
+    <value>Ekskluder</value>
+  </data>
+  <data name="Removein" xml:space="preserve">
+    <value>Fjern om</value>
+  </data>
+  <data name="secs" xml:space="preserve">
+    <value>secs</value>
+  </data>
+  <data name="Icons" xml:space="preserve">
+    <value>Ikoner</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Primær</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="HideMenubar" xml:space="preserve">
+    <value>Gem Menubar</value>
+  </data>
+  <data name="VariablesNetworkChannelCount" xml:space="preserve">
+    <value>Variabler: $network $channel $count $date</value>
+  </data>
+  <data name="Getfaviconfromserverwebsite" xml:space="preserve">
+    <value>Hent favicon fra serverens hjemmeside</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favoritter</value>
+  </data>
+  <data name="AddtoFavorites" xml:space="preserve">
+    <value>Tilføj til Favoritter</value>
+  </data>
+  <data name="OrganizeFavorites" xml:space="preserve">
+    <value>Organiser Favoritter</value>
+  </data>
+  <data name="InServer" xml:space="preserve">
+    <value>I Serveren</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Gem Alle</value>
+  </data>
+  <data name="UseGlobalEditboxHistory" xml:space="preserve">
+    <value>Brug global redigeringsboks historie</value>
+  </data>
+  <data name="Colorandunderlinelinks" xml:space="preserve">
+    <value>Farvelæg og underlinjer links</value>
+  </data>
+  <data name="Customnickcolors" xml:space="preserve">
+    <value>Custom nick farver</value>
+  </data>
+  <data name="Sounds" xml:space="preserve">
+    <value>Lyde</value>
+  </data>
+  <data name="Enablesounds" xml:space="preserve">
+    <value>Slå lyde til</value>
+  </data>
+  <data name="OnEvent" xml:space="preserve">
+    <value>Ved Event</value>
+  </data>
+  <data name="Beeps" xml:space="preserve">
+    <value>Beeps</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>Forsinkelse</value>
+  </data>
+  <data name="ChannelMessage" xml:space="preserve">
+    <value>Kanal Besked</value>
+  </data>
+  <data name="DccChat" xml:space="preserve">
+    <value>Dcc Chat</value>
+  </data>
+  <data name="Nosound" xml:space="preserve">
+    <value>Ingen lyd</value>
+  </data>
+  <data name="Beep" xml:space="preserve">
+    <value>Beep</value>
+  </data>
+  <data name="Playsound" xml:space="preserve">
+    <value>Afspil lyd</value>
+  </data>
+  <data name="Part" xml:space="preserve">
+    <value>Part</value>
+  </data>
+  <data name="DccChatMessage" xml:space="preserve">
+    <value>Dcc Chat Besked</value>
+  </data>
+  <data name="ChannelUrlis0" xml:space="preserve">
+    <value>Kanal Url er {0}</value>
+  </data>
+  <data name="EditAliases" xml:space="preserve">
+    <value>Rediger Aliases</value>
+  </data>
+  <data name="CustomAliases" xml:space="preserve">
+    <value>Custom Aliases</value>
+  </data>
+  <data name="Trytoregainnick" xml:space="preserve">
+    <value>Prøv at gendanne nick</value>
+  </data>
+  <data name="TrayIcon" xml:space="preserve">
+    <value>Bakke Ikon</value>
+  </data>
+  <data name="Tabcompleteorder" xml:space="preserve">
+    <value>Tabkomplet ordning</value>
+  </data>
+  <data name="Usesingleclicktorestore" xml:space="preserve">
+    <value>Brug single klik for at gendanne</value>
+  </data>
+  <data name="Checkassociationonstartup" xml:space="preserve">
+    <value>Check associering ved opstart</value>
+  </data>
+  <data name="AdiIRCisnotcurrently" xml:space="preserve">
+    <value>AdiIRC er i øjeblikket ikke sat som din forhåndsvalgte IRC klient. Vil du sætte AdiIRC til din forhåndsvalgte IRC klient?</value>
+  </data>
+  <data name="StartwithWindows" xml:space="preserve">
+    <value>Start med Windows</value>
+  </data>
+  <data name="Op" xml:space="preserve">
+    <value>Op</value>
+  </data>
+  <data name="DeOp" xml:space="preserve">
+    <value>DeOp</value>
+  </data>
+  <data name="SendFile" xml:space="preserve">
+    <value>SendFil</value>
+  </data>
+  <data name="Query" xml:space="preserve">
+    <value>Forespørgsel</value>
+  </data>
+  <data name="bye" xml:space="preserve">
+    <value>farvel</value>
+  </data>
+  <data name="Runthesecommandsonconnect" xml:space="preserve">
+    <value>Kør disse kommandoer ved forbindelse</value>
+  </data>
+  <data name="Jointhesechannels" xml:space="preserve">
+    <value>Join disse kanaler ved forbindelse</value>
+  </data>
+  <data name="Connectthisserver" xml:space="preserve">
+    <value>Forbind denne serveren ved opstart</value>
+  </data>
+  <data name="Hereyoucanimport" xml:space="preserve">
+    <value>Her kan du importere/eksportere farve temaer for AdiIRC</value>
+  </data>
+  <data name="0of1done2" xml:space="preserve">
+    <value>{0} af {1} færdig ({2}%)</value>
+  </data>
+  <data name="Therewasanerrorinstallingthetheme" xml:space="preserve">
+    <value>Der skete en fejl ved installationen af temaet: {0}</value>
+  </data>
+  <data name="Thereisalreadyathemenamed" xml:space="preserve">
+    <value>Der er allerede et tema med navn {0} installeret, vil du overskrive det?</value>
+  </data>
+  <data name="ThisisnotanAdiIRC" xml:space="preserve">
+    <value>Dette er ikke et AdiIRC eller et MTS tema</value>
+  </data>
+  <data name="ThereWasAProblemCreatingTheFont" xml:space="preserve">
+    <value>Der skete en fejl ved oprettelse af fonten {0} {1} ({2}), venligst prøv en anden</value>
+  </data>
+  <data name="ScriptsHaveUnsavedChanged" xml:space="preserve">
+    <value>Scripts har ændringer der ikke er gemt, gem ændringerne før du lukker?</value>
+  </data>
+  <data name="ThereWasAnErrorCreatingTheScriptFolder" xml:space="preserve">
+    <value>Der skete en fejl ved oprettelse af scripts mappen {0}</value>
+  </data>
+  <data name="AreYouSureYouWantToDelete0" xml:space="preserve">
+    <value>Er du sikker på du vil slette {0}?</value>
+  </data>
+  <data name="AreYouSureDeleteSelectedScripts" xml:space="preserve">
+    <value>Er du sikker på du vil slette valgte script(s)?</value>
+  </data>
+  <data name="AdiIRCMustBeRestarted" xml:space="preserve">
+    <value>AdiIRC må genstartes for at aflæse plug-inet, vil du genstarte nu?</value>
+  </data>
+  <data name="AllYourCurrentThemeColors" xml:space="preserve">
+    <value>Alle dine nuværende tema farver og indstillinger vil blive tabt, er du sikker på du vil fortsætte?
+
+Tema stil vil kun blive tilføjet til nye beskeder.</value>
+  </data>
+  <data name="ThereWasAnErrorSaving" xml:space="preserve">
+    <value>Der skete en fejl ved at gemme filen: {0}</value>
+  </data>
+  <data name="ThereWasAnErrorDeletingTheTheme" xml:space="preserve">
+    <value>Der skete en fejl ved sletning af temaet: {0}</value>
+  </data>
+  <data name="LineNumber0ErrorNumber" xml:space="preserve">
+    <value>Line Nummer{0}, Fejl Nummer: {1}, '{2};{3}</value>
+  </data>
+  <data name="ScriptOutput" xml:space="preserve">
+    <value>Script resultat</value>
+  </data>
+  <data name="TransferIncomplete0of1" xml:space="preserve">
+    <value>Overførsel ufuldstændig {0} af {1}</value>
+  </data>
+  <data name="DCCChatSessionClosed" xml:space="preserve">
+    <value>Dcc Chat sessionen lukkede</value>
+  </data>
+  <data name="DCCChatConnectionEstablished" xml:space="preserve">
+    <value>Dcc Chat forbindelsen er oprettet</value>
+  </data>
+  <data name="UnableToEstablishConnectionTo" xml:space="preserve">
+    <value>Kunne ikke etablere en forbindelse til {0}:{1} ({2})</value>
+  </data>
+  <data name="ThereWasAnErrorLoadingThePlugin" xml:space="preserve">
+    <value>Der skete en fejl ved indlæsning af plugin: {0}{1}{2}{3}</value>
+  </data>
+  <data name="ErrorWhenOpeningUrl" xml:space="preserve">
+    <value>Fejl ved åbning af URL: {0}</value>
+  </data>
+  <data name="ThereWasAnErrorMoving" xml:space="preserve">
+    <value>Der skete en fejl ved flytning af filen {0} ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorDeletingTheFile01" xml:space="preserve">
+    <value>Der skete en fejl ved sletning af filen {0} ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorAppending" xml:space="preserve">
+    <value>Der skete en fejl ved tilføjelse til filen {0} ({1})</value>
+  </data>
+  <data name="ThereWasAnErrorReading" xml:space="preserve">
+    <value>Der skete en fejl ved læsning af filen {0} ({1})</value>
+  </data>
+  <data name="OtherNetworks" xml:space="preserve">
+    <value>Andre Netværk</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>Dagligt</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Ugentligt</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>Måneligt</value>
+  </data>
+  <data name="Last_spoke_order" xml:space="preserve">
+    <value>Sidst-snakket ordning</value>
+  </data>
+  <data name="Notify0IsAlready" xml:space="preserve">
+    <value>{0} er allerede på meddelelses listen</value>
+  </data>
+  <data name="ThisIsATestTopic" xml:space="preserve">
+    <value>Dette er et test topic, link test https://www.adiirc.com og lidt mere tekst</value>
+  </data>
+  <data name="SomeMessageHere" xml:space="preserve">
+    <value>en besked her</value>
+  </data>
+  <data name="0IsDoingSomeFancyAction" xml:space="preserve">
+    <value>{0} laver en fancy emote</value>
+  </data>
+  <data name="0NoticeAllHailMe" xml:space="preserve">
+    <value>-{0}- Notis: Alle se op til mig</value>
+  </data>
+  <data name="0NormalMessage11821Highlighted" xml:space="preserve">
+    <value>{0} Normal besked {1}18{2}{1} fremhævet</value>
+  </data>
+  <data name="0MyMessage" xml:space="preserve">
+    <value>{0} Min besked</value>
+  </data>
+  <data name="NoSpamming" xml:space="preserve">
+    <value>Ingen Spamming!</value>
+  </data>
+  <data name="userslower" xml:space="preserve">
+    <value>brugere</value>
+  </data>
+  <data name="neverlower" xml:space="preserve">
+    <value>adrig</value>
+  </data>
+  <data name="highlightslower" xml:space="preserve">
+    <value>fremhævelser</value>
+  </data>
+  <data name="Bordersize" xml:space="preserve">
+    <value>Kant Størrelse</value>
+  </data>
+  <data name="ConnectedTo0ServersAnd1Channels" xml:space="preserve">
+    <value>Forbundet til {0} server(e) og {1} kanal(er)</value>
+  </data>
+  <data name="NickAddressIsMissing" xml:space="preserve">
+    <value>nick/adresse mangler</value>
+  </data>
+  <data name="IncludeJoins" xml:space="preserve">
+    <value>Inkluder Joins</value>
+  </data>
+  <data name="AreYouSureResetAllOptions0" xml:space="preserve">
+    <value>Er du sikker på du vil nulstille alle indstillinger i {0}?</value>
+  </data>
+  <data name="LineMarkerSize" xml:space="preserve">
+    <value>Linje markør størrelse</value>
+  </data>
+  <data name="ScrollMessagesWhenTyping" xml:space="preserve">
+    <value>Scroll beskeder når du skriver</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Gendan</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="ResetThisPage" xml:space="preserve">
+    <value>Nulstil denne siden</value>
+  </data>
+  <data name="ScriptingWiki" xml:space="preserve">
+    <value>Scripting Wiki</value>
+  </data>
+  <data name="SendDelay" xml:space="preserve">
+    <value>Send forsinkelse</value>
+  </data>
+  <data name="ThereWasAnErrorCausingAdiIRCToCrash" xml:space="preserve">
+    <value>For at hjælpe os med at diagnoser og fixe problemet, kan du sende os en crash rapport.
+(Ingen personlige eller identificerbare informationer vil blive sendt)
+
+Tryk fortsæt hvis du vil at AdiIRC skal prøve at fortsætte selvom der er en fejl.
+
+Tryk Luk for at lukke AdiIRC.</value>
+  </data>
+  <data name="DeleteMergedFiles" xml:space="preserve">
+    <value>Slet sammensatte filer</value>
+  </data>
+  <data name="MergeIntoTthisFile" xml:space="preserve">
+    <value>Sammenslå til denne filen</value>
+  </data>
+  <data name="MergeFiles" xml:space="preserve">
+    <value>Sammenslå Filer</value>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Sammenslå</value>
+  </data>
+  <data name="Buffer" xml:space="preserve">
+    <value>Buffer</value>
+  </data>
+  <data name="SaveFormattedAs" xml:space="preserve">
+    <value>Gem Formateret Som</value>
+  </data>
+  <data name="ResetAllWindowSizes" xml:space="preserve">
+    <value>Nulstil Alle Vindue Størrelser</value>
+  </data>
+  <data name="SaveOpenServersOnExit" xml:space="preserve">
+    <value>Gem åbne servere ved afslut og autoconnect dem ved næste genstart</value>
+  </data>
+  <data name="VariablesChannelUserMsg" xml:space="preserve">
+    <value>Variabler: $channel $user $msg</value>
+  </data>
+  <data name="PrivateMessageFrom0" xml:space="preserve">
+    <value>Privat besked fra {0}</value>
+  </data>
+  <data name="NewMessageOn0From1" xml:space="preserve">
+    <value>Ny besked i {0} fra {1}</value>
+  </data>
+  <data name="OnlyShowIfAdiIRCIsNotFocused" xml:space="preserve">
+    <value>Kun vis hvis AdiIRC ikke har fokus</value>
+  </data>
+  <data name="MarkServerAsRead" xml:space="preserve">
+    <value>Marker Serveren Som Læst</value>
+  </data>
+  <data name="TextFiles" xml:space="preserve">
+    <value>Tekst Filer</value>
+  </data>
+  <data name="SyntaxIs0" xml:space="preserve">
+    <value>Syntaks er {0}</value>
+  </data>
+  <data name="AdiIRCIsDocked0" xml:space="preserve">
+    <value>AdiIRC er docked: {0}</value>
+  </data>
+  <data name="AdiIRCIsNotDocked" xml:space="preserve">
+    <value>AdiIRC er ikke docked</value>
+  </data>
+  <data name="CheckBrackets" xml:space="preserve">
+    <value>Check Klammer</value>
+  </data>
+  <data name="BracketError" xml:space="preserve">
+    <value>Klamme Fejl</value>
+  </data>
+  <data name="ThereSeemsToBe" xml:space="preserve">
+    <value>Der ser ud til at være en klamme mis-match et eller andet sted omkring linje {0}.</value>
+  </data>
+  <data name="InitializationsWarning" xml:space="preserve">
+    <value>Initialiserings Advarsel</value>
+  </data>
+  <data name="ScriptWarning" xml:space="preserve">
+    <value>Script Advarsel</value>
+  </data>
+  <data name="InitializationsCommands" xml:space="preserve">
+    <value>En eller flere scripts er blevet loaded der inkluderer initialisering kommandoer
+Du bør kun godkende nitialisering kommandoer at køre fra scripts du kender.
+Kør initialisering kommandoer?</value>
+  </data>
+  <data name="AsktoSaveFiles" xml:space="preserve">
+    <value>Spørg for at Gemme Filer</value>
+  </data>
+  <data name="LineNumbers" xml:space="preserve">
+    <value>Linje Nummer</value>
+  </data>
+  <data name="IdentifierWarning" xml:space="preserve">
+    <value>Identifier Advarsel</value>
+  </data>
+  <data name="ShowOnDesktop" xml:space="preserve">
+    <value>Vis på Skrivebordet</value>
+  </data>
+  <data name="BackupFileonSave" xml:space="preserve">
+    <value>Backup Filer når du Gemmer</value>
+  </data>
+  <data name="FindSelection" xml:space="preserve">
+    <value>Find Valgte Tekst</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Klip</value>
+  </data>
+  <data name="nloadAllButActive" xml:space="preserve">
+    <value>Aflæs Alle Undtaget Aktiv</value>
+  </data>
+  <data name="0IsNotOnTheIgnoreList" xml:space="preserve">
+    <value>{0} er ikke på ignorer listen</value>
+  </data>
+  <data name="IgnoreListCleared" xml:space="preserve">
+    <value>Ignorer listen er ryddet</value>
+  </data>
+  <data name="IgnoreListIsEmpty" xml:space="preserve">
+    <value>Ignorer listen er tom</value>
+  </data>
+  <data name="UpdatedIgnoreFor" xml:space="preserve">
+    <value>Opdateret ignorering for {0}</value>
+  </data>
+  <data name="For0Seconds" xml:space="preserve">
+    <value>for {0} sekunder</value>
+  </data>
+  <data name="AutoUnsetIn" xml:space="preserve">
+    <value>(Automatisk fjern i {0})</value>
+  </data>
+  <data name="IgnoreIs0" xml:space="preserve">
+    <value>Ignorering er {0}</value>
+  </data>
+  <data name="0IsNotOnTheNotifyList" xml:space="preserve">
+    <value>{0} er ikke på meddelelses listen</value>
+  </data>
+  <data name="Removed0FfromNotifyList" xml:space="preserve">
+    <value>Fjernede {0} fra meddelelses listen</value>
+  </data>
+  <data name="NotifyListCleared" xml:space="preserve">
+    <value>Meddelelses listen ryddet</value>
+  </data>
+  <data name="NotifyListIsEmpty" xml:space="preserve">
+    <value>Meddeles listen er tom</value>
+  </data>
+  <data name="Added0ToNotifyList" xml:space="preserve">
+    <value>Tiløjede {0} til meddeles listen</value>
+  </data>
+  <data name="UnableToRemove0" xml:space="preserve">
+    <value>kan ikke fjerne '{0}'</value>
+  </data>
+  <data name="AllTimersHalted" xml:space="preserve">
+    <value>Alle timere stoppet</value>
+  </data>
+  <data name="NoActiveTimers" xml:space="preserve">
+    <value>Ingen aktive timere</value>
+  </data>
+  <data name="0TimersMatching0Removed" xml:space="preserve">
+    <value>{0} timer(e) der matcher {0} blev slettet</value>
+  </data>
+  <data name="Timer0Halted" xml:space="preserve">
+    <value>Timer {0} stopped</value>
+  </data>
+  <data name="TimerNamed0NotFound" xml:space="preserve">
+    <value>Timer ved navn {0} blev ikke fundet</value>
+  </data>
+  <data name="Timer0Paused" xml:space="preserve">
+    <value>Timer {0} paused</value>
+  </data>
+  <data name="Timer0Resumed" xml:space="preserve">
+    <value>Timer {0} genoptaget</value>
+  </data>
+  <data name="Timer0Activated" xml:space="preserve">
+    <value>Timer {0} aktiveret</value>
+  </data>
+  <data name="CurrentEncoding0" xml:space="preserve">
+    <value>Nuværende kodning: {0}</value>
+  </data>
+  <data name="NoSuchFile0" xml:space="preserve">
+    <value>ingen sådan fil '{0}'</value>
+  </data>
+  <data name="ReLoadedScrípt0" xml:space="preserve">
+    <value>(Gen)startede script '{0}'</value>
+  </data>
+  <data name="LoadedScrípt0" xml:space="preserve">
+    <value>Indlæste script '{0}'</value>
+  </data>
+  <data name="LoadedVariablesFrom0" xml:space="preserve">
+    <value>Indlæste variabler fra '{0}'</value>
+  </data>
+  <data name="UnloadedScrípt0" xml:space="preserve">
+    <value>Stoppet script '{0}'</value>
+  </data>
+  <data name="MenubarIs0" xml:space="preserve">
+    <value>Menubaren er {0}</value>
+  </data>
+  <data name="StatusbarIs0" xml:space="preserve">
+    <value>Statusbar er {0}</value>
+  </data>
+  <data name="Removed0" xml:space="preserve">
+    <value>Fjernede '{0}'</value>
+  </data>
+  <data name="NoSuchUser0" xml:space="preserve">
+    <value>ingen sådan bruger '{0}'</value>
+  </data>
+  <data name="WaitingForAcknowledgement" xml:space="preserve">
+    <value>Venter på godkendelse fra {0}...</value>
+  </data>
+  <data name="DefaultChangedTo0" xml:space="preserve">
+    <value>standard ændret til '{0}'</value>
+  </data>
+  <data name="InvalidWindow" xml:space="preserve">
+    <value>invalid vindue</value>
+  </data>
+  <data name="TopicboxFor0is1" xml:space="preserve">
+    <value>Emneboks for '{0}' er '{1}'</value>
+  </data>
+  <data name="ScriptsIs0" xml:space="preserve">
+    <value>Scripts er: {0}</value>
+  </data>
+  <data name="MustBeAnOpOn0" xml:space="preserve">
+    <value>må være en op på {0}</value>
+  </data>
+  <data name="UnableToOpen0" xml:space="preserve">
+    <value>kan ikke åbne '{0}'</value>
+  </data>
+  <data name="UnknownDialog0" xml:space="preserve">
+    <value>ukendt dialog '{0}'</value>
+  </data>
+  <data name="NoSuchRoutine0" xml:space="preserve">
+    <value>ingen sådan rutine '{0}'</value>
+  </data>
+  <data name="Name0InUse" xml:space="preserve">
+    <value>navnet '{0}' er i brug</value>
+  </data>
+  <data name="UnableToCreate0" xml:space="preserve">
+    <value>kan ikke oprette '{0}'</value>
+  </data>
+  <data name="Opened0" xml:space="preserve">
+    <value>åbnede '{0}'</value>
+  </data>
+  <data name="Closed0" xml:space="preserve">
+    <value>lukkede '{0}'</value>
+  </data>
+  <data name="UnableToRenameFile" xml:space="preserve">
+    <value>kan ikke omdøbe filen '{0}' til '{1}'</value>
+  </data>
+  <data name="Renamed0To1" xml:space="preserve">
+    <value>omdøbte '{0}' til '{1}'</value>
+  </data>
+  <data name="InvalidParameters" xml:space="preserve">
+    <value>invalid parametre</value>
+  </data>
+  <data name="InvalidDialog0" xml:space="preserve">
+    <value>invalid dialog '{0}'</value>
+  </data>
+  <data name="Table0Exists" xml:space="preserve">
+    <value>tabellen '{0}' eksisterer</value>
+  </data>
+  <data name="MadeHashTable01" xml:space="preserve">
+    <value>Oprettede hash tabellen '{0}' ({1})</value>
+  </data>
+  <data name="NoSuchTable0" xml:space="preserve">
+    <value>ingen sådan tabel '{0}'</value>
+  </data>
+  <data name="FreedHashTable01" xml:space="preserve">
+    <value>Slettede hash tabellen '{0}' ({1})</value>
+  </data>
+  <data name="Freed0HashTablesMatching1" xml:space="preserve">
+    <value>Slettede '{0}' hash tabel(er) der matchede '{1}'</value>
+  </data>
+  <data name="AddedItem0ToHashTable1" xml:space="preserve">
+    <value>Tilføjede element '{0}' til hash tabellen '{1}'</value>
+  </data>
+  <data name="IncItem0InHashTable1" xml:space="preserve">
+    <value>Forhøjet elementet '{0}' i hash tabellen '{1}'</value>
+  </data>
+  <data name="DecItem0InHashTable1" xml:space="preserve">
+    <value>Formindsket elementet '{0}' i hash tabellen '{1}'</value>
+  </data>
+  <data name="DeletedItem0FromHashTable1" xml:space="preserve">
+    <value>Slettede elementet '{0}' fra hash tabellen '{1}'</value>
+  </data>
+  <data name="Deleted01ItemsFromHashTable2" xml:space="preserve">
+    <value>Slettede '{0}' {1}'  element(er) fra hash tabellen '{2}'</value>
+  </data>
+  <data name="LoadedHashTable0From1" xml:space="preserve">
+    <value>Startede hash tabellen '{0}' til '{1}'</value>
+  </data>
+  <data name="SavedHashTable0To1" xml:space="preserve">
+    <value>Gemte hash tabellen '{0}' til '{1}'</value>
+  </data>
+  <data name="InputRequest" xml:space="preserve">
+    <value>Input anmodning</value>
+  </data>
+  <data name="EnterReply" xml:space="preserve">
+    <value>Indtast svar:</value>
+  </data>
+  <data name="Replaced0Alias" xml:space="preserve">
+    <value>Erstattet '{0}' alias</value>
+  </data>
+  <data name="Added0Alias" xml:space="preserve">
+    <value>Tilføjede '{0}' alias</value>
+  </data>
+  <data name="SocketUnavailable" xml:space="preserve">
+    <value>socket er ikke tilgængelig</value>
+  </data>
+  <data name="SocketInUse" xml:space="preserve">
+    <value>'{0}' socket er i brug</value>
+  </data>
+  <data name="BindingIsOff" xml:space="preserve">
+    <value>Binding er fra</value>
+  </data>
+  <data name="BindingIsOn0" xml:space="preserve">
+    <value>Binding er til ({0})</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="Listening" xml:space="preserve">
+    <value>Lytter</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Set0To1" xml:space="preserve">
+    <value>Sæt {0} til {1}</value>
+  </data>
+  <data name="WindowExists" xml:space="preserve">
+    <value>vinduet eksisterer '{0}'</value>
+  </data>
+  <data name="InsufficientParameters" xml:space="preserve">
+    <value>utilstrækkelig parametre</value>
+  </data>
+  <data name="TooManyParameters" xml:space="preserve">
+    <value>for mange parametre</value>
+  </data>
+  <data name="UnknownOperato0" xml:space="preserve">
+    <value>ukendt operatør '{0}'</value>
+  </data>
+  <data name="YourMainNicknameIsNow0" xml:space="preserve">
+    <value>Dit hoved nicknavn er nu {0}</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Søger...</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Bund</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sorter</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="PanelsIs0" xml:space="preserve">
+    <value>Paneler er {0}</value>
+  </data>
+  <data name="AutoJoinOnInviteIs0" xml:space="preserve">
+    <value>Auto-join ved invite er {0}</value>
+  </data>
+  <data name="RecentFiles" xml:space="preserve">
+    <value>Seneste Filer</value>
+  </data>
+  <data name="ConnectInNewWindow" xml:space="preserve">
+    <value>Forbind i et nyt vindue</value>
+  </data>
+  <data name="Treebar" xml:space="preserve">
+    <value>Treebar</value>
+  </data>
+  <data name="HideTreebar" xml:space="preserve">
+    <value>Gem Treebar</value>
+  </data>
+  <data name="TreebarIs0" xml:space="preserve">
+    <value>Treebar er {0}</value>
+  </data>
+  <data name="Switchbar" xml:space="preserve">
+    <value>Switchbar</value>
+  </data>
+  <data name="HideSwitchbar" xml:space="preserve">
+    <value>Gem Switchbar</value>
+  </data>
+  <data name="EnableSwitchbar" xml:space="preserve">
+    <value>Aktiver Switchbar</value>
+  </data>
+  <data name="SwitchbarIs0" xml:space="preserve">
+    <value>Switchbar er {0}</value>
+  </data>
+  <data name="Maxusers" xml:space="preserve">
+    <value>Max brugere:</value>
+  </data>
+  <data name="Minusers" xml:space="preserve">
+    <value>Min brugere:</value>
+  </data>
+  <data name="JoinChannels" xml:space="preserve">
+    <value>Join Kanaler</value>
+  </data>
+  <data name="FilterChannels" xml:space="preserve">
+    <value>Filtrer kanaler</value>
+  </data>
+  <data name="Displaying0UsersOn1Channels" xml:space="preserve">
+    <value>Viser {0} brugere på {1} kanaler</value>
+  </data>
+  <data name="Nicklist" xml:space="preserve">
+    <value>Brugerliste</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="MessageAndNicklist" xml:space="preserve">
+    <value>Beskeder Og Brugerliste</value>
+  </data>
+  <data name="NicklistButtons" xml:space="preserve">
+    <value>Brugerliste Knapper</value>
+  </data>
+  <data name="ShowNicklist" xml:space="preserve">
+    <value>Vis Brugerliste</value>
+  </data>
+  <data name="NicklistFollowsSelectedChannel" xml:space="preserve">
+    <value>Brugerlisten følger valgte kanal</value>
+  </data>
+  <data name="TreebarNicklist" xml:space="preserve">
+    <value>Treebar Brugerliste</value>
+  </data>
+  <data name="ShowNicklistButtons" xml:space="preserve">
+    <value>Vis Brugerliste knapper</value>
+  </data>
+  <data name="NicklistFor0Is1" xml:space="preserve">
+    <value>Brugerliste for '{0}' er '{1}'</value>
+  </data>
+  <data name="InStatus" xml:space="preserve">
+    <value>I Status</value>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>Case sensitive</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Farve:</value>
+  </data>
+  <data name="FlashMessage" xml:space="preserve">
+    <value>Blink besked</value>
+  </data>
+  <data name="time_s" xml:space="preserve">
+    <value>tid(er)</value>
+  </data>
+  <data name="TipMessage" xml:space="preserve">
+    <value>Tip besked</value>
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Nicknavn</value>
+  </data>
+  <data name="MessageAndNickname" xml:space="preserve">
+    <value>Besked Og Nicknavn</value>
+  </data>
+  <data name="Both" xml:space="preserve">
+    <value>Begge</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="EnableTips" xml:space="preserve">
+    <value>Aktiver tips</value>
+  </data>
+  <data name="ChannelTips" xml:space="preserve">
+    <value>Kanal tips</value>
+  </data>
+  <data name="PrivateTips" xml:space="preserve">
+    <value>Privat tips</value>
+  </data>
+  <data name="OtherTips" xml:space="preserve">
+    <value>Andre tips</value>
+  </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Kø</value>
+  </data>
+  <data name="ShowFor" xml:space="preserve">
+    <value>Vis for</value>
+  </data>
+  <data name="HideTipsWhenFullscreen" xml:space="preserve">
+    <value>Gem tips når et fuldskærms program er aktiv</value>
+  </data>
+  <data name="ChannelAction" xml:space="preserve">
+    <value>Kanal Handling</value>
+  </data>
+  <data name="0On1Says2" xml:space="preserve">
+    <value>{0} på {1} siger: {2}</value>
+  </data>
+  <data name="0On12" xml:space="preserve">
+    <value>{0} på {1}: {2}</value>
+  </data>
+  <data name="ChannelCtcp" xml:space="preserve">
+    <value>Kanal Ctcp</value>
+  </data>
+  <data name="PrivateCtcp" xml:space="preserve">
+    <value>Privat Ctcp</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="JoinChannel" xml:space="preserve">
+    <value>Join Kanal</value>
+  </data>
+  <data name="CopyChannelName" xml:space="preserve">
+    <value>Kopier Kanal Navn</value>
+  </data>
+  <data name="CopyTopicText" xml:space="preserve">
+    <value>Kopier Overskrift Tekst</value>
+  </data>
+  <data name="ChannelNotice" xml:space="preserve">
+    <value>Kanal Varsel</value>
+  </data>
+  <data name="0On1Notice2" xml:space="preserve">
+    <value>{0} på {1} varsel: {2}</value>
+  </data>
+  <data name="0Notice1" xml:space="preserve">
+    <value>{0} varsel: {1}</value>
+  </data>
+  <data name="0On1Sends2" xml:space="preserve">
+    <value>{0} på {1} sender {2}</value>
+  </data>
+  <data name="0Sends1" xml:space="preserve">
+    <value>{0} sender {1}</value>
+  </data>
+  <data name="PrivateNotice" xml:space="preserve">
+    <value>Privat Varsel</value>
+  </data>
+  <data name="YouHaveJoinedChanne0" xml:space="preserve">
+    <value>Du har joinet kanalen {0}</value>
+  </data>
+  <data name="0HasJoinedChannel1" xml:space="preserve">
+    <value>{0} har joinet kanalen {1}</value>
+  </data>
+  <data name="YouHaveLeftChannel0" xml:space="preserve">
+    <value>Du har forladt kanalen {0}</value>
+  </data>
+  <data name="0HasLeftChannel1" xml:space="preserve">
+    <value>{0} har forladt kanalen {1}</value>
+  </data>
+  <data name="0HasKicked1From23" xml:space="preserve">
+    <value>{0} har sparket {1} fra {2} ({3})</value>
+  </data>
+  <data name="0HasKickedYouFrom12" xml:space="preserve">
+    <value>{0} har sparket dig fra {1} {2}</value>
+  </data>
+  <data name="0ChangesModeOn12" xml:space="preserve">
+    <value>{0} ændrede mode på {1}: {2}</value>
+  </data>
+  <data name="ChannelMode" xml:space="preserve">
+    <value>Kanal Mode</value>
+  </data>
+  <data name="0On1HasChangedTopicTo2" xml:space="preserve">
+    <value>{0} på {1} har ændret overskrift til: {2}</value>
+  </data>
+  <data name="0HasChangedNicknameTo1" xml:space="preserve">
+    <value>{0} har ændret nicknavn til {1}</value>
+  </data>
+  <data name="0HasQuiIR1" xml:space="preserve">
+    <value>{0} har forladt IRC ({1})</value>
+  </data>
+  <data name="0YouHaveDisconnected" xml:space="preserve">
+    <value>{0} du har afbrudt forbindelsen til netværket {1}</value>
+  </data>
+  <data name="YouHaveConnected" xml:space="preserve">
+    <value>Du har forbundet til netværket {0} som {1} </value>
+  </data>
+  <data name="ListingChannels" xml:space="preserve">
+    <value>Lister kanaler</value>
+  </data>
+  <data name="Listed0Channels" xml:space="preserve">
+    <value>Lister {0} kanaler</value>
+  </data>
+  <data name="0WantsToDccSendYouFile1" xml:space="preserve">
+    <value>{0} vil Dcc sende dig filen {1}</value>
+  </data>
+  <data name="0WantsToDccChatWithYou" xml:space="preserve">
+    <value>{0} vil Dcc chatte med dig</value>
+  </data>
+  <data name="0WantsToDccResumeFile1" xml:space="preserve">
+    <value>{0} vil Dcc genoptage filen {1}</value>
+  </data>
+  <data name="0AcceptedDccSendOfFile1" xml:space="preserve">
+    <value>{0} accepterede Dcc send af filen {1}</value>
+  </data>
+  <data name="0HasInvitedYouToJoinChannel1" xml:space="preserve">
+    <value>{0} har inviteret dig til at joine kanalen {1}</value>
+  </data>
+  <data name="TipsAre0" xml:space="preserve">
+    <value>Tips er {0}</value>
+  </data>
+  <data name="0Says1" xml:space="preserve">
+    <value>{0} siger: {1}</value>
+  </data>
+  <data name="FlashIcons" xml:space="preserve">
+    <value>Blink ikoner</value>
+  </data>
+  <data name="Motd" xml:space="preserve">
+    <value>Motd</value>
+  </data>
+  <data name="Beeping" xml:space="preserve">
+    <value>Bipper</value>
+  </data>
+  <data name="Flashing" xml:space="preserve">
+    <value>Blinker</value>
+  </data>
+  <data name="FlashMainWindowTaskbarOn" xml:space="preserve">
+    <value>Blink hoved vindue/proceslinjen ved</value>
+  </data>
+  <data name="ShowLeftToRightScrollbar" xml:space="preserve">
+    <value>Vis venstre til højre rullebjælke</value>
+  </data>
+  <data name="OverrideWindowsThemeColors" xml:space="preserve">
+    <value>Overstyr Windows tema farver</value>
+  </data>
+  <data name="Remove0FromDictionary" xml:space="preserve">
+    <value>Fjern "{0}" fra Ordbogen</value>
+  </data>
+  <data name="Suggestions" xml:space="preserve">
+    <value>Forslag</value>
+  </data>
+  <data name="IgnoreAll" xml:space="preserve">
+    <value>Ignorer Alle</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>Stavekontrol</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Sprog</value>
+  </data>
+  <data name="AddDictionaries" xml:space="preserve">
+    <value>Tilføj Ordbøger</value>
+  </data>
+  <data name="SetExternalEditor" xml:space="preserve">
+    <value>Set Ekstern Editor </value>
+  </data>
+  <data name="ShowScriptList" xml:space="preserve">
+    <value>Vis Script Liste</value>
+  </data>
+  <data name="Listen" xml:space="preserve">
+    <value>Lyt</value>
+  </data>
+  <data name="Raw" xml:space="preserve">
+    <value>Rå</value>
+  </data>
+  <data name="OpenInExternalEditor" xml:space="preserve">
+    <value>Åben i Ekstern Editor</value>
+  </data>
+  <data name="ExternalEditor" xml:space="preserve">
+    <value>Ekstern Editor</value>
+  </data>
+  <data name="HtmlFiles" xml:space="preserve">
+    <value>Html Filer</value>
+  </data>
+  <data name="ResetDefault" xml:space="preserve">
+    <value>Nulstill Standard</value>
+  </data>
+  <data name="MinimizeAll" xml:space="preserve">
+    <value>Minimer Alle</value>
+  </data>
+  <data name="CloseAll" xml:space="preserve">
+    <value>Luk Alle</value>
+  </data>
+  <data name="ShowCount" xml:space="preserve">
+    <value>Vis Antal</value>
+  </data>
+  <data name="UseFolders" xml:space="preserve">
+    <value>Brug Mapper</value>
+  </data>
+  <data name="KeepChannelsOpenOnPart" xml:space="preserve">
+    <value>Hold kanalen åben når den bliver forladt</value>
+  </data>
+  <data name="ShowDayChangedMessage" xml:space="preserve">
+    <value>Vis dagen har ændret sig besked</value>
+  </data>
+  <data name="ShowScrollbar" xml:space="preserve">
+    <value>Vis Rullebjælke</value>
+  </data>
+  <data name="UseSmallUnreadLineMarker" xml:space="preserve">
+    <value>Brug lille ulæst linje markør</value>
+  </data>
+  <data name="Autohide" xml:space="preserve">
+    <value>Autogem</value>
+  </data>
+  <data name="DdeDelay" xml:space="preserve">
+    <value>Dde Forsinkelse</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Service Navn</value>
+  </data>
+  <data name="CheckIfServiceName" xml:space="preserve">
+    <value>Check om Service Navn er i brug</value>
+  </data>
+  <data name="EnableDdeServer" xml:space="preserve">
+    <value>Brug Dde Server</value>
+  </data>
+  <data name="FormBorder" xml:space="preserve">
+    <value>Form Kant</value>
+  </data>
+  <data name="ShowTitlebar" xml:space="preserve">
+    <value>Vis Tittelbar</value>
+  </data>
+  <data name="0WillFillTheSwitchbar" xml:space="preserve">
+    <value>0 vil fylde Switchbaren</value>
+  </data>
+  <data name="WindowOrder" xml:space="preserve">
+    <value>Vindue Opstilling</value>
+  </data>
+  <data name="WindowTypeOrName" xml:space="preserve">
+    <value>Vindue type eller navn</value>
+  </data>
+  <data name="EditboxLines" xml:space="preserve">
+    <value>Editbox Linjer</value>
+  </data>
+  <data name="DictionaryDownload" xml:space="preserve">
+    <value>Ordbog nedlastning</value>
+  </data>
+  <data name="InOrderToUseSpellChecking" xml:space="preserve">
+    <value>For at bruge stavekontrol må AdiIRC downloade et plugin</value>
+  </data>
+  <data name="FinishedDownloadingDictionaries" xml:space="preserve">
+    <value>Færdig downloade ordbøger</value>
+  </data>
+  <data name="ThereWasAnErrorDownloadingDictionary" xml:space="preserve">
+    <value>Der skete en fejl ved download af ordbogen, venligst prøv igen senere.</value>
+  </data>
+  <data name="AnimateTrayiconOn" xml:space="preserve">
+    <value>Animer Trayicon ved</value>
+  </data>
+  <data name="ChanOwner" xml:space="preserve">
+    <value>KanalEjer</value>
+  </data>
+  <data name="ChanAdmin" xml:space="preserve">
+    <value>KanalAdmin</value>
+  </data>
+  <data name="LowPing" xml:space="preserve">
+    <value>Lav Ping</value>
+  </data>
+  <data name="MediumPing" xml:space="preserve">
+    <value>Medium Ping</value>
+  </data>
+  <data name="HighPing" xml:space="preserve">
+    <value>Høj Ping</value>
+  </data>
+  <data name="PrefixChannelAdmin" xml:space="preserve">
+    <value>Præfiks kanal admin</value>
+  </data>
+  <data name="PrefixChannelOwner" xml:space="preserve">
+    <value>Præfiks kanal ejer</value>
+  </data>
+  <data name="ChannelAdmin" xml:space="preserve">
+    <value>Kanal admin</value>
+  </data>
+  <data name="ChannelOwner" xml:space="preserve">
+    <value>Kanal ejer</value>
+  </data>
+  <data name="SkippingAutojoinOfChannels" xml:space="preserve">
+    <value>Hopper over autojoin af kanaler</value>
+  </data>
+  <data name="AutojoiningChannels" xml:space="preserve">
+    <value>Autojoiner kanaler...</value>
+  </data>
+  <data name="AutojoiningChannelsIn0seconds" xml:space="preserve">
+    <value>Autojoiner kanaler om {0} sekunder...</value>
+  </data>
+  <data name="AddressQueueCleared" xml:space="preserve">
+    <value>adresse kø ryddet</value>
+  </data>
+  <data name="NoAddressesBeingResolved" xml:space="preserve">
+    <value>ingen adresser bliver løst</value>
+  </data>
+  <data name="Resolving" xml:space="preserve">
+    <value>løser</value>
+  </data>
+  <data name="Resolving0" xml:space="preserve">
+    <value>løser {0}</value>
+  </data>
+  <data name="NoOpenComs" xml:space="preserve">
+    <value>Ingen åbne Coms</value>
+  </data>
+  <data name="OpenComs" xml:space="preserve">
+    <value>Åbne Coms</value>
+  </data>
+  <data name="Com0Alreadyopen" xml:space="preserve">
+    <value>Com '{0}' er allerede åben</value>
+  </data>
+  <data name="OpenedCom01" xml:space="preserve">
+    <value>Åbnede Com '{0}' ({1})</value>
+  </data>
+  <data name="NoSuchCom0Open" xml:space="preserve">
+    <value>ingen Com ved navn '{0}' åben</value>
+  </data>
+  <data name="ClosedCom0" xml:space="preserve">
+    <value>Lukkede Com '{0}'</value>
+  </data>
+  <data name="UnableToRegisterCom0" xml:space="preserve">
+    <value>Kan ikke registrere Com ' {0}'</value>
+  </data>
+  <data name="UnableToUnregisterCom0" xml:space="preserve">
+    <value>Kan ikke afmelde Com ' {0}'</value>
+  </data>
+  <data name="RegisteredCom0" xml:space="preserve">
+    <value>Registrerede Com ' {0}'</value>
+  </data>
+  <data name="UnregisteredCom0" xml:space="preserve">
+    <value>Afmeldte Com ' {0}'</value>
+  </data>
+  <data name="NoOpenFiles" xml:space="preserve">
+    <value>ingen åbne filer</value>
+  </data>
+  <data name="OpenFiles" xml:space="preserve">
+    <value>åbne filer</value>
+  </data>
+  <data name="NoSuchGroups" xml:space="preserve">
+    <value>ingen sådan gruppe(r)</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deaktiv</value>
+  </data>
+  <data name="Group_s" xml:space="preserve">
+    <value>Gruppe(r)</value>
+  </data>
+  <data name="ActiveTimers" xml:space="preserve">
+    <value>Aktive timere</value>
+  </data>
+  <data name="Timer0Delay1" xml:space="preserve">
+    <value>Timer {0} forsinkelse: {1} max: {2} kommando: {3}</value>
+  </data>
+  <data name="NoOpenSockets" xml:space="preserve">
+    <value>ingen åben sockets</value>
+  </data>
+  <data name="Unset0" xml:space="preserve">
+    <value>Frakoble {0}</value>
+  </data>
+  <data name="Add0ToDictionary" xml:space="preserve">
+    <value>Tilføj "{0}" til Ordbogen</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Fremhæv</value>
+  </data>
+  <data name="MatchOn" xml:space="preserve">
+    <value>Match ved</value>
+  </data>
+  <data name="EnterReasonToKick0" xml:space="preserve">
+    <value>Indtaste grunden til at sparke {0}</value>
+  </data>
+  <data name="UnableToOpenFile0" xml:space="preserve">
+    <value>kan ikke åbne filen '{0}'</value>
+  </data>
+  <data name="012IsSetTo3" xml:space="preserve">
+    <value>{0}: {1}/{2} er sat til {3}</value>
+  </data>
+  <data name="InstallPathIs0" xml:space="preserve">
+    <value>Installation stien er sat til {0}</value>
+  </data>
+  <data name="ConfigPathIs0" xml:space="preserve">
+    <value>Konfiguration stien er sat til {0}</value>
+  </data>
+  <data name="UseCustomPrefixColors" xml:space="preserve">
+    <value>Brug brugerdefineret præfiks farver</value>
+  </data>
+  <data name="UseNickColumn" xml:space="preserve">
+    <value>Brug nick kolonne</value>
+  </data>
+  <data name="NickColumnDivider" xml:space="preserve">
+    <value>Nick kolonne divider</value>
+  </data>
+  <data name="NickColumnWidth" xml:space="preserve">
+    <value>Nick kolonne bredde</value>
+  </data>
+  <data name="NickColumnDividerWidth" xml:space="preserve">
+    <value>Nick kolonne divider bredde</value>
+  </data>
+  <data name="ShowNickName" xml:space="preserve">
+    <value>Vis nick navn</value>
+  </data>
+  <data name="ShowNetworkName" xml:space="preserve">
+    <value>Vis netværks navn</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Multi" xml:space="preserve">
+    <value>Multi</value>
+  </data>
+  <data name="ShowServer" xml:space="preserve">
+    <value>Vis Server</value>
+  </data>
+  <data name="ShowIconInMenubar" xml:space="preserve">
+    <value>Vis ikoner i Menubaren</value>
+  </data>
+  <data name="EnableMenubar" xml:space="preserve">
+    <value>Brug Menubar</value>
+  </data>
+  <data name="ShowIcons" xml:space="preserve">
+    <value>Vis Ikoner</value>
+  </data>
+  <data name="EditNicklistButtons" xml:space="preserve">
+    <value>Rediger Nicklist Knapper</value>
+  </data>
+  <data name="AreYouSureResetNicklistButtons" xml:space="preserve">
+    <value>Er du sikker på du vil nulstille brugerdefinerede Nickliste knapper til standard værdier?</value>
+  </data>
+  <data name="ServerNotices" xml:space="preserve">
+    <value>Server Meddelser</value>
+  </data>
+  <data name="UseDefault" xml:space="preserve">
+    <value>Brug Standard</value>
+  </data>
+  <data name="Buttons" xml:space="preserve">
+    <value>Knapper</value>
+  </data>
+  <data name="SoundsAreNow" xml:space="preserve">
+    <value>Lyd er nu midlertidig muted, tryk CTRL + R for at slå fra</value>
+  </data>
+  <data name="SoundsAreNoLonger" xml:space="preserve">
+    <value>Lyd er ikke længere muted, tryk CTRL + R for at slå til</value>
+  </data>
+  <data name="UnableToCopy0To1" xml:space="preserve">
+    <value>kan ikke kopiere '{0}' to '{1}'</value>
+  </data>
+  <data name="Copied0To1" xml:space="preserve">
+    <value>kopierede '{0}' to '{1}'</value>
+  </data>
+  <data name="ShowTooltips" xml:space="preserve">
+    <value>Vis Værktøjstips</value>
+  </data>
+  <data name="TooltipText" xml:space="preserve">
+    <value>Værktøjstip Tekst</value>
+  </data>
+  <data name="UseTransparentMainWindow" xml:space="preserve">
+    <value>Brug transparent hoved vindue</value>
+  </data>
+  <data name="UseTransparentNicklist" xml:space="preserve">
+    <value>Brug transparent nickliste</value>
+  </data>
+  <data name="OnlyPlayIfAdiIRCIsNotFocused" xml:space="preserve">
+    <value>Afspil kun hvis AdiIRC ikke er i focus</value>
+  </data>
+  <data name="GetList" xml:space="preserve">
+    <value>Hent Liste</value>
+  </data>
+  <data name="PixelSpacing" xml:space="preserve">
+    <value>Pixel afstand</value>
+  </data>
+  <data name="Deleted0Alias" xml:space="preserve">
+    <value>Slettede '{0}' alias</value>
+  </data>
+  <data name="Alias0NotFound" xml:space="preserve">
+    <value>Alias  '{0}' blev ikke fundet</value>
+  </data>
+  <data name="LeftBorder" xml:space="preserve">
+    <value>Venstre Ramme</value>
+  </data>
+  <data name="ShowTopPanel" xml:space="preserve">
+    <value>Vis Top Panel</value>
+  </data>
+  <data name="HighlightSyntax" xml:space="preserve">
+    <value>Fremhæv Syntaks</value>
+  </data>
+  <data name="FontStyle" xml:space="preserve">
+    <value>Font Stil</value>
+  </data>
+  <data name="ConfirmPaste" xml:space="preserve">
+    <value>Bekræft Indsæt</value>
+  </data>
+  <data name="AreYouSureYouWantToPaste" xml:space="preserve">
+    <value>Er du sikker på du vil indsætte {0} linje(r) med tekst i dette vindue?</value>
+  </data>
+  <data name="AddHighlight" xml:space="preserve">
+    <value>Tilføj Fremhævning</value>
+  </data>
+  <data name="EditHighlight" xml:space="preserve">
+    <value>Rediger Fræmhevning</value>
+  </data>
+
+
+
+  <data name="AddedLevelsToUser" xml:space="preserve">
+    <value>Tilføjede level(er) til bruger {0}</value>
+  </data>
+  <data name="Added0ToUserList" xml:space="preserve">
+    <value>Tilføjede {0} til bruger listen</value>
+  </data>
+  <data name="UpdatedInfoForUser" xml:space="preserve">
+    <value>Opdaterede info for brugeren {0}</value>
+  </data>
+  <data name="EditUsers" xml:space="preserve">
+    <value>Rediger Brugere</value>
+  </data>
+  <data name="LoadedUsersFrom" xml:space="preserve">
+    <value>Indlæste brugere fra {0}</value>
+  </data>
+  <data name="ShowUnreadCount" xml:space="preserve">
+    <value>Vis Ulæst Nummer</value>
+  </data>
+  <data name="Removed0FromUserlist" xml:space="preserve">
+    <value>Fjernede {0} fra bruger listen</value>
+  </data>
+  <data name="NoSuchUserInUserlist" xml:space="preserve">
+    <value>Ingen sådan bruger i brugerlisten</value>
+  </data>
+  <data name="RemovedLevelsFrom0Users" xml:space="preserve">
+    <value>Fjernede level(er) fra {0} brugere</value>
+  </data>
+  <data name="NoUsersInUserlistMatchedRemoved" xml:space="preserve">
+    <value>Ingen brugere i bruger listen fundet/fjernet</value>
+  </data>
+  <data name="IdentdIs0" xml:space="preserve">
+    <value>Ident er {0}</value>
+  </data>
+  <data name="YourAlternateNicknameIsNow0" xml:space="preserve">
+    <value>Dit alternative nicknavn er nu {0}</value>
+  </data>
+  <data name="YourRealnameIsNow0" xml:space="preserve">
+    <value>Dit rigtige navn er nu {0}</value>
+  </data>
+  <data name="YourUsernickIsNow0" xml:space="preserve">
+    <value>Dit brugernick er nu {0}</value>
+  </data>
+  <data name="TimestampEventFormat0" xml:space="preserve">
+    <value>Tidsstempel event format: {0}</value>
+  </data>
+  <data name="TimestampLogFormat0" xml:space="preserve">
+    <value>Tidsstempel log format: {0}</value>
+  </data>
+  <data name="TimestampFor0Is1" xml:space="preserve">
+    <value>Tidsstempel for {0} er {1}</value>
+  </data>
+  <data name="GlobalTimestampIs0" xml:space="preserve">
+    <value>Global tidsstempel er {0}</value>
+  </data>
+  <data name="RemoteUsersList" xml:space="preserve">
+    <value>Remote bruger liste:</value>
+  </data>
+  <data name="EndIOfUsersList" xml:space="preserve">
+    <value>Slutningen af bruger liste</value>
+  </data>
+  <data name="RemoteDefaultUserlevelIs" xml:space="preserve">
+    <value>Remote standard bruger level er sat til {0}</value>
+  </data>
+  <data name="BottomBorder" xml:space="preserve">
+    <value>Bund Ramme</value>
+  </data>
+  <data name="ExpandNickColumnLongNicks" xml:space="preserve">
+    <value>Udvid nick kolonne ved lange nicks</value>
+  </data>
+  <data name="NickColumn" xml:space="preserve">
+    <value>Nick Kolonne</value>
+  </data>
+  <data name="Emoticons" xml:space="preserve">
+    <value>Humørikoner</value>
+  </data>
+  <data name="UseEmoticons" xml:space="preserve">
+    <value>Brug Humørikoner</value>
+  </data>
+  <data name="OnlyReplaceWholeWords" xml:space="preserve">
+    <value>Erstat kun hele ord</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Låst</value>
+  </data>
+  <data name="EventBeepsAre0" xml:space="preserve">
+    <value>Event bip er {0}</value>
+  </data>
+  <data name="CaseInsensitive" xml:space="preserve">
+    <value>Case insensitive</value>
+  </data>
+  <data name="YouHaveChangedOpacity" xml:space="preserve">
+    <value>Du har ændret opacitet af vinduet, du kan trykke Ctrl+Alt+Up for at fjerne opaciteten</value>
+  </data>
+  <data name="ConfigFiles" xml:space="preserve">
+    <value>Konfigurations Filer</value>
+  </data>
+  <data name="EnableNicklistIcons" xml:space="preserve">
+    <value>Vis Nickliste Ikoner</value>
+  </data>
+  <data name="NicklistIcons" xml:space="preserve">
+    <value>Nickliste Ikoner</value>
+  </data>
+  <data name="ErrrorSaving0_" xml:space="preserve">
+    <value>kan ikke gemme '{0}'</value>
+  </data>
+  <data name="PrivateKeyPassword" xml:space="preserve">
+    <value>Privat Nøgle Adgangskode</value>
+  </data>
+  <data name="IfYouTrustThisCertificate" xml:space="preserve">
+    <value>Hvis du stoler på dette certifikatet, klik OK for at forsætte med at forbinde til denne serveren, ellers klik Cancel for at annullere forbindelsen.</value>
+  </data>
+  <data name="YourConnectionToThisServer" xml:space="preserve">
+    <value>Forbinder til {0}
+Din forbindelse til denne serveren er krypteret, men der er et problem med serverens sikkerheds certifikat.</value>
+  </data>
+  <data name="AutomaticallyAcceptThisCertificate" xml:space="preserve">
+    <value>Accepter automatisk dette certifikat i fremtiden</value>
+  </data>
+  <data name="Certificates" xml:space="preserve">
+    <value>Certifikater</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>Tøm Cache</value>
+  </data>
+  <data name="CertificateFile" xml:space="preserve">
+    <value>Certifikat Fil</value>
+  </data>
+  <data name="ClearApprovedCertificate" xml:space="preserve">
+    <value>Tøm godkendte certifikater cache</value>
+  </data>
+  <data name="SkipConnectionsWithInvalid" xml:space="preserve">
+    <value>Spring over forbindelser med ugyldig certifikater</value>
+  </data>
+  <data name="DisplayInvalidCertificates" xml:space="preserve">
+    <value>Vis ugyldig certifikater for godkendelse</value>
+  </data>
+  <data name="AutomaticallyAcceptInvalid" xml:space="preserve">
+    <value>Accepter automatisk ugyldige certifikater</value>
+  </data>
+  <data name="HasBeenInvitedTo1" xml:space="preserve">
+    <value>{0} er blevet inviteret til {1}</value>
+  </data>
+  <data name="CanOnlyBeUsedInParseline" xml:space="preserve">
+    <value>kan kun blive brugt i parseline event</value>
+  </data>
+  <data name="UserLevels" xml:space="preserve">
+    <value>Bruger leveler</value>
+  </data>
+  <data name="ApplyIconToUsersMatching" xml:space="preserve">
+    <value>Anvend ikonet til brugere der matcher</value>
+  </data>
+  <data name="ShowMenu" xml:space="preserve">
+    <value>Vis Menu</value>
+  </data>
+  <data name="AreYouSureDeleteNetwork" xml:space="preserve">
+    <value>Er du sikker på du vil slette dette netværk?</value>
+  </data>
+  <data name="AreYouSureCloseAllWindowsFolder" xml:space="preserve">
+    <value>Er du sikker på du vil lukke alle vinduer i denne mappe?</value>
+  </data>
+  <data name="Fullname" xml:space="preserve">
+    <value>Fuldt navn</value>
+  </data>
+  <data name="IgnoreIsOff" xml:space="preserve">
+    <value>Ignorer er av</value>
+  </data>
+  <data name="DefaultPort" xml:space="preserve">
+    <value>Standard Port</value>
+  </data>
+  <data name="PressAddNewNetwork" xml:space="preserve">
+    <value>Tryk Tilføj nyt netværk for at komme i gang</value>
+  </data>
+  <data name="ConnectToThisNetwork" xml:space="preserve">
+    <value>Forbind til dette netværk ved opstart</value>
+  </data>
+  <data name="MinimizeTheServerWindow" xml:space="preserve">
+    <value>Minimer server vinduet</value>
+  </data>
+  <data name="UseThisLabelNetwork" xml:space="preserve">
+    <value>Brug dette mærke som netværks navn</value>
+  </data>
+  <data name="ConnectInANewWindow" xml:space="preserve">
+    <value>Forbind i et nyt vindue</value>
+  </data>
+  <data name="LoginMethod" xml:space="preserve">
+    <value>Login Metode</value>
+  </data>
+  <data name="AlternativeNicks" xml:space="preserve">
+    <value>Alternative nicks</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Servere</value>
+  </data>
+  <data name="Ports" xml:space="preserve">
+    <value>Porte</value>
+  </data>
+  <data name="Channels_" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="EnableAutojoin" xml:space="preserve">
+    <value>Brug autojoin</value>
+  </data>
+  <data name="DelayBetweenJoins" xml:space="preserve">
+    <value>Forsinkelse imellem joins</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>sekunder</value>
+  </data>
+  <data name="UseGlobalProxySettings" xml:space="preserve">
+    <value>Brug global proxy indstillinger</value>
+  </data>
+  <data name="UseGlobalClientCertificate" xml:space="preserve">
+    <value>Brug global klient certifikat</value>
+  </data>
+  <data name="AcceptInvalidSSLCertificate" xml:space="preserve">
+    <value>Accepter ugyldig SSL certifikat</value>
+  </data>
+  <data name="SSLProtocol" xml:space="preserve">
+    <value>SSL protokol</value>
+  </data>
+  <data name="ClientCertificate" xml:space="preserve">
+    <value>Klient certifikat</value>
+  </data>
+  <data name="AddNewNetwork" xml:space="preserve">
+    <value>Tilføj nyt netværk</value>
+  </data>
+  <data name="BlankNetwork" xml:space="preserve">
+    <value>Blank netværk</value>
+  </data>
+  <data name="NetworkName" xml:space="preserve">
+    <value>Netværks navn</value>
+  </data>
+  <data name="CloneNetwork" xml:space="preserve">
+    <value>Klone Netværk</value>
+  </data>
+  <data name="ShowOnlyFavorites" xml:space="preserve">
+    <value>Vis kun favoritter</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Vis Alle</value>
+  </data>
+  <data name="RemoveFromFavorites" xml:space="preserve">
+    <value>Fjern fra favoritter</value>
+  </data>
+  <data name="Clone" xml:space="preserve">
+    <value>Klone</value>
+  </data>
+  <data name="JoinOnConnect" xml:space="preserve">
+    <value>Join ved forbindelse</value>
+  </data>
+  <data name="MinimizeOnJoin" xml:space="preserve">
+    <value>Minimer ved join</value>
+  </data>
+  <data name="EnableSTARTTLS" xml:space="preserve">
+    <value>Brug STARTTLS</value>
+  </data>
+  <data name="CopyFrom" xml:space="preserve">
+    <value>Kopier fra</value>
+  </data>
+  <data name="Unmarked0" xml:space="preserve">
+    <value>Umarkerede {0}</value>
+  </data>
+  <data name="Marked0With1" xml:space="preserve">
+    <value>Markerede {0} med {1}</value>
+  </data>
+  <data name="AutoTile" xml:space="preserve">
+    <value>Auto tile</value>
+  </data>
+  <data name="AllowClosingWindowsMiddle" xml:space="preserve">
+    <value>Giv lov til at lukke vinduer ved at middel eller shift klikke med musen</value>
+  </data>
+  <data name="HideTheSelectedWindow" xml:space="preserve">
+    <value>Gem det valgte vindue hvis aktiveret to gange</value>
+  </data>
+  <data name="PingPong" xml:space="preserve">
+    <value>Ping/Pong</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Pinned</value>
+  </data>
+  <data name="IdentdRequestFrom0" xml:space="preserve">
+    <value>Identd forespørgsel fra {0}</value>
+  </data>
+  <data name="UseNewServerlist" xml:space="preserve">
+    <value>Brug ny Serverliste</value>
+  </data>
+  <data name="EnableOnlyWhenConnecting" xml:space="preserve">
+    <value>Brug kun ved forbindelse</value>
+  </data>
+  <data name="ShowIdentdRequests" xml:space="preserve">
+    <value>Vis identd forespørgsler</value>
+  </data>
+  <data name="ReconnectOnResumeFromSleep" xml:space="preserve">
+    <value>Genoptag forbindelser ved opvågning fra sleep</value>
+  </data>
+  <data name="YourMenubarIsNowHidden" xml:space="preserve">
+    <value>Din menubar er nu gemt, tryk alt for at vise menubaren midlertidigt</value>
+  </data>
+  <data name="ShowSoundSstatus" xml:space="preserve">
+    <value>Vis Lyd status</value>
+  </data>
+  <data name="YouHave0DccTransfersInProgress" xml:space="preserve">
+    <value>Du har {0} dcc overførsler i gang</value>
+  </data>
+  <data name="DoYouWantToQuiAdiIRCAnyway" xml:space="preserve">
+    <value>Vil du afslutte AdiIRC alligevel?</value>
+  </data>
+  <data name="CTCP0From1" xml:space="preserve">
+    <value>CTCP {0} fra {1}</value>
+  </data>
+  <data name="AddressBook" xml:space="preserve">
+    <value>Adresse Bog</value>
+  </data>
+  <data name="EditNetwork" xml:space="preserve">
+    <value>Rediger Netværk</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Afbrudt</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Ikke forbundet</value>
+  </data>
+  <data name="WaitingForReply" xml:space="preserve">
+    <value>Venter på svar...</value>
+  </data>
+  <data name="ColorEntireLine" xml:space="preserve">
+    <value>Farve hele linjen</value>
+  </data>
+  <data name="RunCommand" xml:space="preserve">
+    <value>Kør kommando</value>
+  </data>
+  <data name="MaxHistory" xml:space="preserve">
+    <value>Max historik</value>
+  </data>
+  <data name="SaveAndRestoreHistory" xml:space="preserve">
+    <value>Gem og gendan historik</value>
+  </data>
+  <data name="IgnoreTimestamp" xml:space="preserve">
+    <value>Ignorer tidsstempel for fortløbende beskeder</value>
+  </data>
+  <data name="CopyFormatted" xml:space="preserve">
+    <value>Kopier formateret</value>
+  </data>
+  <data name="ServerBuffer" xml:space="preserve">
+    <value>Server buffer</value>
+  </data>
+  <data name="ChannelBuffer" xml:space="preserve">
+    <value>Kanal buffer</value>
+  </data>
+  <data name="PrivateBuffer" xml:space="preserve">
+    <value>Privat buffer</value>
+  </data>
+  <data name="NoticeBuffer" xml:space="preserve">
+    <value>Varsel buffer</value>
+  </data>
+  <data name="HighlightsBuffer" xml:space="preserve">
+    <value>Fremhævelses buffer</value>
+  </data>
+  <data name="UrlBuffer" xml:space="preserve">
+    <value>Url buffer</value>
+  </data>
+  <data name="MonitorHighlights" xml:space="preserve">
+    <value>Overvåg Fremhævelser</value>
+  </data>
+  <data name="MonitorNotice" xml:space="preserve">
+    <value>Overvåg Varsler</value>
+  </data>
+  <data name="MonitorPrivate" xml:space="preserve">
+    <value>Overvåg Privat</value>
+  </data>
+  <data name="MonitorServers" xml:space="preserve">
+    <value>Overvåg Servere</value>
+  </data>
+  <data name="MonitorChannels" xml:space="preserve">
+    <value>Overvåg Kanaler</value>
+  </data>
+  <data name="MonitorUrls" xml:space="preserve">
+    <value>Overvåg Urls</value>
+  </data>
+  <data name="ShowNickcolumn" xml:space="preserve">
+    <value>Vis nickkolonne</value>
+  </data>
+  <data name="ShowTimestamp" xml:space="preserve">
+    <value>Vis tidsstempel</value>
+  </data>
+  <data name="ShowNetwork" xml:space="preserve">
+    <value>Vis netværk</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Vælg Mappe</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Vælg Fil</value>
+  </data>
+  <data name="StopMonitoring" xml:space="preserve">
+    <value>Stop Overvågning</value>
+  </data>
+  <data name="StartMonitoring" xml:space="preserve">
+    <value>Start Overvågning</value>
+  </data>
+  <data name="RemoveAndDelete" xml:space="preserve">
+    <value>Fjern og Slet</value>
+  </data>
+  <data name="ServerMonitor" xml:space="preserve">
+    <value>Server Overvåger</value>
+  </data>
+  <data name="ChannelMonitor" xml:space="preserve">
+    <value>Kanal Overvåger</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Andre</value>
+  </data>
+  <data name="LogHiddenEvents" xml:space="preserve">
+    <value>Log skjulte events</value>
+  </data>
+  <data name="DccGetFolders" xml:space="preserve">
+    <value>Dcc Get Mapper</value>
+  </data>
+  <data name="MonitorFileChanges" xml:space="preserve">
+    <value>Overvåg Fil Ændringer</value>
+  </data>
+  <data name="Certificate" xml:space="preserve">
+    <value>Certifikat</value>
+  </data>
+  <data name="ConnectedTo012" xml:space="preserve">
+    <value>Forbundet til {0} ({1}{2})</value>
+  </data>
+  <data name="SSLCertificateWarning" xml:space="preserve">
+    <value>SSL Certifikat Advarsel</value>
+  </data>
+  <data name="SSLCertificate" xml:space="preserve">
+    <value>SSL Certifikat</value>
+  </data>
+  <data name="EnableNotify" xml:space="preserve">
+    <value>Brug Notify</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notat</value>
+  </data>
+  <data name="DccSuccess" xml:space="preserve">
+    <value>Dcc Succes</value>
+  </data>
+  <data name="DccFail" xml:space="preserve">
+    <value>Dcc Fejl</value>
+  </data>
+  <data name="AnyServersChannelsSet" xml:space="preserve">
+    <value>Alle servere/kanaler manuelt sat til at forbinde/joine automatisk i Serverlisten vil blive ignoreret</value>
+  </data>
+  <data name="DontMonitorTheseChannelsNicks" xml:space="preserve">
+    <value>Ikke overvåg disse kanaler/nicks</value>
+  </data>
+  <data name="LookingUp0UserInfo" xml:space="preserve">
+    <value>Slår op {0} bruger info...</value>
+  </data>
+  <data name="NoSuchUserOnIrc" xml:space="preserve">
+    <value>Ingen sådan bruger på IRC</value>
+  </data>
+  <data name="NormalUser" xml:space="preserve">
+    <value>Normal bruger</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="LoginTime" xml:space="preserve">
+    <value>Login tid</value>
+  </data>
+  <data name="AwayInfo" xml:space="preserve">
+    <value>Away info</value>
+  </data>
+  <data name="ThisNicknameIsAlready" xml:space="preserve">
+    <value>Dette nicknavn er allerede i din adresse bog. Vil du erstatte den?</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Besøg</value>
+  </data>
+  <data name="Finger" xml:space="preserve">
+    <value>Finger</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+  <data name="CtcpReply" xml:space="preserve">
+    <value>Ctcp svar</value>
+  </data>
+  <data name="isOnline" xml:space="preserve">
+    <value>er online</value>
+  </data>
+  <data name="isOffline" xml:space="preserve">
+    <value>er offline</value>
+  </data>
+  <data name="loggedOnline" xml:space="preserve">
+    <value>loggede online</value>
+  </data>
+  <data name="LoggedOffline" xml:space="preserve">
+    <value>loggede offline</value>
+  </data>
+  <data name="NotifyIs0" xml:space="preserve">
+    <value>Notify er {0}</value>
+  </data>
+  <data name="NoOneInYourNotifyList" xml:space="preserve">
+    <value>Ingen i din notify liste er på IRC</value>
+  </data>
+  <data name="UseDefaultSounds" xml:space="preserve">
+    <value>Brug standard lyde</value>
+  </data>
+  <data name="PerformWhois" xml:space="preserve">
+    <value>Udfør /whois</value>
+  </data>
+  <data name="OnlineSound" xml:space="preserve">
+    <value>Online lyd</value>
+  </data>
+  <data name="OfflineSound" xml:space="preserve">
+    <value>Offline lyd</value>
+  </data>
+  <data name="NotifyOnline" xml:space="preserve">
+    <value>Notify Online</value>
+  </data>
+  <data name="NotifyOffline" xml:space="preserve">
+    <value>Notify Offline</value>
+  </data>
+  <data name="LockNicklist" xml:space="preserve">
+    <value>Lås Brugerliste</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="AnyNick" xml:space="preserve">
+    <value>Enhver Nick</value>
+  </data>
+  <data name="Arrange" xml:space="preserve">
+    <value>Arranger</value>
+  </data>
+  <data name="Automatic" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="HighlightedYouOn" xml:space="preserve">
+    <value>$nick fremhævede dig på $chan $+ : $1-</value>
+  </data>
+  <data name="ArchiveFiles" xml:space="preserve">
+    <value>Arkiver Filer</value>
+  </data>
+  <data name="ExecutableFiles" xml:space="preserve">
+    <value>Eksekverbar Filer</value>
+  </data>
+  <data name="DocumentFiles" xml:space="preserve">
+    <value>Dokument Filer</value>
+  </data>
+  <data name="PictureFiles" xml:space="preserve">
+    <value>BIllede Filer</value>
+  </data>
+  <data name="ScriptFiles" xml:space="preserve">
+    <value>Script Filer</value>
+  </data>
+  <data name="SoundFiles" xml:space="preserve">
+    <value>Lyd Filer</value>
+  </data>
+  <data name="VideoFiles" xml:space="preserve">
+    <value>Video FIler</value>
+  </data>
+  <data name="TypeToSearch" xml:space="preserve">
+    <value>Skriv for at søge...</value>
+  </data>
+  <data name="DCCGetOf0From1" xml:space="preserve">
+    <value>DCC Get af {0} fra {1} komplet ({2})</value>
+  </data>
+  <data name="DCCGetOf0From1Incomplete" xml:space="preserve">
+    <value>DCC Get af {0} fra {1} ukomplet ({2})</value>
+  </data>
+  <data name="UnableToConnect" xml:space="preserve">
+    <value>kan ikke forbinde</value>
+  </data>
+  <data name="DCCSendOf0To1" xml:space="preserve">
+    <value>DCC Send af {0} til {1} komplet ({2})</value>
+  </data>
+  <data name="DCCSendOf0To1Incomplete" xml:space="preserve">
+    <value>DCC Send af {0} til {1} ukomplet ({2})</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>ukendt vert</value>
+  </data>
+  <data name="ProxyIs0" xml:space="preserve">
+    <value>Proxy er {0}</value>
+  </data>
+  <data name="NoAddressSpecified_" xml:space="preserve">
+    <value>(ingen adresse specificeret)</value>
+  </data>
+  <data name="LogNickcolumnCharacter" xml:space="preserve">
+    <value>Log Nickkolonne karakter</value>
+  </data>
+  <data name="AreYouSureUnload0Scripts" xml:space="preserve">
+    <value>Er du sikker på du vil fjerne {0} script(s)?</value>
+  </data>
+  <data name="UseSystemMenu" xml:space="preserve">
+    <value>Brug system menu</value>
+  </data>
+  <data name="ApplyTheme" xml:space="preserve">
+    <value>Anvend Tema</value>
+  </data>
+  <data name="ShowProgressInTaskbar" xml:space="preserve">
+    <value>Vis fremgang i taskbaren</value>
+  </data>
+  <data name="ThisFileHasBeenChanged" xml:space="preserve">
+    <value>Filen er blevet ændret af et andet program.
+
+{0}
+
+Vil du reload den?</value>
+  </data>
+  <data name="FileChanged" xml:space="preserve">
+    <value>Fil Ændret</value>
+  </data>
+  <data name="CompressTheme" xml:space="preserve">
+    <value>Sammenpresse tema</value>
+  </data>
+  <data name="Wrote0BytesTo1" xml:space="preserve">
+    <value>skrev {0} bytes til '{1}'</value>
+  </data>
+  <data name="ChooseEmoticon" xml:space="preserve">
+    <value>Vælg Emotikon</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>Lister</value>
+  </data>
+  <data name="LoadedNicklistButtonsFrom0" xml:space="preserve">
+    <value>Indlæste nicklist knapper fra {0}</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="NickColorsAre0" xml:space="preserve">
+    <value>Nick farver er {0}</value>
+  </data>
+  <data name="RemovedItem0FromColorList" xml:space="preserve">
+    <value>Fjernede elementet {0} fra farve listen</value>
+  </data>
+  <data name="Removed0FromColorList" xml:space="preserve">
+    <value>Fjernede {0} fra farve listen</value>
+  </data>
+  <data name="Updated0InColorList" xml:space="preserve">
+    <value>Opdaterede {0} i farve listen</value>
+  </data>
+  <data name="Added0ToColorList" xml:space="preserve">
+    <value>Tilføjede {0} til farve listen</value>
+  </data>
+  <data name="NickIconsAre0" xml:space="preserve">
+    <value>Nick ikoner er {0}</value>
+  </data>
+  <data name="RemovedItem0FromIconList" xml:space="preserve">
+    <value>Fjernede elementet {0} fra ikon listen</value>
+  </data>
+  <data name="Removed0FromIconList" xml:space="preserve">
+    <value>Fjernede {0} fra ikon listen</value>
+  </data>
+  <data name="Updated0InIconList" xml:space="preserve">
+    <value>Opdaterede {0} i ikon listen</value>
+  </data>
+  <data name="Added0ToIconList" xml:space="preserve">
+    <value>Tilføjede {0} til ikon listen</value>
+  </data>
+  <data name="DccGetFolder" xml:space="preserve">
+    <value>Dcc Get Mappe</value>
+  </data>
+  <data name="FileExtensions" xml:space="preserve">
+    <value>Fil endelser</value>
+  </data>
+  <data name="OpenWith" xml:space="preserve">
+    <value>Åben med</value>
+  </data>
+  <data name="0InvalidId1" xml:space="preserve">
+    <value>{0} invalid id '{1}'</value>
+  </data>
+  <data name="RestoreRecentClosedFile" xml:space="preserve">
+    <value>Gendan nylig lukkede fil(er)</value>
+  </data>
+  <data name="GoToCharacter" xml:space="preserve">
+    <value>Gå Til Karakter</value>
+  </data>
+  <data name="Character" xml:space="preserve">
+    <value>Karakter</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linje</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Kopier text</value>
+  </data>
+  <data name="Copied0CharactersToClipboard" xml:space="preserve">
+    <value>Kopierede {0} karakterer til clipboard</value>
+  </data>
+  <data name="NoSuchLabel0" xml:space="preserve">
+    <value>ingen sådan mærke '{0}'</value>
+  </data>
+  <data name="NoSuchMenu0" xml:space="preserve">
+    <value>ingen sådan menu '{0}'</value>
+  </data>
+  <data name="HideChannelKey" xml:space="preserve">
+    <value>Gem kanal nøgle</value>
+  </data>
+  <data name="OnlyShowUnreadMessagesCount" xml:space="preserve">
+    <value>Vis kun antal ulæste beskeder</value>
+  </data>
+  <data name="Timer0NotActive" xml:space="preserve">
+    <value>Timer {0} ikke aktive</value>
+  </data>
+  <data name="RejoinChannelsOnReconnect" xml:space="preserve">
+    <value>Rejoin kanaler ved genforbindelse</value>
+  </data>
+  <data name="FlashText" xml:space="preserve">
+    <value>Blink tekst</value>
+  </data>
+  <data name="NickcolumnIs0" xml:space="preserve">
+    <value>Nickkolonne er {0}</value>
+  </data>
+  <data name="TemporaryMuteSounds" xml:space="preserve">
+    <value>Midlertidigt slå lyd fra</value>
+  </data>
+  <data name="IgnoreNicks" xml:space="preserve">
+    <value>Ignorer nicks</value>
+  </data>
+  <data name="SearchAllFiles" xml:space="preserve">
+    <value>Søg alle filer</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>Tekstombrydning</value>
+  </data>
+  <data name="FindInFiles" xml:space="preserve">
+    <value>Find i Filer</value>
+  </data>
+  <data name="UseFastGet" xml:space="preserve">
+    <value>Brug hurtig get</value>
+  </data>
+  <data name="UseFastSend" xml:space="preserve">
+    <value>Brug hurtig send</value>
+  </data>
+  <data name="FastSendIs0" xml:space="preserve">
+    <value>Hurtig send er {0}</value>
+  </data>
+  <data name="FastGetIs0" xml:space="preserve">
+    <value>Hurtig get er {0}</value>
+  </data>
+  <data name="AddScripts" xml:space="preserve">
+    <value>Tilføj Scripts</value>
+  </data>
+  <data name="UndoAddToDictionary" xml:space="preserve">
+    <value>Fortryd Tilføj Til Ordbogen</value>
+  </data>
+  <data name="SaveAndRestorePrivate" xml:space="preserve">
+    <value>Gem og gendan Privat</value>
+  </data>
+  <data name="SaveAndRestoreNotice" xml:space="preserve">
+    <value>Gem og gendan Varsler</value>
+  </data>
+  <data name="SaveAndRestoreHighlights" xml:space="preserve">
+    <value>Gem og gendan Fremhævelser</value>
+  </data>
+  <data name="SaveAndRestoreUrls" xml:space="preserve">
+    <value>Gem og gendan Urls</value>
+  </data>
+  <data name="ShowScrollIconWhenScrolledUp" xml:space="preserve">
+    <value>Vis scroll ikon når du er rullet op</value>
+  </data>
+  <data name="ShowLinesBetweenMessages" xml:space="preserve">
+    <value>Vis linjer imellem beskeder</value>
+  </data>
+  <data name="UseAlternativeTextRendering" xml:space="preserve">
+    <value>Brug alternativ tekst rendering</value>
+  </data>
+  <data name="IgnoreChannels" xml:space="preserve">
+    <value>Ignorer kanaler</value>
+  </data>
+  <data name="StripMIRCTagsInTopicbox" xml:space="preserve">
+    <value>Fjernt mIRC tags i emne boksen</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="LoadedAliases0" xml:space="preserve">
+    <value>Indlæste aliases '{0}'</value>
+  </data>
+  <data name="ReLoadedAliases0" xml:space="preserve">
+    <value>(gen)indlæste aliases '{0}'</value>
+  </data>
+  <data name="UnloadedAliases0" xml:space="preserve">
+    <value>Stoppet aliases '{0}'</value>
+  </data>
+  <data name="Popup" xml:space="preserve">
+    <value>Pop op</value>
+  </data>
+  <data name="GettingInvolved" xml:space="preserve">
+    <value>Bliv Involveret</value>
+  </data>
+  <data name="IfFileExists" xml:space="preserve">
+    <value>Hvis filen eksisterer</value>
+  </data>
+  <data name="Ask" xml:space="preserve">
+    <value>Spørg</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>Fil type</value>
+  </data>
+  <data name="TurnIgnoreBackOnIn" xml:space="preserve">
+    <value>Slå ignorere tilbage på om</value>
+  </data>
+  <data name="AcceptOnly" xml:space="preserve">
+    <value>Accepter kun</value>
+  </data>
+  <data name="IgnoreOnly" xml:space="preserve">
+    <value>Ignorer kun</value>
+  </data>
+  <data name="ShowTopToBottomScrollbar" xml:space="preserve">
+    <value>Vis top til bund rullebjælke</value>
+  </data>
+  <data name="ConfirmClosingServerWindows" xml:space="preserve">
+    <value>Godkend lukning af server vinduer</value>
+  </data>
+  <data name="ConfirmClosingChannelWindows" xml:space="preserve">
+    <value>Godkend lukning af kanal vinduer</value>
+  </data>
+  <data name="ConfirmClosingPrivateWindows" xml:space="preserve">
+    <value>Godkend lukning af private vinduer</value>
+  </data>
+  <data name="ConfirmClosingAdiIRCWhileConnectedToServer" xml:space="preserve">
+    <value>Godkend lukning af AdiIRC når du er forbundet til en server</value>  
+  </data>
+  <data name="UndockedWindowBorder" xml:space="preserve">
+    <value>Frigjort vindue ramme</value>
+  </data>
+  <data name="Channel0Deleted" xml:space="preserve">
+    <value>kanal '{0}' slettet</value>
+  </data>
+  <data name="Channel0NotFound" xml:space="preserve">
+    <value>kanal '{0}' blev ikke fundet</value>
+  </data>
+  <data name="Channel0Updated" xml:space="preserve">
+    <value>kanal '{0}' opdateret</value>
+  </data>
+  <data name="Channel0Added" xml:space="preserve">
+    <value>kanal '{0}' tilføjet</value>
+  </data>
+  <data name="AddNetwork" xml:space="preserve">
+    <value>Tilføj Netværk</value>
+  </data>
+  <data name="AddChannel" xml:space="preserve">
+    <value>Tilføj Kanal</value>
+  </data>
+  <data name="EditChannel" xml:space="preserve">
+    <value>Rediger Kanal</value>
+  </data>
+  <data name="Mouse" xml:space="preserve">
+    <value>Mus</value>
+  </data>
+  <data name="CommandToPerformWindow" xml:space="preserve">
+    <value>Kommando der skal køres når et vindue bliver dobbelt klikket</value>
+  </data>
+  <data name="CommandToPerformNickname" xml:space="preserve">
+    <value>Kommando der skal køres når et nick i et vindue bliver dobbelt klikket</value>
+  </data>
+  <data name="DccSendFrom0Rejected" xml:space="preserve">
+    <value>Dcc send fra {0} afvist ({1}, fil type ignoreret)</value>
+  </data>
+  <data name="DCCIgnoreIs0" xml:space="preserve">
+    <value>Dcc Ignorer er {0}</value>
+  </data>
+  <data name="OpenServerHistoryFavoritesWindows" xml:space="preserve">
+    <value>Åben server historik/favoritter i et nyt vindue</value>
+  </data>
+  <data name="LogSessionStartClose" xml:space="preserve">
+    <value>Log session start/stop</value>
+  </data>
+  <data name="TreebarArrowDown" xml:space="preserve">
+    <value>Treebar Pil Ned</value>
+  </data>
+  <data name="TreebarArrowRight" xml:space="preserve">
+    <value>Treebar Højre Pil</value>
+  </data>
+  <data name="ShowPassword" xml:space="preserve">
+    <value>Vis kodeord</value>
+  </data>
+  <data name="UserMode" xml:space="preserve">
+    <value>Bruger mode</value>
+  </data>
+  <data name="NicklistFontWeight" xml:space="preserve">
+    <value>Brugerliste font type</value>
+  </data>
+  <data name="TreebarFontWeight" xml:space="preserve">
+    <value>Treebar font type</value>
+  </data>
+  <data name="ScrollToBottomArrow" xml:space="preserve">
+    <value>Scroll til bunden pil</value>
+  </data>
+  <data name="QuietList" xml:space="preserve">
+    <value>Quiet Liste</value>
+  </data>
+  <data name="Quiets" xml:space="preserve">
+    <value>Quiets</value>
+  </data>
+  <data name="EditAddress" xml:space="preserve">
+    <value>Rediger Addresse</value>
+  </data>
+  <data name="RemoveBanIn" xml:space="preserve">
+    <value>Fjern ban om</value>
+  </data>
+  <data name="AddAddress" xml:space="preserve">
+    <value>Tilføj Addresse</value>
+  </data>
+  <data name="IgnoreHighlightIfMore" xml:space="preserve">
+    <value>Ignorer fremhævelser hvis mere end</value>
+  </data>
+  <data name="NicksAreHighlighted" xml:space="preserve">
+    <value>nicks er fremhævet</value>
+  </data>
+  <data name="UseFlatTreebar" xml:space="preserve">
+    <value>Brug flad Treebar</value>
+  </data>
+  <data name="CloseIcon" xml:space="preserve">
+    <value>Luk Icon</value>
+  </data>
+  <data name="Always" xml:space="preserve">
+    <value>Altid</value>
+  </data>
+  <data name="OnHovering" xml:space="preserve">
+    <value>Ved hovering</value>
+  </data>
+  <data name="TreebarCloseIcon" xml:space="preserve">
+    <value>Treebar luk icon</value>
+  </data>
+  <data name="SsavedNetworkNotFound" xml:space="preserve">
+    <value>gemt netværk ikke fundet</value>
+  </data>
+  <data name="QuitMessage" xml:space="preserve">
+    <value>Afslut besked</value>
+  </data>
+  <data name="UseGlobalQuitMessage" xml:space="preserve">
+    <value>Brug global afslut besked</value>
+  </data>
+  <data name="LinemarkerIs0" xml:space="preserve">
+    <value>Linje markør er {0}</value>
+  </data>
+  <data name="UseSmoothScrolling" xml:space="preserve">
+    <value>Brug jævn scrolling</value>
+  </data>
+  <data name="NoSuchNick" xml:space="preserve">
+    <value>ingen sådan nick</value>
+  </data>
+  <data name="DccChatIsNotActive" xml:space="preserve">
+    <value>Dcc Chat er ikke aktiv</value>
+  </data>
+  <data name="ShowHighlightsOnCollapsedNetworks" xml:space="preserve">
+    <value>Vis fremhævelser ved kollapset netværk</value>
+  </data>
+  <data name="CopyPath" xml:space="preserve">
+    <value>Kopier Sti</value>
+  </data>
+  <data name="ResolvedTo" xml:space="preserve">
+    <value>{0} Opslået til</value>
+  </data>
+  <data name="UseExtendedColorList" xml:space="preserve">
+    <value>Brug udvidet farve liste</value>
+  </data>
+  <data name="ClientInfo" xml:space="preserve">
+    <value>Klient Info</value>
+  </data>
+  <data name="ColumnBackground" xml:space="preserve">
+    <value>Kolonne Baggrund</value>
+  </data>
+  <data name="ColumnText" xml:space="preserve">
+    <value>Kolonne Tekst</value>
+  </data>
+  <data name="HighlightBackground" xml:space="preserve">
+    <value>Fremhæv Baggrund</value>
+  </data>
+  <data name="HighlightText" xml:space="preserve">
+    <value>Fremhæv Tekst</value>
+  </data>
+  <data name="LineBackground" xml:space="preserve">
+    <value>Linje Baggrund</value>
+  </data>
+  <data name="LineText" xml:space="preserve">
+    <value>Linje Tekst</value>
+  </data>
+  <data name="LineBorder" xml:space="preserve">
+    <value>Linje Ramme</value>
+  </data>
+  <data name="HighlightMatchingLines" xml:space="preserve">
+    <value>Fremhæv matchende linjer ved hovering nicks</value>
+  </data>
+  <data name="ExcludeActiveWindow" xml:space="preserve">
+    <value>Eksluder aktive vinduer</value>
+  </data>
+  <data name="IgnoreDuplicateLines" xml:space="preserve">
+    <value>Ignorer duplikat linjer</value>
+  </data>
+  <data name="NetworkChannelCanBeUsed" xml:space="preserve">
+    <value>Netværk:kanal kan blive brugt til at eksludere på specifike kanaler</value>
+  </data>
+  <data name="CopyFormattedTopicText" xml:space="preserve">
+    <value>Kopier Formateret Emne Tekst</value>
+  </data>
+  <data name="YouAreNotOnAChannel" xml:space="preserve">
+    <value>du er ikke på en kanal</value>
+  </data>
+  <data name="YouAreNotOnThatChannel" xml:space="preserve">
+    <value>du er ikke på denne kanalen</value>
+  </data>
+</root>
