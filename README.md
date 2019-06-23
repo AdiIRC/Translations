@@ -1,0 +1,2 @@
+# Translations
+AdiIRC Translations
