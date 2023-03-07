@@ -478,6 +478,10 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>Unknown CTCP {0} from {1}</value>
     <comment>Incomming Messages</comment>
   </data>
+  <data name="YouGotMODE0" xml:space="preserve">
+    <value>You got MODE {0}</value>
+    <comment>Incomming Messages</comment>
+  </data>
   <data name="SetsMode1" xml:space="preserve">
     <value>{0} sets mode: {1}</value>
     <comment>Incomming Messages</comment>
@@ -879,7 +883,7 @@ or enter the channel name you want to join in the textbox below.</value>
     <comment>Options</comment>
   </data>
   <data name="VariablesStatusNickPnick" xml:space="preserve">
-    <value>Variables: $status $nick $pnick $imagechar $nickcolor $rgbnickcolor $linecolor $rgblinecolor $target</value>
+    <value>Variables: $status $nick $pnick $imagechar $nickcolor $rgbnickcolor $linecolor $rgblinecolor</value>
     <comment>Options</comment>
   </data>
   <data name="Emote" xml:space="preserve">
@@ -1082,8 +1086,8 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>Open new window on /msg</value>
     <comment>Options</comment>
   </data>
-  <data name="SeparateLogs" xml:space="preserve">
-    <value>Separate logs</value>
+  <data name="SeparateLogsByDate" xml:space="preserve">
+    <value>Separate logs by date</value>
     <comment>Options</comment>
   </data>
   <data name="LogServers" xml:space="preserve">
@@ -1094,8 +1098,8 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>messages in private windows</value>
     <comment>Options</comment>
   </data>
-  <data name="RestoreLast" xml:space="preserve">
-    <value>Restore last</value>
+  <data name="ShowLast" xml:space="preserve">
+    <value>Show last</value>
     <comment>Options</comment>
   </data>
   <data name="Timeformat" xml:space="preserve">
@@ -1107,7 +1111,7 @@ or enter the channel name you want to join in the textbox below.</value>
     <comment>Options</comment>
   </data>
   <data name="LogPrivatechat" xml:space="preserve">
-    <value>Log Private chat</value>
+    <value>Log Privatechat</value>
     <comment>Options</comment>
   </data>
   <data name="LogChannels" xml:space="preserve">
@@ -1330,8 +1334,8 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>Auto accept transfers</value>
     <comment>Options</comment>
   </data>
-  <data name="DownloadFolder" xml:space="preserve">
-    <value>Download folder</value>
+  <data name="DefaultDownloadDir" xml:space="preserve">
+    <value>Default download dir</value>
     <comment>Options</comment>
   </data>
   <data name="YourPrefixFollowsStatusColor" xml:space="preserve">
@@ -1478,8 +1482,8 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>Show ChannelList on /list</value>
     <comment>Options</comment>
   </data>
-  <data name="SortChannelPrivate" xml:space="preserve">
-    <value>Sort channel/private windows</value>
+  <data name="SortSwitchbarTreebarBy" xml:space="preserve">
+    <value>Sort Switchbar/Treebar by</value>
     <comment>Options</comment>
   </data>
   <data name="Alphabetically" xml:space="preserve">
@@ -1615,7 +1619,7 @@ or enter the channel name you want to join in the textbox below.</value>
     <comment>Options</comment>
   </data>
   <data name="AreYouSureYouWantToResetAllOptions" xml:space="preserve">
-    <value>Are you sure you want to reset ALL Options on ALL tabs?</value>
+    <value>Are you sure you want to reset all Options?</value>
     <comment>Options</comment>
   </data>
   <data name="ChooseLogFolder" xml:space="preserve">
@@ -2170,8 +2174,8 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>AdiIRC needs to be restarted to change language</value>
     <comment>Options</comment>
   </data>
-  <data name="ClearQueries" xml:space="preserve">
-    <value>Clear Queries</value>
+  <data name="ClearQuerys" xml:space="preserve">
+    <value>Clear Querys</value>
     <comment>ChannelMenus</comment>
   </data>
   <data name="SkipThisVersion" xml:space="preserve">
@@ -2883,7 +2887,7 @@ or enter the channel name you want to join in the textbox below.</value>
     <value>Hide Menubar</value>
   </data>
   <data name="VariablesNetworkChannelCount" xml:space="preserve">
-    <value>Variables: $network $channel $count $date $mdate</value>
+    <value>Variables: $network $channel $count $date</value>
   </data>
   <data name="Getfaviconfromserverwebsite" xml:space="preserve">
     <value>Get favicon from server website</value>
@@ -3872,6 +3876,9 @@ Run initializations commands?</value>
   <data name="WindowTypeOrName" xml:space="preserve">
     <value>Window type or name</value>
   </data>
+  <data name="EditboxLines" xml:space="preserve">
+    <value>Editbox Lines</value>
+  </data>
   <data name="DictionaryDownload" xml:space="preserve">
     <value>Dictionary download</value>
   </data>
@@ -3922,6 +3929,9 @@ Run initializations commands?</value>
   </data>
   <data name="AutojoiningChannelsIn0seconds" xml:space="preserve">
     <value>Autojoining channels in {0} seconds...</value>
+  </data>
+  <data name="AddressQueueCleared" xml:space="preserve">
+    <value>address queue cleared</value>
   </data>
   <data name="NoAddressesBeingResolved" xml:space="preserve">
     <value>no addresses being resolved</value>
@@ -3984,7 +3994,7 @@ Run initializations commands?</value>
     <value>Active timers</value>
   </data>
   <data name="Timer0Delay1" xml:space="preserve">
-    <value>Timer {0} delay: {1}, reps: {2}, max: {3}, command: {4}</value>
+    <value>Timer {0} delay: {1} max: {2} command: {3}</value>
   </data>
   <data name="NoOpenSockets" xml:space="preserve">
     <value>no open sockets</value>
@@ -4064,8 +4074,8 @@ Run initializations commands?</value>
   <data name="ServerNotices" xml:space="preserve">
     <value>Server Notices</value>
   </data>
-  <data name="ResetToDefault" xml:space="preserve">
-    <value>Reset to Default</value>
+  <data name="UseDefault" xml:space="preserve">
+    <value>Use Default</value>
   </data>
   <data name="Buttons" xml:space="preserve">
     <value>Buttons</value>
@@ -4116,7 +4126,7 @@ Run initializations commands?</value>
     <value>Show Top Panel</value>
   </data>
   <data name="HighlightSyntax" xml:space="preserve">
-    <value>Use Highlight Syntax</value>
+    <value>Highlight Syntax</value>
   </data>
   <data name="FontStyle" xml:space="preserve">
     <value>Font Style</value>
@@ -4357,6 +4367,9 @@ Your connection to this server is encrypted, however there is a problem with the
   <data name="SSLProtocol" xml:space="preserve">
     <value>SSL protocol</value>
   </data>
+  <data name="ClientCertificate" xml:space="preserve">
+    <value>Client certificate</value>
+  </data>
   <data name="AddNewNetwork" xml:space="preserve">
     <value>Add new network</value>
   </data>
@@ -4475,7 +4488,7 @@ Your connection to this server is encrypted, however there is a problem with the
     <value>Ignore timestamp for consecutive messages</value>
   </data>
   <data name="CopyFormatted" xml:space="preserve">
-    <value>Copy Formatted</value>
+    <value>Copy formatted</value>
   </data>
   <data name="ServerBuffer" xml:space="preserve">
     <value>Server buffer</value>
@@ -5000,6 +5013,9 @@ Do you want to reload it?</value>
   <data name="DCCIgnoreIs0" xml:space="preserve">
     <value>DCC ignore is {0}</value>
   </data>
+  <data name="OpenServerHistoryFavoritesWindows" xml:space="preserve">
+    <value>Open server history/favorites in a new window</value>
+  </data>
   <data name="LogSessionStartClose" xml:space="preserve">
     <value>Log session start/close</value>
   </data>
@@ -5195,11 +5211,11 @@ Do you want to reload it?</value>
   <data name="UseCustomChannelLinkFontStyle" xml:space="preserve">
     <value>Use custom channel link font style</value>
   </data>
-  <data name="HighlightNickSearchBackground" xml:space="preserve">
-    <value>Highlight nick/search line background</value>
+  <data name="SelectedNickLineBackground" xml:space="preserve">
+    <value>Selected nick line background</value>
   </data>
-  <data name="HighlightNickSearchText" xml:space="preserve">
-    <value>Highlight nick/search line text</value>
+  <data name="SelectedNickLineText" xml:space="preserve">
+    <value>Selected nick line text</value>
   </data>
   <data name="LinksFontWeight" xml:space="preserve">
     <value>Links font weight</value>
@@ -5317,6 +5333,9 @@ Do you want to reload it?</value>
   </data>
   <data name="ShowUnreadMessagesScroll" xml:space="preserve">
     <value>Show unread messages based on scroll position</value>
+  </data>
+  <data name="ScrollMouseWheelChangeWindows" xml:space="preserve">
+    <value>Scroll mouse-wheel to change windows</value>
   </data>
   <data name="SaveServer" xml:space="preserve">
     <value>Save Server</value>
@@ -5559,7 +5578,7 @@ Do you want to reload it?</value>
     <value>Use full width right-click</value>
   </data>
   <data name="UpdateQuickConnectSettings" xml:space="preserve">
-    <value>Update Quick Connect settings when connecting to a server</value>
+    <value>Update Quick Connect settings when connecting a server</value>
   </data>
   <data name="Is_SSL" xml:space="preserve">
     <value>Is SSL</value>
@@ -5572,383 +5591,5 @@ Do you want to reload it?</value>
   </data>
   <data name="ChangingToSTSSecurePort" xml:space="preserve">
     <value>Changing to STS secure port: {0}</value>
-  </data>
-  <data name="DccSendInvalidParameters" xml:space="preserve">
-    <value>Dcc Send from {0} rejected ({1}, invalid parameters)</value>
-  </data>
-  <data name="DccResumeInvalidParameters" xml:space="preserve">
-    <value>Dcc Resume from {0} rejected ({1}, invalid parameters)</value>
-  </data>
-  <data name="IgnoreAllTransfers" xml:space="preserve">
-    <value>Ignore all transfers</value>
-  </data>
-  <data name="IgnoreAllChats" xml:space="preserve">
-    <value>Ignore all chats</value>
-  </data>
-  <data name="AutoAcceptChats" xml:space="preserve">
-    <value>Auto accept chats</value>
-  </data>
-  <data name="UsePassiveSend" xml:space="preserve">
-    <value>Use passive send</value>
-  </data>
-  <data name="UseUsernameAsIdentNick" xml:space="preserve">
-    <value>Use username as ident nick</value>
-  </data>
-  <data name="PlayQueue" xml:space="preserve">
-    <value>Play queue</value>
-  </data>
-  <data name="PlayCentral" xml:space="preserve">
-    <value>Play Central</value>
-  </data>
-  <data name="AddPlay" xml:space="preserve">
-    <value>Add Play</value>
-  </data>
-  <data name="Networks" xml:space="preserve">
-    <value>Networks</value>
-  </data>
-  <data name="Clipboard" xml:space="preserve">
-    <value>Clipboard</value>
-  </data>
-  <data name="StatusWindow" xml:space="preserve">
-    <value>Status Window</value>
-  </data>
-  <data name="ActiveWindow" xml:space="preserve">
-    <value>Active Window</value>
-  </data>
-  <data name="Priority" xml:space="preserve">
-    <value>Priority</value>
-  </data>
-  <data name="QuickSelect" xml:space="preserve">
-    <value>Quick select</value>
-  </data>
-  <data name="PlayFile" xml:space="preserve">
-    <value>Play file</value>
-  </data>
-  <data name="PlayMethod" xml:space="preserve">
-    <value>Play method</value>
-  </data>
-  <data name="PlayTo" xml:space="preserve">
-    <value>Play to</value>
-  </data>
-  <data name="LinkRequest" xml:space="preserve">
-    <value>Link Request</value>
-  </data>
-  <data name="ChangeToTheNewServer" xml:space="preserve">
-    <value>Change to the new server</value>
-  </data>
-  <data name="OpenANewConnection" xml:space="preserve">
-    <value>Open a new connection</value>
-  </data>
-  <data name="UseRandomColor" xml:space="preserve">
-    <value>Use random color</value>
-  </data>
-  <data name="SortFilesByNickname" xml:space="preserve">
-    <value>Sort files by nickname (into own folders)</value>
-  </data>
-  <data name="SplitLongChannelPrivateMessages" xml:space="preserve">
-    <value>Split long channel/private messages</value>
-  </data>
-  <data name="ToDisableBetaUpdates" xml:space="preserve">
-    <value>To disable beta updates, go to Options -&gt; General and uncheck "Include beta versions"</value>
-  </data>
-  <data name="WhenOpeningIrcLLinks" xml:space="preserve">
-    <value>When opening irc:// links, always</value>
-  </data>
-  <data name="OpenInCurrentConnection" xml:space="preserve">
-    <value>Open in current Connection</value>
-  </data>
-  <data name="OpenInNewConnection" xml:space="preserve">
-    <value>Open in new connection</value>
-  </data>
-  <data name="Yearly" xml:space="preserve">
-    <value>Yearly</value>
-  </data>
-  <data name="SortServerWindows" xml:space="preserve">
-    <value>Sort server windows</value>
-  </data>
-  <data name="ToggleSearchboxWith" xml:space="preserve">
-    <value>Toggle Searchbox with {0}</value>
-  </data>
-  <data name="PlayMessageSoundsActiveWindow" xml:space="preserve">
-    <value>Play message sounds in active windows</value>
-  </data>
-  <data name="PlayInActiveWindows" xml:space="preserve">
-    <value>Play in active windows</value>
-  </data>
-  <data name="Editors" xml:space="preserve">
-    <value>Editors</value>
-  </data>
-  <data name="SaveChannel" xml:space="preserve">
-    <value>Save Channel</value>
-  </data>
-  <data name="CloseChannelPrivateWindows" xml:space="preserve">
-    <value>Close channel/private windows on disconnect</value>
-  </data>
-  <data name="CloseServerlistWhenClicking" xml:space="preserve">
-    <value>Close Serverlist when clicking Connect</value>
-  </data>
-  <data name="Wildcard" xml:space="preserve">
-    <value>Wildcard</value>
-  </data>
-  <data name="HighlightAll" xml:space="preserve">
-    <value>Highlight All</value>
-  </data>
-  <data name="PreventSleepFileTransfers" xml:space="preserve">
-    <value>Prevent sleep during file transfers</value>
-  </data>
-  <data name="RemoveUnusedSavedWindows" xml:space="preserve">
-    <value>Remove unused saved windows</value>
-  </data>
-  <data name="SortServerWindowsByConnection" xml:space="preserve">
-    <value>Sort server windows by connection status</value>
-  </data>
-  <data name="StretchHeightMatchLine" xml:space="preserve">
-    <value>Stretch height to match line height</value>
-  </data>
-  <data name="DelayAutohideFor" xml:space="preserve">
-    <value>Delay autohide for</value>
-  </data>
-  <data name="MouseWheelScrolls" xml:space="preserve">
-    <value>Mouse wheel scrolls</value>
-  </data>
-  <data name="OnlyShowJoin" xml:space="preserve">
-    <value>Only show events from users active in the last</value>
-  </data>
-  <data name="WindowTransparency" xml:space="preserve">
-    <value>Window transparency</value>
-  </data>
-  <data name="UndockedWindowTransparency" xml:space="preserve">
-    <value>Undocked window transparency</value>
-  </data>
-  <data name="UseServerTime" xml:space="preserve">
-    <value>Use server-time when available</value>
-  </data>
-  <data name="PluginInstalledloaded" xml:space="preserve">
-    <value>Plugin installed and loaded</value>
-  </data>
-  <data name="PrioritizeNicklist" xml:space="preserve">
-    <value>Prioritize Nicklist height</value>
-  </data>
-  <data name="LockFiles" xml:space="preserve">
-    <value>Lock files</value>
-  </data>
-  <data name="ColorBasedHostname" xml:space="preserve">
-    <value>Color based on hostname</value>
-  </data>
-  <data name="Tooltips" xml:space="preserve">
-    <value>Tooltips</value>
-  </data>
-  <data name="UseSeparateLeftDivider" xml:space="preserve">
-    <value>Use separate left of divider background color</value>
-  </data>
-  <data name="ConfirmPasting" xml:space="preserve">
-    <value>Confirm when pasting</value>
-  </data>
-  <data name="LinesOfText" xml:space="preserve">
-    <value>or more lines of text</value>
-  </data>
-  <data name="MinimumLines" xml:space="preserve">
-    <value>Minimum Lines</value>
-  </data>
-  <data name="DisableEmoticonsFor" xml:space="preserve">
-    <value>Disable emoticons for channel/private windows</value>
-  </data>
-  <data name="AlwaysUseEmoticonsFor" xml:space="preserve">
-    <value>Always use emoticons for channel/private windows</value>
-  </data>
-  <data name="CopyHostmask" xml:space="preserve">
-    <value>Copy Hostmask</value>
-  </data>
-  <data name="DisableChannelEditControls" xml:space="preserve">
-    <value>Disable Channel Edit controls when not opped</value>
-  </data>
-  <data name="MainWindowTitle" xml:space="preserve">
-    <value>Main window title</value>
-  </data>
-  <data name="UseSTSWhenAvailable" xml:space="preserve">
-    <value>Use STS when available</value>
-  </data>
-  <data name="ServerHistoryCleared" xml:space="preserve">
-    <value>Server history cleared</value>
-  </data>
-  <data name="Global" xml:space="preserve">
-    <value>Global</value>
-  </data>
-  <data name="TabcompletePrefix" xml:space="preserve">
-    <value>Tabcomplete prefix</value>
-  </data>
-  <data name="TabcompleteFirstWordPrefix" xml:space="preserve">
-    <value>Tabcomplete first word prefix</value>
-  </data>
-  <data name="UseKeysCycleHistory" xml:space="preserve">
-    <value>Use up/down keys to cycle history</value>
-  </data>
-  <data name="UseTabcomplete" xml:space="preserve">
-    <value>Use tabcomplete</value>
-  </data>
-  <data name="TabcompleteVariables" xml:space="preserve">
-    <value>Tabcomplete %variables</value>
-  </data>
-  <data name="CycleNicksEmptyTabcomplete" xml:space="preserve">
-    <value>Cycle nicks on empty tabcomplete</value>
-  </data>
-  <data name="LogLinkCharacter" xml:space="preserve">
-    <value>Log link character</value>
-  </data>
-  <data name="FileDroppedWith" xml:space="preserve">
-    <value>File dropped with</value>
-  </data>
-  <data name="NoKey" xml:space="preserve">
-    <value>No key</value>
-  </data>
-  <data name="ShiftKey" xml:space="preserve">
-    <value>Shift Key</value>
-  </data>
-  <data name="CommandToPerformDragged" xml:space="preserve">
-    <value>Command to perform when a file is dragged and dropped into a window in AdiIRC</value>
-  </data>
-  <data name="Emoticon" xml:space="preserve">
-    <value>Emoticon</value>
-  </data>
-  <data name="Trigger" xml:space="preserve">
-    <value>Trigger</value>
-  </data>
-  <data name="ExpandFoldersOnFocus" xml:space="preserve">
-    <value>Expand folders on window focus</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Target</value>
-  </data>
-  <data name="NoAddress" xml:space="preserve">
-    <value>No address</value>
-  </data>
-  <data name="MouseShortcuts" xml:space="preserve">
-    <value>Mouse shortcuts</value>
-  </data>
-  <data name="Context" xml:space="preserve">
-    <value>Context</value>
-  </data>
-  <data name="DefaultBehaviour" xml:space="preserve">
-    <value>Default behaviour</value>
-  </data>
-  <data name="JoinPartsQuits" xml:space="preserve">
-    <value>Join, Parts, Quits</value>
-  </data>
-  <data name="Minutes" xml:space="preserve">
-    <value>minutes</value>
-  </data>
-  <data name="UseUpnpWhenAvailableFor" xml:space="preserve">
-    <value>Use Upnp when available for</value>
-  </data>
-  <data name="CertificatesPFXFormat" xml:space="preserve">
-    <value>Certificates has to be in the PFX format</value>
-  </data>
-  <data name="AlwaysMonitorTheseChannel" xml:space="preserve">
-    <value>Always monitor these channel/private windows</value>
-  </data>
-  <data name="DebugScripts" xml:space="preserve">
-    <value>Debug Scripts</value>
-  </data>
-  <data name="DragDrop" xml:space="preserve">
-    <value>Drag/Drop</value>
-  </data>
-  <data name="RandomNickColors" xml:space="preserve">
-    <value>Random Nick Colors</value>
-  </data>
-  <data name="UserCount" xml:space="preserve">
-    <value>User Count</value>
-  </data>
-  <data name="Folders" xml:space="preserve">
-    <value>Folders</value>
-  </data>
-  <data name="NetworkAdapter" xml:space="preserve">
-    <value>Network Adapter</value>
-  </data>
-  <data name="UnreadCount" xml:space="preserve">
-    <value>Unread Count</value>
-  </data>
-  <data name="Order" xml:space="preserve">
-    <value>Order</value>
-  </data>
-  <data name="Hosts" xml:space="preserve">
-    <value>Hosts</value>
-  </data>
-  <data name="OnGetRequest" xml:space="preserve">
-    <value>On get request</value>
-  </data>
-  <data name="OnChatRequest" xml:space="preserve">
-    <value>On chat request</value>
-  </data>
-  <data name="ShowGetDialog" xml:space="preserve">
-    <value>Show get dialog</value>
-  </data>
-  <data name="ShowChatDialog" xml:space="preserve">
-    <value>Show chat dialog</value>
-  </data>
-  <data name="UseCustomBeepFile" xml:space="preserve">
-    <value>Use custom beep file</value>
-  </data>
-  <data name="BeepFile" xml:space="preserve">
-    <value>Beep file</value>
-  </data>
-  <data name="Other" xml:space="preserve">
-    <value>Other</value>
-  </data>
-  <data name="RemoteCertificate" xml:space="preserve">
-    <value>Remote Certificate</value>
-  </data>
-  <data name="Titles" xml:space="preserve">
-    <value>Titles</value>
-  </data>
-  <data name="Scrollbars" xml:space="preserve">
-    <value>Scrollbars</value>
-  </data>
-  <data name="LineSpacing" xml:space="preserve">
-    <value>Line spacing</value>
-  </data>
-  <data name="TrackAway" xml:space="preserve">
-    <value>Track Away</value>
-  </data>
-  <data name="CopyAllLinks" xml:space="preserve">
-    <value>Copy All Links</value>
-  </data>
-  <data name="OpenAllLinks" xml:space="preserve">
-    <value>Open All Links</value>
-  </data>
-  <data name="ShowKeyboardShortcuts" xml:space="preserve">
-    <value>Show keyboard shortcuts</value>
-  </data>
-  <data name="IgnoreTimestampsTime" xml:space="preserve">
-    <value>Ignore timestamp for consecutive times</value>
-  </data>
-  <data name="UseWindowsTempFolder" xml:space="preserve">
-    <value>Use Windows temp folder</value>
-  </data>
-  <data name="RemoveTab" xml:space="preserve">
-    <value>Remove Tab</value>
-  </data>
-  <data name="ShowPasteSubmitMenu" xml:space="preserve">
-    <value>Show paste &amp; submit menu item</value>
-  </data>
-  <data name="YourFullnameIsNow" xml:space="preserve">
-    <value>Your fullname is now {0}</value>
-  </data>
-  <data name="ServerlistConnectbutton" xml:space="preserve">
-    <value>Serverlist Connect button</value>
-  </data>
-  <data name="RegainNickEvery" xml:space="preserve">
-    <value>Regain nick every</value>
-  </data>
-  <data name="EditLogsIn" xml:space="preserve">
-    <value>Edit logs in</value>
-  </data>
-  <data name="DefaultEditor" xml:space="preserve">
-    <value>Default Editor</value>
-  </data>
-  <data name="Editor" xml:space="preserve">
-    <value>Editor</value>
-  </data>
-  <data name="DarkMode" xml:space="preserve">
-    <value>Dark Mode</value>
   </data>
 </root>
